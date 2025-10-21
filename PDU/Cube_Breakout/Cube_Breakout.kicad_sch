@@ -5571,6 +5571,16 @@
 		)
 		(uuid "0a982a01-edc1-4071-a21b-c74ac75701b3")
 	)
+	(label "GND"
+		(at 118.11 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e1b6d2a-13f7-4786-9922-18a919d22f09")
+	)
 	(label "SERIAL_8_TX(NC)"
 		(at 46.99 80.01 180)
 		(effects
@@ -6539,17 +6549,6 @@
 			(justify left bottom)
 		)
 		(uuid "af63e544-99e9-4bfb-a4e4-f03473a8ac92")
-	)
-	(label "GND"
-		(at 118.11 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 250 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "b018a74d-6e2d-4c43-86dd-3e9748c19eb6")
 	)
 	(label "SERIAL_1_RTS"
 		(at 231.14 81.28 0)
