@@ -5,7 +5,7 @@
 	(uuid "aa97a6cc-79aa-44f3-8b62-e01d339c30cb")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:Battery_Cell"
+		(symbol "Device:Battery"
 			(pin_numbers
 				(hide yes)
 			)
@@ -25,7 +25,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Battery_Cell"
+			(property "Value" "Battery"
 				(at 2.54 0 0)
 				(effects
 					(font
@@ -52,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single-cell battery"
+			(property "Description" "Multiple-cell battery"
 				(at 0 0 0)
 				(effects
 					(font
@@ -61,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "battery cell"
+			(property "ki_keywords" "batt voltage-source cell"
 				(at 0 0 0)
 				(effects
 					(font
@@ -70,7 +70,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Battery_Cell_0_1"
+			(symbol "Battery_0_1"
 				(rectangle
 					(start -2.286 1.778)
 					(end 2.286 1.524)
@@ -83,8 +83,30 @@
 					)
 				)
 				(rectangle
+					(start -2.286 -1.27)
+					(end 2.286 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
 					(start -1.524 1.016)
 					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 -2.032)
+					(end 1.524 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -107,7 +129,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy 0 0)
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -142,7 +188,7 @@
 					)
 				)
 			)
-			(symbol "Battery_Cell_1_1"
+			(symbol "Battery_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 2.54)
@@ -162,7 +208,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
+					(at 0 -5.08 90)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -839,12 +885,6 @@
 		(uuid "0e359fc2-2f9d-45ac-a8fb-d1fe28fba784")
 	)
 	(junction
-		(at 87.63 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "324a657c-92de-4312-b21f-bad68bb2537d")
-	)
-	(junction
 		(at 165.1 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -891,12 +931,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64fe8812-d27d-45e8-9d3b-27587d6a4380")
-	)
-	(junction
-		(at 87.63 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "660cbcb1-ca9f-434a-ad51-f6824bea084d")
 	)
 	(junction
 		(at 166.37 88.9)
@@ -953,6 +987,12 @@
 		(uuid "a42af6ee-ec26-4f63-8f75-8d4839f811fc")
 	)
 	(junction
+		(at 87.63 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5731054-e8fa-4fb5-ae1b-b791d0935399")
+	)
+	(junction
 		(at 151.13 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -965,16 +1005,22 @@
 		(uuid "af29e634-9c54-4163-aca4-be08b2baad2f")
 	)
 	(junction
+		(at 87.63 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d344abac-1813-49a9-a459-f7825059e351")
+	)
+	(junction
+		(at 87.63 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc5da3d6-f0c9-48fd-b9f6-2058e5f138a3")
+	)
+	(junction
 		(at 149.86 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1978714-3d9a-4154-ad34-6bed7f4ee716")
-	)
-	(junction
-		(at 87.63 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e736535e-431b-467b-b034-7021c6bd69c7")
 	)
 	(junction
 		(at 139.7 138.43)
@@ -1013,16 +1059,6 @@
 			(type default)
 		)
 		(uuid "0576a6e8-76c4-4f97-9653-104de4ed314d")
-	)
-	(wire
-		(pts
-			(xy 87.63 91.44) (xy 95.25 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07783be3-4696-4ea7-abc7-707111006ad7")
 	)
 	(wire
 		(pts
@@ -1073,6 +1109,16 @@
 			(type default)
 		)
 		(uuid "180d5c9d-ce75-4ea2-bea5-b25276f6783b")
+	)
+	(wire
+		(pts
+			(xy 87.63 58.42) (xy 87.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18919b9d-fc5d-44f7-86a9-31fb7e272186")
 	)
 	(wire
 		(pts
@@ -1156,16 +1202,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 58.42) (xy 93.98 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a3adbc9-ffa4-4f7e-a21d-0ef86143aa5f")
-	)
-	(wire
-		(pts
 			(xy 149.86 25.4) (xy 166.37 25.4)
 		)
 		(stroke
@@ -1173,16 +1209,6 @@
 			(type default)
 		)
 		(uuid "3b105059-c886-49e6-9d67-0edd7f00a333")
-	)
-	(wire
-		(pts
-			(xy 87.63 125.73) (xy 87.63 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "453f1e86-eb6e-4e5e-9eb1-dfe3632914e2")
 	)
 	(wire
 		(pts
@@ -1223,26 +1249,6 @@
 			(type default)
 		)
 		(uuid "57626b0a-2ecb-4bed-b143-f660119b4714")
-	)
-	(wire
-		(pts
-			(xy 95.25 125.73) (xy 87.63 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b70ad7-c90c-4493-b572-e2c0d51ed84f")
-	)
-	(wire
-		(pts
-			(xy 87.63 91.44) (xy 87.63 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f397d67-1451-4d49-9e37-e6b093da3440")
 	)
 	(wire
 		(pts
@@ -1306,13 +1312,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 27.94) (xy 93.98 27.94)
+			(xy 87.63 125.73) (xy 87.63 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b830647-713b-4715-b747-fcfff828596b")
+		(uuid "6bc33afb-b10a-40c9-9b07-cf1453987e64")
 	)
 	(wire
 		(pts
@@ -1396,16 +1402,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 58.42) (xy 87.63 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "830c1ea1-2622-45ca-ad5d-8db1031beb2f")
-	)
-	(wire
-		(pts
 			(xy 120.65 96.52) (xy 129.54 96.52)
 		)
 		(stroke
@@ -1426,6 +1422,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 125.73) (xy 92.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "889bc51a-77ac-4bce-b577-09244200d431")
+	)
+	(wire
+		(pts
 			(xy 166.37 88.9) (xy 166.37 77.47)
 		)
 		(stroke
@@ -1433,6 +1439,16 @@
 			(type default)
 		)
 		(uuid "89b6a6ba-9e54-4f86-b233-f6abdcdd4583")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 87.63 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ce834a-700b-4350-ba1d-e20cb0ecd4d8")
 	)
 	(wire
 		(pts
@@ -1596,6 +1612,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 27.94) (xy 91.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c352795f-b718-40c3-b6da-4a8ac8d6033e")
+	)
+	(wire
+		(pts
 			(xy 114.3 50.8) (xy 139.7 50.8)
 		)
 		(stroke
@@ -1673,6 +1699,16 @@
 			(type default)
 		)
 		(uuid "d9cd4ae5-745c-45fd-bf23-a36bc4598b08")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 92.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0b4659-c16d-4b0f-9308-2b1dc8b4b217")
 	)
 	(wire
 		(pts
@@ -1793,6 +1829,16 @@
 			(type default)
 		)
 		(uuid "fe203c4b-efcc-4fab-9a04-f9261a801494")
+	)
+	(wire
+		(pts
+			(xy 87.63 58.42) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe60d9fe-d9b9-4b9b-bb41-ec5585705179")
 	)
 	(label "0x40"
 		(at 149.86 34.29 0)
@@ -1919,74 +1965,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 96.52 27.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "076a9301-641d-4ba9-b6a9-4ee3e4ce0aad")
-		(property "Reference" "BT1"
-			(at 98.3615 20.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 98.3615 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 98.044 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 98.044 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 96.52 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f26d31ad-5479-4fb0-ac61-6b2a3c6305ea")
-		)
-		(pin "2"
-			(uuid "55548977-8e3f-4e40-9366-bfbacff65948")
-		)
-		(instances
-			(project ""
-				(path "/aa97a6cc-79aa-44f3-8b62-e01d339c30cb"
-					(reference "BT1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2213,6 +2191,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery")
+		(at 96.52 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39dd10f0-06b1-44d3-8caf-7685f53f87b4")
+		(property "Reference" "BT1"
+			(at 97.0915 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery"
+			(at 97.0915 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 98.044 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 98.044 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 96.52 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "79c1b59a-56be-41df-9329-95ad1425d266")
+		)
+		(pin "1"
+			(uuid "cd699f19-ab6c-4df6-af4a-af1885e0c869")
+		)
+		(instances
+			(project ""
+				(path "/aa97a6cc-79aa-44f3-8b62-e01d339c30cb"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Energy:INA219AxD")
 		(at 139.7 60.96 0)
 		(unit 1)
@@ -2389,143 +2435,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 96.52 58.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71fb5005-d974-48e7-979e-8885c8c1a9ec")
-		(property "Reference" "BT2"
-			(at 98.3615 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 98.3615 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 98.044 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 98.044 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 96.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eac8c4ef-7056-4ffd-86db-4f3e91595213")
-		)
-		(pin "1"
-			(uuid "5df14ef5-8982-4244-b942-13acc4605e36")
-		)
-		(instances
-			(project ""
-				(path "/aa97a6cc-79aa-44f3-8b62-e01d339c30cb"
-					(reference "BT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 97.79 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8dfdbdfc-0558-46bb-84b6-5d58054d6b86")
-		(property "Reference" "BT3"
-			(at 99.6315 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 99.6315 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.314 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.314 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 97.79 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef01f9b4-9305-4b55-93e9-498a4d277f14")
-		)
-		(pin "2"
-			(uuid "d9948555-cfd3-4846-96d7-93447faacf8e")
-		)
-		(instances
-			(project ""
-				(path "/aa97a6cc-79aa-44f3-8b62-e01d339c30cb"
-					(reference "BT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Battery_Cell")
+		(lib_id "Device:Battery")
 		(at 97.79 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2533,17 +2443,17 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1d1cf71-1024-4237-ae3b-4d4db0627848")
+		(uuid "966d8428-5a44-4457-9dde-12df0b09f920")
 		(property "Reference" "BT4"
-			(at 99.6315 118.11 90)
+			(at 98.3615 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Battery_Cell"
-			(at 99.6315 120.65 90)
+		(property "Value" "Battery"
+			(at 98.3615 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "Multiple-cell battery"
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -2578,15 +2488,83 @@
 			)
 		)
 		(pin "2"
-			(uuid "09df36af-25de-4e23-a5a4-daa5f411d033")
+			(uuid "31378d4b-0ad2-4cab-ac49-7e76321882a7")
 		)
 		(pin "1"
-			(uuid "2ef2d884-24f8-4202-93f4-1aac1b5020e2")
+			(uuid "63789439-c776-4167-980f-398461fa5095")
 		)
 		(instances
 			(project ""
 				(path "/aa97a6cc-79aa-44f3-8b62-e01d339c30cb"
 					(reference "BT4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 96.52 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b116bcf3-3049-4ae8-91b4-5c27f1c45882")
+		(property "Reference" "BT2"
+			(at 97.0915 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery"
+			(at 97.0915 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 98.044 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 98.044 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 96.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b0eaa87-814c-4429-8cdb-9aebd085d0cd")
+		)
+		(pin "2"
+			(uuid "8321d86b-d635-427f-aa11-6419a413542e")
+		)
+		(instances
+			(project ""
+				(path "/aa97a6cc-79aa-44f3-8b62-e01d339c30cb"
+					(reference "BT2")
 					(unit 1)
 				)
 			)
@@ -2654,6 +2632,74 @@
 			(project ""
 				(path "/aa97a6cc-79aa-44f3-8b62-e01d339c30cb"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 97.79 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9275648-8359-4c03-a07b-cb3264923d34")
+		(property "Reference" "BT3"
+			(at 98.3615 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Battery"
+			(at 98.3615 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.314 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.314 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 97.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e8d8f2f-4c14-44dc-9aef-d41c7c9ae112")
+		)
+		(pin "1"
+			(uuid "bbdb379b-3b17-47b5-8c4e-62cbd26b880d")
+		)
+		(instances
+			(project ""
+				(path "/aa97a6cc-79aa-44f3-8b62-e01d339c30cb"
+					(reference "BT3")
 					(unit 1)
 				)
 			)
