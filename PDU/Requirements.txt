@@ -1,0 +1,3 @@
+Each cell is 3-4 volts so about 24 volts in total.
+Cells cannot go under 3 volts individually. 
+Minimum total voltage: 18 volts (6 cells x 3 volts).

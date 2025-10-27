@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Relay")(type "KiCad")(uri "${KIPRJMOD}/relay_spst_latching_2coil_combined_sr.kicad_sym")(options "")(descr ""))
+)
