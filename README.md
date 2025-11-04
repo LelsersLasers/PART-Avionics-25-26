@@ -1,2 +1,10 @@
-# PART-PDU
-Version control and sharing for the PART (Purdue Aerial Robotics Team) PDU (power distribution unit) KiCad project and embedded code
+# PART Avionics 2025-2026
+
+PART (Purdue Aerial Robotics Team). Work by Comp Avionics and R&D Avionics.
+
+KiCad projects:
+- PDU (power distribution unit)
+- Pixhawk Carrier
+
+Embedded code:
+- PDU
