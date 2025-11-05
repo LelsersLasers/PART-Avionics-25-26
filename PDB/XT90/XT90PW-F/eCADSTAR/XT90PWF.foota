@@ -1,0 +1,643 @@
+(ftf
+  (header
+    (version 2.0)
+    (unit DBUNIT)
+  )
+  (TechnologyContainer
+    (technology SamacSys_Footprint
+      (footprintLayer
+        (layer Top (type CONDUCTIVE))
+        (layer Inner (type CONDUCTIVE))
+        (layer Bottom (type CONDUCTIVE))
+        (layer Silk-Top (type SYMBOLMARK))
+        (layer Silk-Bottom (type SYMBOLMARK))
+        (layer Resist-Top (type SOLDERRESIST))
+        (layer Resist-Bottom (type SOLDERRESIST))
+        (layer MetalMask-Top (type METALMASK))
+        (layer MetalMask-Bottom (type METALMASK))
+        (layer CompArea-Top (type COMPAREA))
+        (layer CompArea-Bottom (type COMPAREA))
+        (layer Top_Assembly (type SYMBOLMARK))
+        (layer Bottom_Assembly (type SYMBOLMARK))
+        (layer Hole (type HOLE))
+      )
+    )
+  )
+  (footprintContainer
+    (commonParameters
+      (dimensionParameters
+        (arrowLength 100000)
+        (arrowAngle 15.000000)
+        (dotDiameter 100000)
+        (textFrameOffset 100000)
+        (arrowOffset 100000)
+        (dimAssistOffset 100000)
+        (dimLineWidth 10000)
+        (drawTextFrame NO)
+        (textFrameRange ALL)
+        (textClip YES)
+        (standard JIS)
+      )
+    )
+    (padstackGroups
+      (padstackGroup default)
+    )
+    (pads
+      (pad c256.5
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (ctime 2017-06-16-12:00:00)
+        (utime 2017-06-16-12:00:00)
+        (photo FLASH)
+        (panelUse NO)
+        (propertyI padShape 2)
+        (propertyI diameter 256500)
+        (propertyI originXOffset 0)
+        (propertyI originYOffset 0)
+      )
+      (pad r585_585
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (ctime 2017-06-16-12:00:00)
+        (utime 2017-06-16-12:00:00)
+        (photo FLASH)
+        (panelUse NO)
+        (propertyI padShape 5)
+        (propertyI angle 0)
+        (propertyI width 585000)
+        (propertyI height 585000)
+        (propertyI originXOffset 0)
+        (propertyI originYOffset 0)
+      )
+      (pad c585
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (ctime 2017-06-16-12:00:00)
+        (utime 2017-06-16-12:00:00)
+        (photo FLASH)
+        (panelUse NO)
+        (propertyI padShape 2)
+        (propertyI diameter 585000)
+        (propertyI originXOffset 0)
+        (propertyI originYOffset 0)
+      )
+    ); End of pads
+    (padstacks
+      (padstack c256.5h171
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (ctime 2017-06-16-12:00:00)
+        (utime 2017-06-16-12:00:00)
+        (type PLATED)
+        (throughMode THROUGH)
+        (panelUse NO)
+        (Hole (footLayer Hole)
+          (geometry
+            (circle 85500
+              (pt 0 0)
+            )
+          )
+        )
+        (padSet (footLayer Resist-Top)
+          (connect (pad c256.5))
+        )
+        (padSet (footLayer Resist-Bottom)
+          (connect (pad c256.5))
+        )
+        (padSet (footLayer Top)
+          (connect (pad c256.5))
+          (noconnect (pad c256.5))
+        )
+        (padSet (footLayer Inner)
+          (clearance (pad c256.5))
+          (connect (pad c256.5))
+          (noconnect (pad c256.5))
+        )
+        (padSet (footLayer Bottom)
+          (connect (pad c256.5))
+          (noconnect (pad c256.5))
+        )
+      )
+      (padstack r585_585h390
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (ctime 2017-06-16-12:00:00)
+        (utime 2017-06-16-12:00:00)
+        (type PLATED)
+        (throughMode THROUGH)
+        (panelUse NO)
+        (Hole (footLayer Hole)
+          (geometry
+            (circle 195000
+              (pt 0 0)
+            )
+          )
+        )
+        (padSet (footLayer Resist-Top)
+          (connect (pad r585_585))
+        )
+        (padSet (footLayer Resist-Bottom)
+          (connect (pad r585_585))
+        )
+        (padSet (footLayer Top)
+          (connect (pad r585_585))
+          (noconnect (pad r585_585))
+        )
+        (padSet (footLayer Inner)
+          (clearance (pad r585_585))
+          (connect (pad r585_585))
+          (noconnect (pad r585_585))
+        )
+        (padSet (footLayer Bottom)
+          (connect (pad r585_585))
+          (noconnect (pad r585_585))
+        )
+      )
+      (padstack c585h390
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (ctime 2017-06-16-12:00:00)
+        (utime 2017-06-16-12:00:00)
+        (type PLATED)
+        (throughMode THROUGH)
+        (panelUse NO)
+        (Hole (footLayer Hole)
+          (geometry
+            (circle 195000
+              (pt 0 0)
+            )
+          )
+        )
+        (padSet (footLayer Resist-Top)
+          (connect (pad c585))
+        )
+        (padSet (footLayer Resist-Bottom)
+          (connect (pad c585))
+        )
+        (padSet (footLayer Top)
+          (connect (pad c585))
+          (noconnect (pad c585))
+        )
+        (padSet (footLayer Inner)
+          (clearance (pad c585))
+          (connect (pad c585))
+          (noconnect (pad c585))
+        )
+        (padSet (footLayer Bottom)
+          (connect (pad c585))
+          (noconnect (pad c585))
+        )
+      )
+    ); End of padstacks
+    (footprints
+      (footprint "XT90PWF"
+        (polarity YES)
+        (cuser "SamacSys")
+        (uuser "SamacSys")
+        (utime 2025-03-29-09:11:15)
+        (panelUse NO)
+        (heelprint
+          (layout
+            (layer (footLayer Top_Assembly)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 495000 270000
+                        (width 10000)
+                      )
+                      (pt -1585100 270000
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Top_Assembly)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -1585100 270000
+                        (width 10000)
+                      )
+                      (pt -1585100 -1170000
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Top_Assembly)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -1585100 -1170000
+                        (width 10000)
+                      )
+                      (pt 495000 -1170000
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Top_Assembly)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 495000 -1170000
+                        (width 10000)
+                      )
+                      (pt 495000 270000
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer CompArea-Top)
+              (area
+                (geometry
+                  (surface
+                    (outlineWidth 0)
+                    (fillWidth 0)
+                    (fillAngle 0.000000)
+                    (vertex
+                    (pt -1718300 392500)
+                    (pt -1718300 -2370000)
+                    (pt 628200 -2370000)
+                    (pt 628200 392500)
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Top_Assembly)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 355000 -1170000
+                        (width 10000)
+                      )
+                      (pt 355000 -2270000
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Top_Assembly)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 355000 -2270000
+                        (width 10000)
+                      )
+                      (pt -1445000 -2270000
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Top_Assembly)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -1445000 -2270000
+                        (width 10000)
+                      )
+                      (pt -1445000 -1170000
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 0 340000
+                        (width 10000)
+                      )
+                      (pt 0 340000
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (arc CCW
+                        (r 5000)
+                        (begin
+                          (pt 0 340000
+                            (width 10000)
+                          )
+                        )
+                        (center 0 1073741824)
+                        (end
+                          (pt 0 350000
+                            (width 10000)
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 0 350000
+                        (width 10000)
+                      )
+                      (pt 0 350000
+                        (width 10000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (arc CCW
+                        (r 5000)
+                        (begin
+                          (pt 0 350000
+                            (width 10000)
+                          )
+                        )
+                        (center 0 -1073741824)
+                        (end
+                          (pt 0 340000
+                            (width 10000)
+                          )
+                        )
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 350000 270000
+                        (width 20000)
+                      )
+                      (pt 495000 270000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 495000 270000
+                        (width 20000)
+                      )
+                      (pt 495000 -750000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 495000 -1050000
+                        (width 20000)
+                      )
+                      (pt 495000 -1170000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 495000 -1170000
+                        (width 20000)
+                      )
+                      (pt -1585100 -1170000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -1585100 -1170000
+                        (width 20000)
+                      )
+                      (pt -1585100 -1050000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -1445000 -1170000
+                        (width 20000)
+                      )
+                      (pt -1445000 -2270000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -1445000 -2270000
+                        (width 20000)
+                      )
+                      (pt 355000 -2270000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt 355000 -2270000
+                        (width 20000)
+                      )
+                      (pt 355000 -1170000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -350000 270000
+                        (width 20000)
+                      )
+                      (pt -850000 270000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -1300000 270000
+                        (width 20000)
+                      )
+                      (pt -1585100 270000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+            (layer (footLayer Silk-Top)
+              (line
+                (geometry
+                  (line
+                    (vertex
+                      (pt -1585100 270000
+                        (width 20000)
+                      )
+                      (pt -1585100 -750000
+                        (width 20000)
+                      )
+                    )
+                  )
+                )
+              )
+            )
+           ); End of layout
+         ); End of heelprint
+         (toeprint
+          (pin 1
+            (pt 0 0)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 0 0)
+                  (angle 90)
+                  (padstackGroup default (padstack r585_585h390))
+                )
+              )
+            )
+          )
+          (pin 2
+            (pt -1090000 0)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -1090000 0)
+                  (angle 90)
+                  (padstackGroup default (padstack c585h390))
+                )
+              )
+            )
+          )
+          (pin 3
+            (pt 400000 -890000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt 400000 -890000)
+                  (angle 90)
+                  (padstackGroup default (padstack c256.5h171))
+                )
+              )
+            )
+          )
+          (pin 4
+            (pt -1490000 -890000)
+            (layout
+              (layer (FPADSTACK)
+                (fpadstack
+                  (pt -1490000 -890000)
+                  (angle 90)
+                  (padstackGroup default (padstack c256.5h171))
+                )
+              )
+            )
+          )
+        ); End of toeprint
+        (propertyS accurateShape XT90PW-F.stp)
+      ); End of footprint
+    ); End of footprints
+  );  End of footprintContainer
+); End of ftf
+

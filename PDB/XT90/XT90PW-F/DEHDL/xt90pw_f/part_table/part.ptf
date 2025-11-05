@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XT90PW_F'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amass", "XT90PW-F" (!) = "", "XT90PWF", "Other", "", "", "Connector: DC supply; socket; female; XT90; 40A; 500V; PIN: 2; THT", "https://www.tme.eu/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf", "10.3 mm"
+END_PART
+
+END.

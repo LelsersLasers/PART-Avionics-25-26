@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model XT90PW-F
+#/13514040/1798683/2.50/4/3/Connector
+DEF XT90PW-F J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "XT90PW-F" 750 200 50 H V L CNN
+F2 "XT90PWF" 750 100 50 H I L CNN
+F3 "https://www.tme.eu/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf" 750 0 50 H I L CNN
+F4 "Connector: DC supply; socket; female; XT90; 40A; 500V; PIN: 2; THT" 750 -100 50 H I L CNN "Description"
+F5 "10.3" 750 -200 50 H I L CNN "Height"
+F6 "" 750 -300 50 H I L CNN "TME Electronic Components Part Number"
+F7 "" 750 -400 50 H I L CNN "TME Electronic Components Price/Stock"
+F8 "Amass" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "XT90PW-F" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X + 1 900 -100 200 L 50 50 0 0 P
+X - 2 900 0 200 L 50 50 0 0 P
+X MH1 3 0 -100 200 R 50 50 0 0 P
+X MH2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
