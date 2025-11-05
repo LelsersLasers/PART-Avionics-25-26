@@ -1,0 +1,16 @@
+.XT90PW-F :1 ;Connector: DC supply; socket; female; XT90; 40A; 500V; PIN: 2; THT
+XT90PWF
+*STM J
+*NGS
+*PLB 1="+" 2="-" 3="MH1" 4="MH2"
+*MXP 4
+*DFN XT90PW-F
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (Amass)
+~!Manufacturer_Part_Number (XT90PW-F)
+~!Link Datasheet (https://www.tme.eu/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf)
+~!Height (10.3mm)
+~!3D_Model (XT90PW-F)
+XT90PW-F
+1.1!U 2.1!U 3.1!U 4.1!U 

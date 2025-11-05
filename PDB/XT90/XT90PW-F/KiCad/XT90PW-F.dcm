@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XT90PW-F
+D Connector: DC supply; socket; female; XT90; 40A; 500V; PIN: 2; THT
+K
+F https://www.tme.eu/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf
+$ENDCMP
+#
+#End Doc Library

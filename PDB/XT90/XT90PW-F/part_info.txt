@@ -1,0 +1,9 @@
+Manufacturer=Amass
+PartNumber=XT90PW-F
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=1.13
+Released=2025-03-29 09:11:15
+Downloaded=2025-10-18 19:16:49
+3D=Y

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LTC3114EFE-1_PBF")(type "KiCad")(uri "${KIPRJMOD}/external_symbols/LTC3114EFE-1_PBF.kicad_sym")(options "")(descr ""))
+  (lib (name "AOZ1284PI")(type "KiCad")(uri "${KIPRJMOD}/external_symbols/AOZ1284PI.kicad_sym")(options "")(descr ""))
+)
