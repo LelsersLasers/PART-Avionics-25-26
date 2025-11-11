@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -771,18 +771,6 @@
     [
       "9cb5cc44-c71c-4de9-9246-d8950f12eb42",
       "Root"
-    ],
-    [
-      "22857ed3-ef76-44a7-8780-cc3c6aba015b",
-      "LPF Spice"
-    ],
-    [
-      "f196558f-f00c-4b55-80ff-8c08a63784e4",
-      "24V Buck-Boost"
-    ],
-    [
-      "caece9f8-c1b3-44bb-aa97-53f138145182",
-      "5V Buck"
     ]
   ],
   "text_variables": {}
