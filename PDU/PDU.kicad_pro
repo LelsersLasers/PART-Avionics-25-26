@@ -443,7 +443,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -622,6 +622,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
+<<<<<<< Updated upstream:PDU/PDU.kicad_pro
   "sheets": [],
+=======
+  "sheets": [
+    [
+      "9cb5cc44-c71c-4de9-9246-d8950f12eb42",
+      "Root"
+    ]
+  ],
+>>>>>>> Stashed changes:PDB/pdb.kicad_pro
   "text_variables": {}
 }
