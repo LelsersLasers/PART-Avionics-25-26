@@ -3,4 +3,5 @@
   (lib (name "LTC3114EFE-1_PBF")(type "KiCad")(uri "${KIPRJMOD}/external_symbols/LTC3114EFE-1_PBF.kicad_sym")(options "")(descr ""))
   (lib (name "AOZ1284PI")(type "KiCad")(uri "${KIPRJMOD}/external_symbols/AOZ1284PI.kicad_sym")(options "")(descr ""))
   (lib (name "XT90PW-M")(type "KiCad")(uri "${KIPRJMOD}/external_symbols/XT90PW-M.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-11-12_23-40-51")(type "KiCad")(uri "${KIPRJMOD}/2025-11-12_23-40-51.kicad_sym")(options "")(descr ""))
 )
