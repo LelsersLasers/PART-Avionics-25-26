@@ -9443,16 +9443,6 @@
 		)
 		(uuid "ffc1914f-28cf-4c25-bbc1-4d343b8fc138")
 	)
-	(label "SRCLK_SHIFT_CLOCK"
-		(at 271.78 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "078631e7-a68f-41ee-a504-fafbd65ec714")
-	)
 	(label "I_SENSE"
 		(at 271.78 54.61 0)
 		(effects
@@ -9563,16 +9553,6 @@
 		)
 		(uuid "89abea55-9087-4904-9933-19aa997f6763")
 	)
-	(label "SER_DATA"
-		(at 271.78 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b279bfc3-1b68-4592-bc33-389b584c428e")
-	)
 	(label "UART_TX"
 		(at 316.23 207.01 0)
 		(effects
@@ -9582,16 +9562,6 @@
 			(justify left bottom)
 		)
 		(uuid "b58d3afa-9125-4fab-a3e7-6eecb2264f95")
-	)
-	(label "SPI_MOSI"
-		(at 271.78 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f3aadc05-0e8b-446c-8ded-6b7a130f1164")
 	)
 	(label "SWCLK"
 		(at 241.3 262.89 0)
@@ -9636,6 +9606,28 @@
 		(uuid "0b59b891-cf24-4445-9c25-7bb37e90cca2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.4799 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SRCLK_SHIFT_CLOCK"
+		(shape input)
+		(at 271.78 64.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1426a6e9-52e1-446c-af4b-dcb56e07f435")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 294.1176 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,6 +9760,28 @@
 		(uuid "74abfa17-4a21-4413-ad8b-b26534f34b16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.22 130.8487 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SER_DATA"
+		(shape input)
+		(at 271.78 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b5372d0-b3f9-4a9a-8f1e-07a6f222bf1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 283.7761 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)

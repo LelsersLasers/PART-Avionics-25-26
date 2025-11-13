@@ -7410,7 +7410,7 @@
 	)
 	(text "Sink"
 		(exclude_from_sim no)
-		(at 43.688 114.554 0)
+		(at 39.37 114.808 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7430,22 +7430,12 @@
 		(uuid "f32c37c5-21e2-4290-9279-2b085c1625dc")
 	)
 	(no_connect
-		(at 36.83 143.51)
-		(uuid "35524223-ed39-4d1b-a43e-1d900f32169b")
-	)
-	(no_connect
 		(at 58.42 69.85)
 		(uuid "3a2fccaa-1591-4fe4-8ec4-1373a5f07b57")
 	)
-	(wire
-		(pts
-			(xy 30.48 59.69) (xy 38.1 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d4bb17d-f182-4be3-b86f-af4e99f07eb7")
+	(no_connect
+		(at 26.67 87.63)
+		(uuid "f73e55fe-8dda-42da-8a0b-da258ab8948f")
 	)
 	(wire
 		(pts
@@ -7477,16 +7467,6 @@
 		)
 		(uuid "dcd9a376-8d63-4cbd-b8f3-4785eb980925")
 	)
-	(wire
-		(pts
-			(xy 30.48 54.61) (xy 38.1 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdefdfb7-bfab-405d-884a-206fb206eab6")
-	)
 	(label "MATRIX_N"
 		(at 57.15 138.43 0)
 		(effects
@@ -7496,16 +7476,6 @@
 			(justify left bottom)
 		)
 		(uuid "035c27e6-8498-4743-870d-5b42bc0ab741")
-	)
-	(label "SRCLK_SHIFT_CLOCK"
-		(at 38.1 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "07f0fa45-2280-44f2-82d0-ad00dc42667e")
 	)
 	(label "MATRIX_CONTROL_D"
 		(at 58.42 54.61 0)
@@ -7666,16 +7636,6 @@
 			(justify left bottom)
 		)
 		(uuid "4becafb2-f8c1-47af-ab72-12987db0429b")
-	)
-	(label "SER_DATA"
-		(at 38.1 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "500fef98-0190-4ff9-8cfe-34b673b833ec")
 	)
 	(label "MATRIX_K"
 		(at 163.83 104.14 180)
@@ -8041,7 +8001,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 30.48 54.61 180)
+		(at 38.1 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8051,7 +8011,7 @@
 		)
 		(uuid "16b7e121-a3ac-41f9-9ff4-11c0972f23be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.3824 54.61 0)
+			(at 31.0024 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8085,7 +8045,29 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 30.48 59.69 180)
+		(at 46.99 120.65 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31be5712-cf0d-4161-b75d-dec1cf048e42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 113.5524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 38.1 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8095,7 +8077,29 @@
 		)
 		(uuid "3adcfaa9-634b-44a3-95af-3162908b5c04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.3824 59.69 0)
+			(at 31.0024 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SER_DATA"
+		(shape input)
+		(at 38.1 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50cdf644-5786-4c15-92d4-e657fdf478d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1039 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,6 +8127,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SRCLK_SHIFT_CLOCK"
+		(shape input)
+		(at 38.1 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e6c7f02-6de7-4c24-9062-8dbf6da2e4df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.7624 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
