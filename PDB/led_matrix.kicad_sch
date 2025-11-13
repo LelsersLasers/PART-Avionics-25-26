@@ -8759,7 +8759,7 @@
 				)
 			)
 		)
-		(property "Value" "SOME VAL"
+		(property "Value" "470"
 			(at 30.734 148.844 90)
 			(effects
 				(font
