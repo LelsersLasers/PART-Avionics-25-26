@@ -5951,9 +5951,9 @@
 		)
 		(uuid "d8d2820a-73da-46e4-9710-e4c3a6fb8fb3")
 	)
-	(text "PART DEVELOPMENT BOARD 2025-2026"
+	(text "PART PDU 2025-2026"
 		(exclude_from_sim no)
-		(at 328.93 276.86 0)
+		(at 321.056 276.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17155,7 +17155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
+		(property "Value" "+BATT_FUSED"
 			(at 120.396 30.734 0)
 			(effects
 				(font
