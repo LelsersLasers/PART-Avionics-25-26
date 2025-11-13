@@ -571,6 +571,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Driver_LED:TLC5916"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7434,8 +7572,32 @@
 		(uuid "3a2fccaa-1591-4fe4-8ec4-1373a5f07b57")
 	)
 	(no_connect
+		(at 41.91 154.94)
+		(uuid "66841caf-24d7-43ff-a2cf-ae6cbd6262d4")
+	)
+	(no_connect
 		(at 26.67 87.63)
 		(uuid "f73e55fe-8dda-42da-8a0b-da258ab8948f")
+	)
+	(wire
+		(pts
+			(xy 33.02 143.51) (xy 36.83 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43619d00-a1a9-4e42-baea-2dc9dbfc5470")
+	)
+	(wire
+		(pts
+			(xy 22.86 143.51) (xy 27.94 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5051fecd-e0a5-4e09-8a47-aa2d978a6b52")
 	)
 	(wire
 		(pts
@@ -7977,6 +8139,28 @@
 		)
 		(uuid "f9a3802f-bccf-4d83-9457-25c3ead0709f")
 	)
+	(global_label "OUTPUT_CLOCK"
+		(shape input)
+		(at 38.1 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0c1c19f6-45c9-4a1a-89ef-770f4b70b93f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.7819 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 114.3 101.6 180)
@@ -8043,6 +8227,28 @@
 			)
 		)
 	)
+	(global_label "SHIFT_CLOCK"
+		(shape input)
+		(at 36.83 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2750b6ce-19ef-41b8-a280-fa560cb137c1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.5076 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 46.99 120.65 90)
@@ -8065,9 +8271,9 @@
 			)
 		)
 	)
-	(global_label "3.3V"
+	(global_label "SDI_DATA"
 		(shape input)
-		(at 38.1 59.69 180)
+		(at 36.83 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8075,9 +8281,9 @@
 			)
 			(justify right)
 		)
-		(uuid "3adcfaa9-634b-44a3-95af-3162908b5c04")
+		(uuid "4e98438b-0e4c-41c0-8747-e22c699b8b44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.0024 59.69 0)
+			(at 25.3781 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,6 +8315,28 @@
 			)
 		)
 	)
+	(global_label "OUTPUT_CLOCK"
+		(shape input)
+		(at 36.83 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5889243d-2c5f-4534-a756-7c9c1c7d49b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.5119 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 48.26 34.29 90)
@@ -8131,7 +8359,7 @@
 			)
 		)
 	)
-	(global_label "SRCLK_SHIFT_CLOCK"
+	(global_label "SHIFT_CLOCK"
 		(shape input)
 		(at 38.1 52.07 180)
 		(fields_autoplaced yes)
@@ -8143,7 +8371,7 @@
 		)
 		(uuid "8e6c7f02-6de7-4c24-9062-8dbf6da2e4df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.7624 52.07 0)
+			(at 22.7776 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,6 +8536,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 22.86 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15bf3af4-7020-4f28-8aa3-0ef87f078261")
+		(property "Reference" "#PWR027"
+			(at 16.51 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b69b20ea-9806-4893-9b69-d071d2f51616")
+		)
+		(instances
+			(project "pdb"
+				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42/a96446fb-7b71-458b-8ffd-78436e4e2cfa"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_NPN")
 		(at 111.76 30.48 0)
 		(unit 1)
@@ -8442,6 +8737,73 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42/a96446fb-7b71-458b-8ffd-78436e4e2cfa"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 30.48 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42263ab8-f0f5-4e0c-8cea-d981fdbdf451")
+		(property "Reference" "R11"
+			(at 30.734 146.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SOME VAL"
+			(at 30.734 148.844 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 30.48 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6b3c8f7-b36a-49cb-bfe7-f2cab8da637a")
+		)
+		(pin "1"
+			(uuid "410d2c5c-9dde-429e-b54d-0046806e5c0f")
+		)
+		(instances
+			(project ""
+				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42/a96446fb-7b71-458b-8ffd-78436e4e2cfa"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8786,7 +9148,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8ad3bed9-b9ce-45df-b269-746377811ed6")
 		(property "Reference" "#PWR056"
 			(at 22.86 82.55 0)
@@ -8798,7 +9159,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 82.5499 90)
+			(at 25.4 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
