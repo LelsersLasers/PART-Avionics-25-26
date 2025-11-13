@@ -7390,7 +7390,7 @@
 	)
 	(text "Sink"
 		(exclude_from_sim no)
-		(at 44.958 137.414 0)
+		(at 34.798 118.364 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7415,13 +7415,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 77.47) (xy 38.1 77.47)
+			(xy 30.48 59.69) (xy 38.1 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34bd5d46-9ae0-49c9-9679-0fc129462039")
+		(uuid "0d4bb17d-f182-4be3-b86f-af4e99f07eb7")
 	)
 	(wire
 		(pts
@@ -7435,23 +7435,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 77.47) (xy 48.26 87.63)
+			(xy 38.1 63.5) (xy 38.1 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a080074b-fffb-43bf-ab9d-9630d0efa1f6")
+		(uuid "bde9fa33-64d2-40c5-8651-4772e3d49ed6")
 	)
 	(wire
 		(pts
-			(xy 38.1 77.47) (xy 38.1 62.23)
+			(xy 30.48 63.5) (xy 38.1 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbbaf1f0-3714-4ee4-b1a3-41f8509e830b")
+		(uuid "dcd9a376-8d63-4cbd-b8f3-4785eb980925")
 	)
 	(wire
 		(pts
@@ -7462,6 +7462,16 @@
 			(type default)
 		)
 		(uuid "fdefdfb7-bfab-405d-884a-206fb206eab6")
+	)
+	(label "MATRIX_N"
+		(at 48.26 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "035c27e6-8498-4743-870d-5b42bc0ab741")
 	)
 	(label "SRCLK_SHIFT_CLOCK"
 		(at 38.1 52.07 180)
@@ -7483,8 +7493,28 @@
 		)
 		(uuid "0e18c191-96ef-4731-a670-105dbbae4ffc")
 	)
+	(label "MATRIX_G"
+		(at 201.93 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f7ba645-9786-406c-acde-504adc75b6e7")
+	)
+	(label "MATRIX_L"
+		(at 48.26 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10b73ab0-4d9d-4693-b5e1-dc9e926c4463")
+	)
 	(label "MATRIX_CONTROL_E"
-		(at 93.98 121.92 180)
+		(at 106.68 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7494,7 +7524,7 @@
 		(uuid "1a2e82db-5e1f-4568-9be7-353be46ba635")
 	)
 	(label "MATRIX_CONTROL_H"
-		(at 93.98 160.02 180)
+		(at 106.68 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7502,6 +7532,26 @@
 			(justify right bottom)
 		)
 		(uuid "1fc91bd2-5bdb-4925-b130-2f9ee5297e13")
+	)
+	(label "LED_MATRIX_NEN"
+		(at 30.48 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "268ec160-391b-4062-bdff-5c9a3c1f3999")
+	)
+	(label "MATRIX_P"
+		(at 48.26 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27a94346-d952-48e8-80b1-a9f757155a40")
 	)
 	(label "MATRIX_CONTROL_F"
 		(at 58.42 62.23 0)
@@ -7514,7 +7564,7 @@
 		(uuid "2f583bd3-6cd3-434d-b0ca-d5c914f84042")
 	)
 	(label "MATRIX_CONTROL_A"
-		(at 93.98 71.12 180)
+		(at 106.68 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7523,8 +7573,18 @@
 		)
 		(uuid "395e2766-4933-4d19-828b-27517cdc47da")
 	)
+	(label "MATRIX_A"
+		(at 171.45 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47ae74ec-ca0e-4ae3-b344-8aca1c67b8a4")
+	)
 	(label "MATRIX_C"
-		(at 101.6 101.6 180)
+		(at 114.3 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7532,6 +7592,36 @@
 			(justify right bottom)
 		)
 		(uuid "48cddb31-91ff-4bb9-8152-e2e4efc80a5a")
+	)
+	(label "MATRIX_I"
+		(at 48.26 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a03fc58-a450-4f3b-b283-de814d99e932")
+	)
+	(label "MATRIX_J"
+		(at 48.26 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b51414c-4570-4d00-86c9-269ad2325a03")
+	)
+	(label "MATRIX_H"
+		(at 207.01 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4becafb2-f8c1-47af-ab72-12987db0429b")
 	)
 	(label "SER_DATA"
 		(at 38.1 46.99 180)
@@ -7544,7 +7634,7 @@
 		(uuid "500fef98-0190-4ff9-8cfe-34b673b833ec")
 	)
 	(label "MATRIX_CONTROL_C"
-		(at 93.98 96.52 180)
+		(at 106.68 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7563,8 +7653,38 @@
 		)
 		(uuid "569c0f49-d9d4-4942-870b-7095b21d566b")
 	)
+	(label "MATRIX_E"
+		(at 191.77 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56dfba4f-aefb-4bf6-a8c1-fc22f474b9dd")
+	)
+	(label "MATRIX_K"
+		(at 48.26 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b3e5009-07e4-406c-acd3-081853af9ee3")
+	)
+	(label "LED_MATRIX_NEN"
+		(at 39.37 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69e237ad-2186-4809-860e-f80e599dc18e")
+	)
 	(label "MATRIX_G"
-		(at 101.6 152.4 180)
+		(at 114.3 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7584,7 +7704,7 @@
 		(uuid "6c2ad995-da35-46eb-8da7-ffcf1c4e05fc")
 	)
 	(label "MATRIX_CONTROL_F"
-		(at 93.98 134.62 180)
+		(at 106.68 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7594,7 +7714,7 @@
 		(uuid "8554f436-9e88-4461-a68a-06f078137d29")
 	)
 	(label "MATRIX_CONTROL_D"
-		(at 93.98 109.22 180)
+		(at 106.68 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7604,7 +7724,7 @@
 		(uuid "8bcd65aa-aa47-406b-af6a-a4a869a8d4b8")
 	)
 	(label "MATRIX_B"
-		(at 101.6 88.9 180)
+		(at 114.3 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7614,7 +7734,7 @@
 		(uuid "8f4b684a-dcec-4a8f-a0e5-3055c00d3a95")
 	)
 	(label "MATRIX_D"
-		(at 101.6 114.3 180)
+		(at 114.3 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7624,7 +7744,7 @@
 		(uuid "95b6c312-5ce1-4ece-a5ca-0f7d8a1515a4")
 	)
 	(label "MATRIX_F"
-		(at 101.6 139.7 180)
+		(at 114.3 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7632,6 +7752,16 @@
 			(justify right bottom)
 		)
 		(uuid "9864982f-7c06-4209-bbfb-5ea92dc40b90")
+	)
+	(label "MATRIX_O"
+		(at 48.26 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3ce14bd-2de1-4602-b0f3-ddda07f07f26")
 	)
 	(label "MATRIX_CONTROL_E"
 		(at 58.42 59.69 0)
@@ -7654,7 +7784,7 @@
 		(uuid "a7d23e6b-0c1d-4720-aff6-8d5e411945aa")
 	)
 	(label "MATRIX_CONTROL_B"
-		(at 93.98 83.82 180)
+		(at 106.68 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7663,8 +7793,18 @@
 		)
 		(uuid "a996ffc4-fada-43db-8893-961e8477054a")
 	)
+	(label "MATRIX_M"
+		(at 48.26 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab70fb28-e2c1-41cf-b192-0161ad4810e3")
+	)
 	(label "MATRIX_A"
-		(at 101.6 76.2 180)
+		(at 114.3 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7673,8 +7813,18 @@
 		)
 		(uuid "b601517f-663f-40a3-813e-b9e81138d618")
 	)
+	(label "MATRIX_D"
+		(at 186.69 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb345467-100d-4e65-95ed-3e37d3988018")
+	)
 	(label "MATRIX_H"
-		(at 101.6 165.1 180)
+		(at 114.3 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7683,8 +7833,18 @@
 		)
 		(uuid "cf957e75-07bc-455a-8508-5611974a2abb")
 	)
+	(label "MATRIX_F"
+		(at 196.85 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d118621b-c8c2-423e-8eee-62f109a0c2e4")
+	)
 	(label "MATRIX_CONTROL_G"
-		(at 93.98 147.32 180)
+		(at 106.68 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7692,6 +7852,16 @@
 			(justify right bottom)
 		)
 		(uuid "d4347190-e409-4b75-9847-4242ef3e4c3e")
+	)
+	(label "MATRIX_C"
+		(at 181.61 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7af7413-80b4-4d18-b047-1aa47eb64f4e")
 	)
 	(label "MATRIX_CONTROL_E"
 		(at 58.42 57.15 0)
@@ -7702,6 +7872,16 @@
 			(justify left bottom)
 		)
 		(uuid "e4a110b5-23f7-4d47-8108-1900254fc99d")
+	)
+	(label "MATRIX_B"
+		(at 176.53 78.74 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8296fba-9970-4129-87f2-d339bee1a530")
 	)
 	(label "MATRIX_CONTROL_H"
 		(at 58.42 64.77 0)
@@ -7714,7 +7894,7 @@
 		(uuid "f7a3f260-01a5-4485-b532-c091e1a03b4e")
 	)
 	(label "MATRIX_E"
-		(at 101.6 127 180)
+		(at 114.3 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7725,7 +7905,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 101.6 142.24 180)
+		(at 114.3 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7735,7 +7915,7 @@
 		)
 		(uuid "13f6fd5b-c5b7-48bc-ae00-57714e94a6a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.5024 142.24 0)
+			(at 107.2024 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7769,7 +7949,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 101.6 129.54 180)
+		(at 114.3 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7779,7 +7959,29 @@
 		)
 		(uuid "19a9c2ef-61da-4b2a-b757-adb682d9fdb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.5024 129.54 0)
+			(at 107.2024 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 30.48 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3adcfaa9-634b-44a3-95af-3162908b5c04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.3824 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7813,7 +8015,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 101.6 91.44 180)
+		(at 114.3 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7823,7 +8025,7 @@
 		)
 		(uuid "a69a3dcf-6d5f-4e41-ae70-501783dab93e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.5024 91.44 0)
+			(at 107.2024 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +8037,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 38.1 90.17 180)
+		(at 29.21 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7845,7 +8047,7 @@
 		)
 		(uuid "aa7c8a91-5a92-4110-8f5b-faf8d2fbb32d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.0024 90.17 0)
+			(at 22.1124 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +8059,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 101.6 66.04 180)
+		(at 114.3 25.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7867,7 +8069,7 @@
 		)
 		(uuid "b2607241-13a1-40f8-8689-9e10ed11df49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.5024 66.04 0)
+			(at 107.2024 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7879,7 +8081,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 101.6 116.84 180)
+		(at 114.3 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7889,7 +8091,7 @@
 		)
 		(uuid "b2c3db9a-6678-418f-b0dc-38d18b79d0cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.5024 116.84 0)
+			(at 107.2024 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7901,7 +8103,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 101.6 154.94 180)
+		(at 114.3 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7911,7 +8113,7 @@
 		)
 		(uuid "cf65416d-f27a-4c7f-af54-5f3bebff1b38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.5024 154.94 0)
+			(at 107.2024 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,7 +8125,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 101.6 104.14 180)
+		(at 114.3 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7933,7 +8135,7 @@
 		)
 		(uuid "d982c6f8-97e6-4ea1-ad65-deea5ed3f5ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.5024 104.14 0)
+			(at 107.2024 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7945,7 +8147,7 @@
 	)
 	(global_label "3.3V"
 		(shape input)
-		(at 101.6 78.74 180)
+		(at 114.3 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7955,7 +8157,7 @@
 		)
 		(uuid "db5da949-dcc8-4e93-a464-8f366ccedbf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.5024 78.74 0)
+			(at 107.2024 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7967,7 +8169,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN")
-		(at 99.06 71.12 0)
+		(at 111.76 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7976,7 +8178,7 @@
 		(fields_autoplaced yes)
 		(uuid "22e6d000-0714-4a99-93be-4ea398a3d344")
 		(property "Reference" "Q1"
-			(at 104.14 69.8499 0)
+			(at 116.84 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7985,7 +8187,7 @@
 			)
 		)
 		(property "Value" "Q_NPN"
-			(at 104.14 72.3899 0)
+			(at 116.84 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +8196,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 68.58 0)
+			(at 116.84 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8003,7 +8205,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 71.12 0)
+			(at 111.76 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8012,7 +8214,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 99.06 71.12 0)
+			(at 111.76 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8309,7 @@
 	)
 	(symbol
 		(lib_id "Driver_LED:TLC5916")
-		(at 48.26 158.75 0)
+		(at 38.1 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8116,7 +8318,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ccea37f-2695-4498-880c-a28074d37460")
 		(property "Reference" "U7"
-			(at 50.4033 140.97 0)
+			(at 40.2433 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8327,7 @@
 			)
 		)
 		(property "Value" "TLC5916"
-			(at 50.4033 143.51 0)
+			(at 40.2433 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,7 +8336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 158.75 0)
+			(at 38.1 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +8345,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlc5916.pdf"
-			(at 49.53 158.75 0)
+			(at 39.37 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8152,7 +8354,7 @@
 			)
 		)
 		(property "Description" "8-Channel Constant-Current LED Sink Driver"
-			(at 48.26 158.75 0)
+			(at 38.1 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8219,7 +8421,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN")
-		(at 99.06 121.92 0)
+		(at 111.76 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8228,7 +8430,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f5e902f-bdf3-49f8-ba17-ae4249751b9d")
 		(property "Reference" "Q5"
-			(at 104.14 120.6499 0)
+			(at 116.84 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8237,7 +8439,7 @@
 			)
 		)
 		(property "Value" "Q_NPN"
-			(at 104.14 123.1899 0)
+			(at 116.84 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8246,7 +8448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 119.38 0)
+			(at 116.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8255,7 +8457,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 121.92 0)
+			(at 111.76 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,7 +8466,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 99.06 121.92 0)
+			(at 111.76 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8292,7 +8494,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN")
-		(at 99.06 109.22 0)
+		(at 111.76 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8301,7 +8503,7 @@
 		(fields_autoplaced yes)
 		(uuid "83473f36-433a-4cc3-b6d4-5217e7c0f4a3")
 		(property "Reference" "Q4"
-			(at 104.14 107.9499 0)
+			(at 116.84 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8310,7 +8512,7 @@
 			)
 		)
 		(property "Value" "Q_NPN"
-			(at 104.14 110.4899 0)
+			(at 116.84 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8319,7 +8521,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 106.68 0)
+			(at 116.84 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8328,7 +8530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 109.22 0)
+			(at 111.76 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,7 +8539,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 99.06 109.22 0)
+			(at 111.76 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,7 +8567,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN")
-		(at 99.06 134.62 0)
+		(at 111.76 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8374,7 +8576,7 @@
 		(fields_autoplaced yes)
 		(uuid "8776dc40-e377-4fae-8732-3444990bb870")
 		(property "Reference" "Q7"
-			(at 104.14 133.3499 0)
+			(at 116.84 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8383,7 +8585,7 @@
 			)
 		)
 		(property "Value" "Q_NPN"
-			(at 104.14 135.8899 0)
+			(at 116.84 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8392,7 +8594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 132.08 0)
+			(at 116.84 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8401,7 +8603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 134.62 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8410,7 +8612,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 99.06 134.62 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +8640,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 85.09 270)
+		(at 29.21 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8447,7 +8649,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ad3bed9-b9ce-45df-b269-746377811ed6")
 		(property "Reference" "#PWR056"
-			(at 31.75 85.09 0)
+			(at 22.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8456,7 +8658,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 85.0899 90)
+			(at 25.4 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 85.09 0)
+			(at 29.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8474,7 +8676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 85.09 0)
+			(at 29.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8483,7 +8685,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 85.09 0)
+			(at 29.21 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8505,7 +8707,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN")
-		(at 99.06 160.02 0)
+		(at 111.76 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8514,7 +8716,7 @@
 		(fields_autoplaced yes)
 		(uuid "99e7ad39-247a-4e36-b654-8833b75a248d")
 		(property "Reference" "Q8"
-			(at 104.14 158.7499 0)
+			(at 116.84 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +8725,7 @@
 			)
 		)
 		(property "Value" "Q_NPN"
-			(at 104.14 161.2899 0)
+			(at 116.84 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,7 +8734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 157.48 0)
+			(at 116.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,7 +8743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 160.02 0)
+			(at 111.76 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8550,7 +8752,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 99.06 160.02 0)
+			(at 111.76 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8578,7 +8780,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN")
-		(at 99.06 83.82 0)
+		(at 111.76 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8587,7 +8789,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1647d25-bdbd-41f1-8b4b-8549853c0351")
 		(property "Reference" "Q2"
-			(at 104.14 82.5499 0)
+			(at 116.84 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +8798,7 @@
 			)
 		)
 		(property "Value" "Q_NPN"
-			(at 104.14 85.0899 0)
+			(at 116.84 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8605,7 +8807,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 81.28 0)
+			(at 116.84 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8614,7 +8816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 83.82 0)
+			(at 111.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8623,7 +8825,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 99.06 83.82 0)
+			(at 111.76 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +9086,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 43.18 87.63 180)
+		(at 34.29 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8893,7 +9095,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6a11ef4-c59e-4f7a-bb69-2c33008f96a4")
 		(property "Reference" "SW1"
-			(at 43.18 78.74 0)
+			(at 34.29 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8901,7 +9103,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 43.18 81.28 0)
+			(at 34.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +9111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 87.63 0)
+			(at 34.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8918,7 +9120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 80.01 0)
+			(at 34.29 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8927,7 +9129,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 43.18 87.63 0)
+			(at 34.29 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8955,7 +9157,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN")
-		(at 99.06 96.52 0)
+		(at 111.76 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8964,7 +9166,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3381127-7368-42c2-a883-5dfdf4bda9c0")
 		(property "Reference" "Q3"
-			(at 104.14 95.2499 0)
+			(at 116.84 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8973,7 +9175,7 @@
 			)
 		)
 		(property "Value" "Q_NPN"
-			(at 104.14 97.7899 0)
+			(at 116.84 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8982,7 +9184,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 93.98 0)
+			(at 116.84 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8991,7 +9193,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 96.52 0)
+			(at 111.76 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9000,7 +9202,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 99.06 96.52 0)
+			(at 111.76 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9028,7 +9230,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NPN")
-		(at 99.06 147.32 0)
+		(at 111.76 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9037,7 +9239,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce669de2-bd4e-4453-81ad-c2477ac52f93")
 		(property "Reference" "Q6"
-			(at 104.14 146.0499 0)
+			(at 116.84 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9046,7 +9248,7 @@
 			)
 		)
 		(property "Value" "Q_NPN"
-			(at 104.14 148.5899 0)
+			(at 116.84 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9055,7 +9257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 144.78 0)
+			(at 116.84 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9064,7 +9266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 147.32 0)
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9073,7 +9275,7 @@
 			)
 		)
 		(property "Description" "NPN bipolar junction transistor"
-			(at 99.06 147.32 0)
+			(at 111.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,6 +9296,73 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42/a96446fb-7b71-458b-8ffd-78436e4e2cfa"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f62e84b3-e839-4891-8195-c03715504883")
+		(property "Reference" "#PWR022"
+			(at 44.45 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 157.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bd30b09-9708-4aa3-9af6-87a223499e51")
+		)
+		(instances
+			(project "pdb"
+				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42/a96446fb-7b71-458b-8ffd-78436e4e2cfa"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
