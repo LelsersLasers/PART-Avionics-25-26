@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CustomSyms")(type "KiCad")(uri "${KIPRJMOD}/CustomSyms.pretty")(options "")(descr ""))
+  (lib (name "PART_Footprints")(type "KiCad")(uri "${KIPRJMOD}/PART_Footprints.pretty")(options "")(descr ""))
+)

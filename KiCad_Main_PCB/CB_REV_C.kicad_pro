@@ -246,7 +246,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "PART_Footprints"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -418,16 +420,16 @@
       "80_Pin"
     ],
     [
-      "2d6d1fbc-6681-4ef4-be52-bb9f91c510a5",
-      "FULL_CB_INTEL_REV_C"
+      "56da03d5-c24d-4da4-a2b1-8c14f225d25b",
+      "goofy_psm"
+    ],
+    [
+      "63d72f28-2373-40dc-b965-649bbe0a5b68",
+      "Small_Battery_Mapping"
     ],
     [
       "d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6",
       "FULL_CB_Plugs_REV_C"
-    ],
-    [
-      "b5b654eb-5e23-4153-9d88-a827404c4965",
-      "FULL_CB_Power_REV_C"
     ],
     [
       "0431ebff-5d09-4e57-a3b3-27be7e68dced",
@@ -438,12 +440,12 @@
       "FULL_CB_tp_REV_C"
     ],
     [
-      "63d72f28-2373-40dc-b965-649bbe0a5b68",
-      "Small_Battery_Mapping"
+      "b5b654eb-5e23-4153-9d88-a827404c4965",
+      "FULL_CB_Power_REV_C"
     ],
     [
-      "45602e60-d5b8-4593-b04d-89e88c0b4eef",
-      "Buzzer"
+      "2d6d1fbc-6681-4ef4-be52-bb9f91c510a5",
+      "FULL_CB_INTEL_REV_C"
     ]
   ],
   "text_variables": {

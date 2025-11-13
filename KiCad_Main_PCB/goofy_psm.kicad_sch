@@ -1,0 +1,1001 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a67a9045-1e83-463b-a26c-5c880ae94551")
+	(paper "A4")
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Mystery signals that exist in the Altium schematic, but not the PDF I'm basing everything off:\n\nVBUS_TO_FMU\n	This is just connected to the same VBUS, so I belileve it's just redundant for some reason\nRX_5V_out\n	Goes to the SBUS connector on the servo rail. Likely just internally hooked up to one of the VDD_5V signals.\n	Could potentially have some extra redundancy because a reciever is pretty important."
+		(exclude_from_sim no)
+		(at 157.988 126.746 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b1abd0b-602a-47cb-b809-31ccaac4810d")
+	)
+	(text "The secondary functionality of the PSM is to provide 3.3V for spectrum if the Cube requests it.\nIt takes SERVO_POWER_IN (power on the servo rail after being EMI-ed a bit), and the SELECTED_POWER from the primary function \n	(pre-emi and everything), picks between the two somehow (diode magic) and feeds this into an LDO.\nIf VDD_3V3_SPEKTRUM_EN is high, the LDO will regulate this selection down to 3.3V on VDD_3V3_SPECTRUM\nAdditionally, there is a 1.5A overcurrent limit on the SERVO_POWER_IN and some fuse thing going on with the selected power."
+		(exclude_from_sim no)
+		(at 151.384 42.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e6be7b8-872a-4164-8ba1-e97aad0b9ab1")
+	)
+	(text "The goal of this sheet is to understand what the PSM does,\nso we can make better decisions about what to include or not include in our board.\n\nAll connections that are on the base board are here as well, but many may end up being nc-s as we eliminate functionality.\nThis is primarily based on reading this document:\nhttps://github.com/proficnc/The-Cube/blob/master/PSM/PSM.pdf"
+		(exclude_from_sim no)
+		(at 12.446 13.208 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left top)
+		)
+		(uuid "21312803-e6ee-4b9d-9c1c-ef4f69a8241d")
+	)
+	(text "The tertiary function of the PSU is to supply power to a buzzer via a little piezo driver thing (LT3469).\nIt takes in the ALARM signal from the Cube, and uses the raw selected 5V from the primary step to drive a buzzer."
+		(exclude_from_sim no)
+		(at 163.83 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2f74b5df-54b0-4aa4-a447-1357a52607d0")
+	)
+	(text "OVERCURRENT IC"
+		(exclude_from_sim no)
+		(at 65.786 129.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "496da182-5247-49dc-beee-b2c6b57444a8")
+	)
+	(text "There are 3 power outputs that are all fueled off of the same output that the above IC selects:\n\nVDD_5V_IN_PROT - This is just the selected voltage EMI-ed.\n\nVDD_5V_HIPOWER - This is the selected voltage gone through an overcurrent protection IC with its overcurrent limit set to 1.5A\n	If it overcurrents, it reports this on ~{VDD_5V_HIPOWER_OC}\n\nVDD_5V_PERIPH - This is the selected voltage gone through overcurrent protection with its overcurrent limit set to 1A\n	It reports overcurrent on ~{VDD_5V_PERIPH_OC}\n\nBOTH HIGHPOWER and PERIPH are enabled or disabled via the Cube driving ~{VDD_5V_PERIPH_EN}\n"
+		(exclude_from_sim no)
+		(at 29.464 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4cceb245-13a2-4322-98e0-1b11d625df40")
+	)
+	(text "OVERCURRENT IC"
+		(exclude_from_sim no)
+		(at 65.532 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "577298d8-87b8-492e-821a-297aff5fcc74")
+	)
+	(text "diode magic"
+		(exclude_from_sim no)
+		(at 190.754 51.308 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5796a9a9-fa26-4894-b5d6-8995422a3634")
+	)
+	(text "(THIS SCHEMATIC IS HORRIBLE)"
+		(exclude_from_sim no)
+		(at 59.436 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85193d3a-9481-4300-a98e-5a3fb6c5be7b")
+	)
+	(text "Piezo driver IC"
+		(exclude_from_sim no)
+		(at 194.056 98.044 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ae0e88d7-1628-4447-ba1d-adf5fbba4966")
+	)
+	(text "The primary function of the PSM appears to be regulating the Cube's 5V supply.\nThese are the 3 main 5v power inputs to the cube.\nBrick is power1, backup is power2, and vbus is usb.\nThere is an IC that seems to select between these 3, outputting power and the ~{valid} signals.\nI don't know if those valid signals are indicating which one is actively being used or which ones are available for use.\nThere is also some circuitry to make it so that if the backup is invalid its input gets pulled low via a bjt.\nI couldn't find the datasheet for the IC they used, but imagine it does something like what is pictured below."
+		(exclude_from_sim no)
+		(at 29.972 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b348320e-1303-4d7e-bc01-e3888d5a54ce")
+	)
+	(text "EMI-MAGIC"
+		(exclude_from_sim no)
+		(at 66.04 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ce217713-3724-4235-8922-f96ae769847c")
+	)
+	(text "regulator"
+		(exclude_from_sim no)
+		(at 207.264 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3502b05-6f7a-40f5-ac75-fd4fbb6fda45")
+	)
+	(text "Overcurrent"
+		(exclude_from_sim no)
+		(at 180.34 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f3cd9b88-b7ba-47ed-ace2-5884908b58ca")
+	)
+	(junction
+		(at 53.34 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29f76bd7-6b30-440f-9b86-ce000bee425d")
+	)
+	(junction
+		(at 64.77 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30f94e85-f9d6-4eae-a0b6-4f0fa163ee56")
+	)
+	(junction
+		(at 59.69 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3744e3ea-4dd7-47d4-b1a5-a5347ab48a62")
+	)
+	(junction
+		(at 53.34 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d7ab752-3010-40ef-bf2a-87a7945ebcf2")
+	)
+	(junction
+		(at 64.77 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7cc1f86-603b-41a8-a238-7eb3c1f2b0d8")
+	)
+	(no_connect
+		(at 54.61 69.85)
+		(uuid "0ade0d35-a2de-4a30-aa7e-320872a8cae7")
+	)
+	(no_connect
+		(at 54.61 67.31)
+		(uuid "0da02928-a4f7-4bd0-8760-0370ca2f2409")
+	)
+	(no_connect
+		(at 176.53 135.89)
+		(uuid "55864593-64e5-444e-b0ce-3ad8521c5e2e")
+	)
+	(no_connect
+		(at 176.53 139.7)
+		(uuid "7968d141-8a4e-4849-a2a4-110f4a837b06")
+	)
+	(wire
+		(pts
+			(xy 172.72 139.7) (xy 176.53 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0484d8d2-d481-4689-8340-524ab82f0d1e")
+	)
+	(wire
+		(pts
+			(xy 193.04 50.8) (xy 201.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bd58d8-c738-4005-9282-17950419e653")
+	)
+	(wire
+		(pts
+			(xy 48.26 125.73) (xy 64.77 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "127196c4-357a-4558-a779-9347a5b46bb5")
+	)
+	(wire
+		(pts
+			(xy 64.77 120.65) (xy 64.77 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a6b4e7-60ab-453c-8081-3854c4a6237c")
+	)
+	(wire
+		(pts
+			(xy 67.31 68.58) (xy 69.85 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6cb4ef-7ff8-4faf-91bd-2e01cc98880f")
+	)
+	(wire
+		(pts
+			(xy 53.34 113.03) (xy 60.96 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212b0b51-72cc-4a2d-b40d-f20ebf77be13")
+	)
+	(wire
+		(pts
+			(xy 64.77 78.74) (xy 67.31 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d386384-2fde-4ed5-b7ae-e425b1197bb5")
+	)
+	(wire
+		(pts
+			(xy 73.66 119.38) (xy 78.74 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30c94372-6219-4b51-9748-0642b43705d4")
+	)
+	(wire
+		(pts
+			(xy 201.93 97.79) (xy 210.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c0dea8-a0e1-4395-8a58-670a62557672")
+	)
+	(wire
+		(pts
+			(xy 53.34 109.22) (xy 53.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b17f34c-b52c-4f7c-841b-0ac798f52e07")
+	)
+	(wire
+		(pts
+			(xy 53.34 113.03) (xy 53.34 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b847e45-0a59-473f-ade5-64ac006c2d53")
+	)
+	(wire
+		(pts
+			(xy 171.45 53.34) (xy 173.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e7b277-c867-4747-8cc3-c23e467f625f")
+	)
+	(wire
+		(pts
+			(xy 53.34 120.65) (xy 53.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41072f45-0657-4634-be24-afd81ee1a7fa")
+	)
+	(wire
+		(pts
+			(xy 171.45 49.53) (xy 189.23 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c1604e-2612-4434-bd34-603bbe33194b")
+	)
+	(wire
+		(pts
+			(xy 67.31 68.58) (xy 67.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "469b6f0c-4639-42bd-91b1-82f1ef6ddb0e")
+	)
+	(wire
+		(pts
+			(xy 208.28 52.07) (xy 208.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "473a8c8d-77ad-4ed6-9d1f-6e6df8ac68e0")
+	)
+	(wire
+		(pts
+			(xy 67.31 64.77) (xy 59.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "516cf8b8-04ce-440a-9a79-11ac5397ff98")
+	)
+	(wire
+		(pts
+			(xy 73.66 121.92) (xy 78.74 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c6daa4-e80a-4b81-aad0-e35182c4d64d")
+	)
+	(wire
+		(pts
+			(xy 186.69 53.34) (xy 189.23 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a78a8c3-6b16-4bb6-a64d-ff651b1f4c95")
+	)
+	(wire
+		(pts
+			(xy 64.77 125.73) (xy 64.77 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c814154-4d72-42c0-89df-ca1992d7989e")
+	)
+	(wire
+		(pts
+			(xy 53.34 120.65) (xy 57.15 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2a8115-4ef7-4ae4-9dfc-edef7e235844")
+	)
+	(wire
+		(pts
+			(xy 180.34 92.71) (xy 193.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890bd71e-626c-4311-8580-3763a9d3eca6")
+	)
+	(wire
+		(pts
+			(xy 73.66 128.27) (xy 78.74 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e76bde4-ef0f-4f01-820c-a3664a89dad3")
+	)
+	(wire
+		(pts
+			(xy 207.01 63.5) (xy 208.28 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc6e091-64ad-4a72-8edf-34a88cdf2ca7")
+	)
+	(wire
+		(pts
+			(xy 59.69 64.77) (xy 46.99 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a08eb3a1-8986-465d-86d2-97b762577393")
+	)
+	(wire
+		(pts
+			(xy 55.88 78.74) (xy 64.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b4670e-1f8c-46e1-af71-e7df865d3563")
+	)
+	(wire
+		(pts
+			(xy 73.66 130.81) (xy 78.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a255b3fc-85bf-4a95-91a3-2b7ef6f8187d")
+	)
+	(wire
+		(pts
+			(xy 59.69 64.77) (xy 59.69 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a61ee399-d2aa-4d78-9aa4-4062028a7943")
+	)
+	(wire
+		(pts
+			(xy 46.99 69.85) (xy 54.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef9bbca-ea46-4328-8565-f7e31cedcf0f")
+	)
+	(wire
+		(pts
+			(xy 212.09 50.8) (xy 215.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b94ac9f6-90ff-47be-8ba0-8ddda38a2dd3")
+	)
+	(wire
+		(pts
+			(xy 53.34 129.54) (xy 58.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba513b55-2a3f-408d-b189-70c76376d00d")
+	)
+	(wire
+		(pts
+			(xy 59.69 73.66) (xy 67.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd36b08-4e0f-427a-bb75-49ed1436b7ce")
+	)
+	(wire
+		(pts
+			(xy 46.99 67.31) (xy 54.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c49b63ff-859b-4e11-baad-b28f62557bca")
+	)
+	(wire
+		(pts
+			(xy 71.12 113.03) (xy 78.74 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a2f298-90b2-4f7c-955d-79bff9e8c893")
+	)
+	(wire
+		(pts
+			(xy 172.72 135.89) (xy 176.53 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8210f40-51a5-4549-9f67-1a4f33a443a8")
+	)
+	(wire
+		(pts
+			(xy 67.31 76.2) (xy 64.77 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5364775-60f0-4376-9f97-1058eedcea84")
+	)
+	(wire
+		(pts
+			(xy 193.04 92.71) (xy 193.04 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6766fa-dc1c-47ad-aa76-0997b323e661")
+	)
+	(wire
+		(pts
+			(xy 176.53 97.79) (xy 186.69 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f364d004-b4db-4f6c-9cd1-d80e9d51960c")
+	)
+	(wire
+		(pts
+			(xy 64.77 76.2) (xy 64.77 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd59038-b0fd-4d93-9f6d-7b02ecef8fe7")
+	)
+	(label "Selected-Source"
+		(at 53.34 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d73d54b-ef65-4be4-82b2-d9a793508bf0")
+	)
+	(label "Selected-Source"
+		(at 69.85 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6c2ab3f-f7cd-4b35-b4f4-3ee633496f5f")
+	)
+	(label "Selected-Source"
+		(at 171.45 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd990151-f8fc-4a73-a294-6814faf10b48")
+	)
+	(label "Selected-Source"
+		(at 180.34 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c0c16b31-b6f8-4f19-b929-d8c4d00cbeab")
+	)
+	(hierarchical_label "~{VDD_5V_PERIPH_EN}"
+		(shape input)
+		(at 48.26 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11fb246d-20ea-4d60-bab3-fed8be65a21d")
+	)
+	(hierarchical_label "~{VBUS_VALID}"
+		(shape output)
+		(at 67.31 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26af6e92-e00e-432e-a4c3-67baa9b32de2")
+	)
+	(hierarchical_label "~{VDD_BRICK_VALID}"
+		(shape output)
+		(at 67.31 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "331ee540-8d12-4a1d-9f2d-3216d840c9c2")
+	)
+	(hierarchical_label "BUZZER_OUT"
+		(shape output)
+		(at 210.82 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44863e48-cdf4-422b-a0f0-a25d9c4baae3")
+	)
+	(hierarchical_label "VBUS_TO_FMU"
+		(shape input)
+		(at 172.72 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f596a48-36f0-4e6f-9372-fc3ed67468d5")
+	)
+	(hierarchical_label "VDD_5V_HIPOWER"
+		(shape output)
+		(at 78.74 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69c630d4-f6e9-4029-99e3-9201e4d40513")
+	)
+	(hierarchical_label "~{VDD_5V_PERIPH_OC}"
+		(shape output)
+		(at 78.74 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6be604c8-7f7f-4edf-9cd5-b59dcce89a30")
+	)
+	(hierarchical_label "VDD_3V3_SPEKTRUM"
+		(shape output)
+		(at 215.9 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7936c23f-08dc-42d2-abc9-3dcac6853259")
+	)
+	(hierarchical_label "ALARM"
+		(shape input)
+		(at 176.53 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8f2a28df-d622-4a4d-b095-312728987776")
+	)
+	(hierarchical_label "RX_5V_OUT"
+		(shape output)
+		(at 172.72 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a457385d-17d6-491d-a3ed-db07ef45b6d8")
+	)
+	(hierarchical_label "SERVO_POWER_IN"
+		(shape input)
+		(at 171.45 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4741d69-4015-4ce3-9326-a457907b41ee")
+	)
+	(hierarchical_label "VDD_5V_PERIPH"
+		(shape output)
+		(at 78.74 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a832eecd-1a1b-4709-a90d-31485780466d")
+	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 46.99 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c34bd6f3-6e18-478b-b038-7fae9e098a82")
+	)
+	(hierarchical_label "VDD_5V_IN_PROT"
+		(shape output)
+		(at 78.74 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0214974-df8e-40d8-a441-0f07eadd1d00")
+	)
+	(hierarchical_label "VDD_5V_BACKUP"
+		(shape input)
+		(at 46.99 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d291174d-88ac-4afe-91fd-bfc5e1d8bab5")
+	)
+	(hierarchical_label "~{VDD_5V_HIPOWER_OC}"
+		(shape output)
+		(at 78.74 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2134d35-3ce3-40ec-ab26-a37cfe514eb7")
+	)
+	(hierarchical_label "VDD_5V_BRICK"
+		(shape input)
+		(at 46.99 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea725928-16a3-46e3-a4f4-38de33cbbe2a")
+	)
+	(hierarchical_label "VDD_3V3_SPEKTRUM_EN"
+		(shape input)
+		(at 207.01 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea90fe32-489a-4804-b8cc-c29e76ef1643")
+	)
+	(hierarchical_label "~{VDD_BACKUP_VALID}"
+		(shape output)
+		(at 67.31 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2e36e42-a96f-4b06-a5f5-dc772d470880")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 55.88 78.74 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9587ae87-8a58-4077-a570-98a83bd0ff5c")
+		(property "Reference" "#PWR029"
+			(at 49.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89dc515c-c76e-44f6-a3eb-5a8afe50b262")
+		)
+	)
+)
