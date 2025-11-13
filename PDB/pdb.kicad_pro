@@ -771,6 +771,10 @@
     [
       "9cb5cc44-c71c-4de9-9246-d8950f12eb42",
       "Root"
+    ],
+    [
+      "a96446fb-7b71-458b-8ffd-78436e4e2cfa",
+      "led_matrix"
     ]
   ],
   "text_variables": {}
