@@ -5541,7 +5541,7 @@
 	)
 	(rectangle
 		(start 219.71 196.85)
-		(end 290.83 242.57)
+		(end 285.75 242.57)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5894,7 +5894,7 @@
 		)
 		(uuid "d62eac2a-57ad-462a-812d-acd3ad9a12d1")
 	)
-	(text "PART DEVELOPMENT BOARD 2025-2026"
+	(text "PART POWER DISTRUBTION UNIT BOARD 2025-2026"
 		(exclude_from_sim no)
 		(at 328.93 276.86 0)
 		(effects
@@ -6173,12 +6173,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98b1c404-f8c3-401f-bc1c-c295f117cea8")
-	)
-	(junction
-		(at 275.59 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9daeb9ce-e774-4d7e-bbc7-38d5bdb64415")
 	)
 	(junction
 		(at 173.99 36.83)
@@ -6480,7 +6474,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 213.36) (xy 279.4 213.36)
+			(xy 273.05 213.36) (xy 271.78 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6507,16 +6501,6 @@
 			(type default)
 		)
 		(uuid "057db227-6c11-40b1-93eb-a0e63b954a6d")
-	)
-	(wire
-		(pts
-			(xy 273.05 213.36) (xy 275.59 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c6fc3d-8177-4fe6-bac4-9b8bdcbe35f2")
 	)
 	(wire
 		(pts
@@ -9364,28 +9348,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDDA"
-		(shape output)
-		(at 279.4 213.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b4d4e0b-ec68-4303-9ffb-116d4967e990")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.1024 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -13810,16 +13772,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 275.59 220.98 0)
+		(lib_id "power:+24V")
+		(at 271.78 213.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7615e799-84b9-4c9b-abc6-64c0faddc0a0")
+		(fields_autoplaced yes)
+		(uuid "76dd43b6-eb59-452e-9cf2-adab4159b35f")
 		(property "Reference" "#PWR049"
-			(at 275.59 227.33 0)
+			(at 267.97 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13827,16 +13790,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 275.59 225.552 0)
+		(property "Value" "VDDA"
+			(at 275.59 213.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 220.98 0)
+			(at 271.78 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13845,7 +13809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 220.98 0)
+			(at 271.78 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13853,8 +13817,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 220.98 0)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 271.78 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13863,10 +13827,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a8401e8-dd71-4c04-93c3-291ea56c5f98")
+			(uuid "db78f4a4-6572-406f-9c4a-ec6e7e394f58")
 		)
 		(instances
-			(project ""
+			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "#PWR049")
 					(unit 1)
@@ -18246,75 +18210,6 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 275.59 217.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d119c938-2ea5-487e-aed1-0192669c99d9")
-		(property "Reference" "C12"
-			(at 268.478 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 268.732 217.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.5552 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 275.59 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2eb7ed4b-bf21-4494-bf31-e9af0c7665d8")
-		)
-		(pin "2"
-			(uuid "38e8b9e7-d844-4f5b-996f-44c6526a5510")
-		)
-		(instances
-			(project ""
-				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "C12")
 					(unit 1)
 				)
 			)
