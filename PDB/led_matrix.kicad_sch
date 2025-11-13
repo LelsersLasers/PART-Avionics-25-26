@@ -7388,9 +7388,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "11/13"
+		(exclude_from_sim no)
+		(at 209.804 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3ec1d0ee-f505-4506-bbef-e6069178fd8b")
+	)
+	(text "PART PDU - LED Matrix"
+		(exclude_from_sim no)
+		(at 197.612 189.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e0478f9-3f58-4b4e-b70a-f771faec0771")
+	)
 	(text "Sink"
 		(exclude_from_sim no)
-		(at 34.798 118.364 0)
+		(at 43.688 114.554 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7408,6 +7428,10 @@
 			)
 		)
 		(uuid "f32c37c5-21e2-4290-9279-2b085c1625dc")
+	)
+	(no_connect
+		(at 36.83 143.51)
+		(uuid "35524223-ed39-4d1b-a43e-1d900f32169b")
 	)
 	(no_connect
 		(at 58.42 69.85)
@@ -7464,7 +7488,7 @@
 		(uuid "fdefdfb7-bfab-405d-884a-206fb206eab6")
 	)
 	(label "MATRIX_N"
-		(at 48.26 142.24 0)
+		(at 57.15 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7504,7 +7528,7 @@
 		(uuid "0f7ba645-9786-406c-acde-504adc75b6e7")
 	)
 	(label "MATRIX_L"
-		(at 48.26 137.16 0)
+		(at 57.15 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7544,7 +7568,7 @@
 		(uuid "268ec160-391b-4062-bdff-5c9a3c1f3999")
 	)
 	(label "MATRIX_P"
-		(at 48.26 147.32 0)
+		(at 57.15 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7563,6 +7587,16 @@
 		)
 		(uuid "2f583bd3-6cd3-434d-b0ca-d5c914f84042")
 	)
+	(label "MATRIX_M"
+		(at 163.83 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32c9706e-04a0-4c59-8bda-a8483ec542a4")
+	)
 	(label "MATRIX_CONTROL_A"
 		(at 106.68 30.48 180)
 		(effects
@@ -7572,6 +7606,16 @@
 			(justify right bottom)
 		)
 		(uuid "395e2766-4933-4d19-828b-27517cdc47da")
+	)
+	(label "MATRIX_J"
+		(at 163.83 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4424959b-73f6-4468-9511-f63401ca60d8")
 	)
 	(label "MATRIX_A"
 		(at 171.45 78.74 90)
@@ -7594,7 +7638,7 @@
 		(uuid "48cddb31-91ff-4bb9-8152-e2e4efc80a5a")
 	)
 	(label "MATRIX_I"
-		(at 48.26 129.54 0)
+		(at 57.15 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7604,7 +7648,7 @@
 		(uuid "4a03fc58-a450-4f3b-b283-de814d99e932")
 	)
 	(label "MATRIX_J"
-		(at 48.26 132.08 0)
+		(at 57.15 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7632,6 +7676,16 @@
 			(justify right bottom)
 		)
 		(uuid "500fef98-0190-4ff9-8cfe-34b673b833ec")
+	)
+	(label "MATRIX_K"
+		(at 163.83 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50ecd247-7014-4838-adcf-6677dac339bb")
 	)
 	(label "MATRIX_CONTROL_C"
 		(at 106.68 55.88 180)
@@ -7664,7 +7718,7 @@
 		(uuid "56dfba4f-aefb-4bf6-a8c1-fc22f474b9dd")
 	)
 	(label "MATRIX_K"
-		(at 48.26 134.62 0)
+		(at 57.15 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7703,6 +7757,16 @@
 		)
 		(uuid "6c2ad995-da35-46eb-8da7-ffcf1c4e05fc")
 	)
+	(label "MATRIX_I"
+		(at 163.83 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7fb66c87-4ce1-43fd-ad27-b28903807ab7")
+	)
 	(label "MATRIX_CONTROL_F"
 		(at 106.68 93.98 180)
 		(effects
@@ -7712,6 +7776,16 @@
 			(justify right bottom)
 		)
 		(uuid "8554f436-9e88-4461-a68a-06f078137d29")
+	)
+	(label "MATRIX_L"
+		(at 163.83 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8629b803-6183-44e9-9531-43e001b791ba")
 	)
 	(label "MATRIX_CONTROL_D"
 		(at 106.68 68.58 180)
@@ -7753,8 +7827,18 @@
 		)
 		(uuid "9864982f-7c06-4209-bbfb-5ea92dc40b90")
 	)
+	(label "MATRIX_P"
+		(at 163.83 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b0c7961-e805-431d-a1b7-befc9653a41b")
+	)
 	(label "MATRIX_O"
-		(at 48.26 144.78 0)
+		(at 57.15 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7794,7 +7878,7 @@
 		(uuid "a996ffc4-fada-43db-8893-961e8477054a")
 	)
 	(label "MATRIX_M"
-		(at 48.26 139.7 0)
+		(at 57.15 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7812,6 +7896,16 @@
 			(justify right bottom)
 		)
 		(uuid "b601517f-663f-40a3-813e-b9e81138d618")
+	)
+	(label "MATRIX_N"
+		(at 163.83 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b9493fab-8459-4bc0-a851-91794a0ac37b")
 	)
 	(label "MATRIX_D"
 		(at 186.69 78.74 90)
@@ -7863,6 +7957,16 @@
 		)
 		(uuid "d7af7413-80b4-4d18-b047-1aa47eb64f4e")
 	)
+	(label "MATRIX_O"
+		(at 163.83 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd778c22-792b-4fff-b7aa-476c61702f95")
+	)
 	(label "MATRIX_CONTROL_E"
 		(at 58.42 57.15 0)
 		(effects
@@ -7882,6 +7986,16 @@
 			(justify left bottom)
 		)
 		(uuid "e8296fba-9970-4129-87f2-d339bee1a530")
+	)
+	(label "LED_MATRIX_NEN"
+		(at 36.83 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edd13c52-c316-455c-87ba-4434628f3a1d")
 	)
 	(label "MATRIX_CONTROL_H"
 		(at 58.42 64.77 0)
@@ -8309,7 +8423,7 @@
 	)
 	(symbol
 		(lib_id "Driver_LED:TLC5916")
-		(at 38.1 139.7 0)
+		(at 46.99 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8318,7 +8432,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ccea37f-2695-4498-880c-a28074d37460")
 		(property "Reference" "U7"
-			(at 40.2433 121.92 0)
+			(at 49.1333 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8327,7 +8441,7 @@
 			)
 		)
 		(property "Value" "TLC5916"
-			(at 40.2433 124.46 0)
+			(at 49.1333 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8336,7 +8450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 139.7 0)
+			(at 46.99 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8459,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlc5916.pdf"
-			(at 39.37 139.7 0)
+			(at 48.26 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8354,7 +8468,7 @@
 			)
 		)
 		(property "Description" "8-Channel Constant-Current LED Sink Driver"
-			(at 38.1 139.7 0)
+			(at 46.99 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,7 +9417,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 157.48 90)
+		(at 46.99 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9312,7 +9426,7 @@
 		(fields_autoplaced yes)
 		(uuid "f62e84b3-e839-4891-8195-c03715504883")
 		(property "Reference" "#PWR022"
-			(at 44.45 157.48 0)
+			(at 53.34 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,7 +9435,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 157.4799 90)
+			(at 50.8 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9330,7 +9444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 157.48 0)
+			(at 46.99 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9339,7 +9453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 157.48 0)
+			(at 46.99 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9348,7 +9462,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 157.48 0)
+			(at 46.99 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

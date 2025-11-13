@@ -5865,7 +5865,7 @@
 		)
 		(uuid "0a970d9f-313e-4eb0-8899-1a1bd1a65163")
 	)
-	(text "11/11"
+	(text "11/13"
 		(exclude_from_sim no)
 		(at 333.248 280.416 0)
 		(effects
