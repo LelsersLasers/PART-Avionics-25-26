@@ -8837,7 +8837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.75x3.43mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 46.99 135.89 0)
 			(effects
 				(font
@@ -9897,7 +9897,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-16_5.3x6.2mm_P0.65mm"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 48.26 57.15 0)
 			(effects
 				(font
