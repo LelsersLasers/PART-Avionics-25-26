@@ -4952,6 +4952,10 @@
 		(uuid "3bff6004-3652-49e9-b9ef-027b83018122")
 	)
 	(no_connect
+		(at 635 212.09)
+		(uuid "3f2c52ef-0f6b-4d2a-8654-5554531f042a")
+	)
+	(no_connect
 		(at 635 383.54)
 		(uuid "49bc669b-576f-4708-9a14-95d89fb55e63")
 	)
@@ -4988,8 +4992,16 @@
 		(uuid "7a8377c0-6b62-4eb9-a1b1-1fb1e35ed720")
 	)
 	(no_connect
+		(at 635 222.25)
+		(uuid "840bd19a-14a8-4f78-8f7e-1afed64c7365")
+	)
+	(no_connect
 		(at 698.5 375.92)
 		(uuid "8b71c1aa-3877-4717-9e28-550f0f555875")
+	)
+	(no_connect
+		(at 635 224.79)
+		(uuid "8ba3342c-1842-4ab1-9542-7ec95c490f14")
 	)
 	(no_connect
 		(at 698.5 378.46)
@@ -5018,6 +5030,10 @@
 	(no_connect
 		(at 698.5 241.3)
 		(uuid "b20af38b-2b3f-4eca-8a67-1f741381b59e")
+	)
+	(no_connect
+		(at 635 227.33)
+		(uuid "b5cb2f9c-87f7-43ab-91b8-9f6bd97edf03")
 	)
 	(no_connect
 		(at 698.5 368.3)
@@ -8896,7 +8912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ffb15aa-ee43-4954-ba08-11e215fcaa01")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 71.12 167.6399 0)
 			(effects
 				(font
@@ -8950,7 +8966,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8966,7 +8982,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "155ceded-8ec7-4863-b271-5510faa8c9b6")
-		(property "Reference" "D?"
+		(property "Reference" "D7"
 			(at 411.48 148.5899 90)
 			(effects
 				(font
@@ -9020,7 +9036,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "D?")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -9238,7 +9254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22ecdc32-52bd-43f9-9927-314c831fca94")
-		(property "Reference" "J2"
+		(property "Reference" "J22"
 			(at 181.61 53.34 0)
 			(effects
 				(font
@@ -9293,7 +9309,7 @@
 		(instances
 			(project ""
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "J2")
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -10574,7 +10590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63dfcdc8-ad6d-4af5-955f-cbbb1fa57a36")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 120.65 156.21 0)
 			(effects
 				(font
@@ -11148,7 +11164,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -11439,7 +11455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eb05686-07f9-44dd-8d0b-456c393d274c")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 71.12 177.7999 0)
 			(effects
 				(font
@@ -11493,7 +11509,7 @@
 		(instances
 			(project ""
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "R?")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -11934,7 +11950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "887ae7bb-9a60-4417-b91f-1a8f6402fd3d")
-		(property "Reference" "C?"
+		(property "Reference" "C12"
 			(at 406.4 134.62 0)
 			(effects
 				(font
@@ -11989,7 +12005,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "C?")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13366,7 +13382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5b25db2-82de-41c4-ac42-b92547d14dda")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 42.545 69.85 0)
 			(effects
 				(font
@@ -13418,7 +13434,7 @@
 		(instances
 			(project ""
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14514,7 +14530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff3a8d2a-aeaa-4742-bc40-90d8f559e36b")
-		(property "Reference" "J?"
+		(property "Reference" "J21"
 			(at 447.04 134.62 0)
 			(effects
 				(font
@@ -14587,50 +14603,8 @@
 		(instances
 			(project ""
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "J?")
+					(reference "J21")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 615.95 516.89)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0431ebff-5d09-4e57-a3b3-27be7e68dced")
-		(property "Sheetname" "FULL_CB_Servo_REV_C"
-			(at 615.95 516.1784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "FULL_CB_Servo_REV_C.kicad_sch"
-			(at 615.95 521.2846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(page "6")
 				)
 			)
 		)
@@ -15449,90 +15423,6 @@
 		)
 	)
 	(sheet
-		(at 547.37 486.41)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "267eff4f-e83a-47cb-8169-0135f3b2941c")
-		(property "Sheetname" "FULL_CB_tp_REV_C"
-			(at 547.37 485.6984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "FULL_CB_tp_REV_C.kicad_sch"
-			(at 547.37 490.8046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 561.34 506.73)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2d6d1fbc-6681-4ef4-be52-bb9f91c510a5")
-		(property "Sheetname" "FULL_CB_INTEL_REV_C"
-			(at 561.34 506.0184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "FULL_CB_INTEL_REV_C.kicad_sch"
-			(at 561.34 511.1246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 543.56 284.48)
 		(size 53.34 50.8)
 		(exclude_from_sim no)
@@ -15760,90 +15650,6 @@
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 610.87 495.3)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b5b654eb-5e23-4153-9d88-a827404c4965")
-		(property "Sheetname" "FULL_CB_Power_REV_C"
-			(at 610.87 494.5884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "FULL_CB_Power_REV_C.kicad_sch"
-			(at 610.87 499.6946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 565.15 519.43)
-		(size 12.7 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6")
-		(property "Sheetname" "FULL_CB_Plugs_REV_C"
-			(at 565.15 518.7184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "FULL_CB_Plugs_REV_C.kicad_sch"
-			(at 565.15 523.8246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(page "5")
 				)
 			)
 		)
