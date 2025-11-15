@@ -8630,7 +8630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+		(property "Footprint" "All:TSOT-23-Fixed"
 			(at 116.84 27.94 0)
 			(effects
 				(font
@@ -8949,7 +8949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+		(property "Footprint" "All:TSOT-23-Fixed"
 			(at 116.84 78.74 0)
 			(effects
 				(font
@@ -9022,7 +9022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+		(property "Footprint" "All:TSOT-23-Fixed"
 			(at 116.84 66.04 0)
 			(effects
 				(font
@@ -9095,7 +9095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+		(property "Footprint" "All:TSOT-23-Fixed"
 			(at 116.84 91.44 0)
 			(effects
 				(font
@@ -9234,7 +9234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+		(property "Footprint" "All:TSOT-23-Fixed"
 			(at 116.84 116.84 0)
 			(effects
 				(font
@@ -9307,7 +9307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+		(property "Footprint" "All:TSOT-23-Fixed"
 			(at 116.84 40.64 0)
 			(effects
 				(font
@@ -9684,7 +9684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+		(property "Footprint" "All:TSOT-23-Fixed"
 			(at 116.84 53.34 0)
 			(effects
 				(font
@@ -9757,7 +9757,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
+		(property "Footprint" "All:TSOT-23-Fixed"
 			(at 116.84 104.14 0)
 			(effects
 				(font

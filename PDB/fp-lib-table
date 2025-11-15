@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "All")(type "KiCad")(uri "${KIPRJMOD}/All.pretty")(options "")(descr ""))
   (lib (name "external_symbols")(type "KiCad")(uri "${KIPRJMOD}/external_symbols")(options "")(descr ""))
+  (lib (name "TLV75533PDBVR")(type "KiCad")(uri "${KIPRJMOD}/TLV75533PDBVR")(options "")(descr ""))
 )

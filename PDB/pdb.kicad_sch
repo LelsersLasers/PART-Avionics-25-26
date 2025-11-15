@@ -5,226 +5,6 @@
 	(uuid "9cb5cc44-c71c-4de9-9246-d8950f12eb42")
 	(paper "A3")
 	(lib_symbols
-		(symbol "2025-11-12_23-40-51:TLV77518PDBVR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TLV77518PDBVR"
-				(at 20.32 7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "SOT-23-5_1P75X3P05_TEX"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv775"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "TLV77518PDBVR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT-23-5_1P75X3P05_TEX SOT-23-5_1P75X3P05_TEX-M SOT-23-5_1P75X3P05_TEX-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TLV77518PDBVR_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -22.86)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -22.86) (xy 33.02 -22.86)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 33.02 -22.86) (xy 33.02 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 7.62)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 40.64 0 180)
-					(length 7.62)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "AOZ1284PI:AOZ1284PI"
 			(pin_names
 				(offset 1.016)
@@ -4939,6 +4719,247 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TLV75533PDBVR:TLV75533PDBVR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 8.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TLV75533PDBVR"
+				(at -12.7 -11.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TLV75533PDBVR:SOT95P280X145-5N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "500-mA high-PSRR low-IQ low-dropout voltage regulator with enable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "SOT-23-5 Texas Instruments"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLV75533PDBVR/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "TLV75533PDBVR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/TLV75533PDBVR/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TLV75533PDBVR_0_0"
+				(rectangle
+					(start -12.7 7.62)
+					(end 12.7 -7.62)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV75533PDBVR_1_1"
+				(pin no_connect line
+					(at 15.24 -1.27 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "XT90:XT90PW-F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5120,6 +5141,349 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "XT90PW-M:XT90PW-M"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "XT90PW-M"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "external_symbols:AMASS_XT90PW-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "AMASS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "Package"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HIEGHT" "10.3mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "V00"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "XT90PW-M"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "AMASS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "XT90PW-M_0_0"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.635 -0.3175)
+					(end 2.2225 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.635 -2.8575)
+					(end 2.2225 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "POS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "NEG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "N"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -5885,16 +6249,6 @@
 		)
 		(uuid "1371ae37-4f1e-4a55-bc71-e1f337b9b619")
 	)
-	(text "Battery Input.\nActually MALE. Innacurate symbol."
-		(exclude_from_sim no)
-		(at 45.72 216.916 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "14e088bb-b6ca-40a3-806a-8afa494128f8")
-	)
 	(text "battery indicator:\ncontinue with n leds\ni think this is right...?????\nR = (V_batt,max - V_z,n - V_f,n) / I\n25.2 V"
 		(exclude_from_sim no)
 		(at 196.088 127.254 0)
@@ -5959,17 +6313,7 @@
 		)
 		(uuid "5280380f-949c-4434-8cc5-8d655ee1bc9f")
 	)
-	(text "Battery Input.\nActually MALE. Innacurate symbol."
-		(exclude_from_sim no)
-		(at 45.72 157.226 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "64362e88-f040-42a3-8720-ea481ce2b980")
-	)
-	(text "Also from carrier board.\n"
+	(text "TODO: put a voltage divider and power EN with V+_SENSED"
 		(exclude_from_sim no)
 		(at 256.54 110.49 0)
 		(effects
@@ -5988,16 +6332,6 @@
 			)
 		)
 		(uuid "7905600c-3653-4e8f-be3a-b2dc78bcdd07")
-	)
-	(text "Battery Input.\nActually MALE. Innacurate symbol."
-		(exclude_from_sim no)
-		(at 45.72 186.436 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7a229b98-f0b0-4686-be29-3fa32c9af5c2")
 	)
 	(text "stm32"
 		(exclude_from_sim no)
@@ -6029,16 +6363,6 @@
 			)
 		)
 		(uuid "87c89a66-02d5-48b8-be88-8b99291d0200")
-	)
-	(text "Battery Input.\nActually MALE. Innacurate symbol."
-		(exclude_from_sim no)
-		(at 45.72 246.126 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8be46850-7f49-49ca-a33c-07e9f4f92c90")
 	)
 	(text "LPF\nReference says it's optional but why not?\nThis config gives -3db cutoff of 100 something Hz.\nI'd guess ardupilot is sampling at like 10s of Hz.\nTo see this, open the lpf spice sheet on its own."
 		(exclude_from_sim no)
@@ -6214,18 +6538,6 @@
 		(uuid "fea5c0fc-4fd9-4589-975f-b37137d9790d")
 	)
 	(junction
-		(at 66.04 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0098f5c0-579e-4cd5-801f-3238548f9583")
-	)
-	(junction
-		(at 66.04 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "042d8383-0e2f-478b-a496-4bc842998589")
-	)
-	(junction
 		(at 146.05 223.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6256,12 +6568,6 @@
 		(uuid "14b0e83f-9179-4f10-96dc-bab7d88c4ab5")
 	)
 	(junction
-		(at 66.04 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ad38f48-1e11-47f2-9d06-b5d77f536533")
-	)
-	(junction
 		(at 332.74 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6274,16 +6580,34 @@
 		(uuid "32166b35-92d8-418d-9de1-23196d8f61f0")
 	)
 	(junction
+		(at 66.04 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34752c72-6c02-42ee-948f-70b73b2d7b93")
+	)
+	(junction
 		(at 162.56 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "357ef88f-6dd4-4109-b0c5-e8a2e0abcb9d")
 	)
 	(junction
+		(at 66.04 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3828d5ab-1206-40cd-87a4-9515afe0684d")
+	)
+	(junction
 		(at 172.72 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a6e745c-be46-42ab-990a-6359f6d0f8bb")
+	)
+	(junction
+		(at 66.04 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d356a7c-ce71-409d-81e3-a3c5de19f017")
 	)
 	(junction
 		(at 157.48 168.91)
@@ -6340,13 +6664,19 @@
 		(uuid "5b8f22a5-847a-44ea-bee1-5bcaba810860")
 	)
 	(junction
+		(at 66.04 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c0f78ce-0f38-4e16-b9fa-23aa22581700")
+	)
+	(junction
 		(at 304.8 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "611fc461-4ce0-4aac-8835-3b8d90812b25")
 	)
 	(junction
-		(at 228.6 215.9)
+		(at 233.68 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "632194f6-8a97-435d-a227-a88b05cc57ab")
@@ -6490,22 +6820,22 @@
 		(uuid "aa59b4c9-37dd-4b49-9b4b-9ab654b00506")
 	)
 	(junction
-		(at 66.04 232.41)
+		(at 320.04 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b49a0bf2-625b-4017-8b17-c72bcc235e86")
+		(uuid "b8421a28-df77-4512-8bb5-8ae0c1b0d940")
 	)
 	(junction
 		(at 66.04 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b4ae3c07-3104-4899-bf01-3d3b9fe77e75")
+		(uuid "b987949e-3ddd-49c6-bff0-31b1fa88753f")
 	)
 	(junction
-		(at 320.04 128.27)
+		(at 66.04 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8421a28-df77-4512-8bb5-8ae0c1b0d940")
+		(uuid "b9f1fbb0-f508-4e60-b9ea-d35946291fea")
 	)
 	(junction
 		(at 56.134 66.04)
@@ -6532,10 +6862,10 @@
 		(uuid "cb07f65f-95d9-415d-b0cc-4428ca43d2bb")
 	)
 	(junction
-		(at 66.04 201.93)
+		(at 66.04 251.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd3d4be7-f438-4211-a5a4-8416f0380635")
+		(uuid "cf84e454-68a3-4b96-ace7-7d75ebdbfc00")
 	)
 	(junction
 		(at 142.24 160.02)
@@ -6560,12 +6890,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc844cc2-c0f1-4adb-94c5-635a57788d3c")
-	)
-	(junction
-		(at 66.04 191.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd0db900-9afa-480e-a110-3f3267721993")
 	)
 	(junction
 		(at 247.65 118.11)
@@ -6598,12 +6922,6 @@
 		(uuid "e75e9b6d-7666-4c66-9bd4-79713e7fb0dc")
 	)
 	(junction
-		(at 66.04 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0275ac5-0b96-45a9-a40a-a3b09db8771f")
-	)
-	(junction
 		(at 147.32 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6614,6 +6932,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f3f5bdaa-8709-42a6-aeac-5841607bb69b")
+	)
+	(junction
+		(at 66.04 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9a20432-d07d-406c-b391-927f51a24819")
 	)
 	(junction
 		(at 105.41 231.14)
@@ -6634,12 +6958,12 @@
 		(uuid "125c56de-79eb-4e7d-8b73-4a87aef5812e")
 	)
 	(no_connect
-		(at 246.38 64.77)
-		(uuid "278f9624-4c5b-43d5-b54c-92fa4fa21982")
+		(at 34.29 134.62)
+		(uuid "1585f24a-b801-4bf7-86aa-3dc89e519bc9")
 	)
 	(no_connect
-		(at 34.29 195.58)
-		(uuid "281a8859-b438-42f5-b0a4-09c76bf45358")
+		(at 246.38 64.77)
+		(uuid "278f9624-4c5b-43d5-b54c-92fa4fa21982")
 	)
 	(no_connect
 		(at 34.29 99.06)
@@ -6650,6 +6974,10 @@
 		(uuid "38a15c13-371b-4ca6-8e23-1571d86fe8ba")
 	)
 	(no_connect
+		(at 34.29 132.08)
+		(uuid "42333607-a2ec-4022-95c4-dee49a91cf40")
+	)
+	(no_connect
 		(at 33.274 68.58)
 		(uuid "4baf9a47-9eb8-4a19-a374-55b4c3fe3025")
 	)
@@ -6658,40 +6986,12 @@
 		(uuid "4ea4f775-8a6c-42bd-be7c-17b8bc1987ae")
 	)
 	(no_connect
-		(at 34.29 255.27)
-		(uuid "5bfef50e-e611-4cb5-a23f-fd7d397019c9")
-	)
-	(no_connect
-		(at 34.29 228.6)
-		(uuid "76391d17-5918-4d66-ae8e-759d21642c8c")
-	)
-	(no_connect
-		(at 34.29 168.91)
-		(uuid "aaf65dd6-cc2b-4f94-a55b-33057829258b")
-	)
-	(no_connect
-		(at 34.29 198.12)
-		(uuid "be7d9b85-432f-4f06-bf8c-8a07753147f5")
-	)
-	(no_connect
-		(at 34.29 257.81)
-		(uuid "d0fc5088-d8e8-478d-8667-06ad0fbf6732")
-	)
-	(no_connect
-		(at 34.29 226.06)
-		(uuid "e0dc5c25-8be9-41f5-b1ac-5d57ce552daa")
-	)
-	(no_connect
 		(at 34.29 82.55)
 		(uuid "ee2a886f-b0dc-4ce8-8e03-d26f0fa2f59d")
 	)
 	(no_connect
 		(at 34.29 85.09)
 		(uuid "f2d4241e-e90b-433c-b933-52905cfb8ce0")
-	)
-	(no_connect
-		(at 34.29 166.37)
-		(uuid "f408cb0a-a6ed-48ba-b5c8-7fb8c9716462")
 	)
 	(wire
 		(pts
@@ -6795,16 +7095,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 173.99) (xy 309.88 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a53c3f1-1e72-410e-ac8c-dc332e5c22b0")
-	)
-	(wire
-		(pts
 			(xy 106.68 85.09) (xy 113.03 85.09)
 		)
 		(stroke
@@ -6885,7 +7175,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 215.9) (xy 228.6 215.9)
+			(xy 231.14 218.44) (xy 233.68 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6902,6 +7192,16 @@
 			(type default)
 		)
 		(uuid "12a3a420-ffa6-43f3-95f5-d013b77a069e")
+	)
+	(wire
+		(pts
+			(xy 49.53 228.6) (xy 52.07 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c95bd9-062b-4296-a47f-9b0b0478787b")
 	)
 	(wire
 		(pts
@@ -6945,7 +7245,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 215.9) (xy 232.41 215.9)
+			(xy 233.68 218.44) (xy 237.49 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6962,6 +7262,16 @@
 			(type default)
 		)
 		(uuid "1820411b-574a-433a-b053-8295980368a6")
+	)
+	(wire
+		(pts
+			(xy 49.53 198.12) (xy 52.07 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e6ade5-f095-4c6d-b94c-e4cf6b0796cc")
 	)
 	(wire
 		(pts
@@ -6995,16 +7305,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 251.46) (xy 66.04 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc6da54-123e-49ba-b6ed-a971490de8f6")
-	)
-	(wire
-		(pts
 			(xy 160.02 45.72) (xy 173.99 45.72)
 		)
 		(stroke
@@ -7032,6 +7332,16 @@
 			(type default)
 		)
 		(uuid "2408e4ef-58a4-4e69-9be7-b035ceda24df")
+	)
+	(wire
+		(pts
+			(xy 52.07 251.46) (xy 66.04 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a38a45-0280-46b4-a9af-94962c260525")
 	)
 	(wire
 		(pts
@@ -7075,6 +7385,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 195.58) (xy 66.04 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "292bde1d-ac87-4ace-aaa4-23e80f2b1ff7")
+	)
+	(wire
+		(pts
 			(xy 240.03 130.81) (xy 234.95 130.81)
 		)
 		(stroke
@@ -7082,6 +7402,16 @@
 			(type default)
 		)
 		(uuid "2963ea27-2b47-4424-8522-8c8a74118a55")
+	)
+	(wire
+		(pts
+			(xy 49.53 166.37) (xy 66.04 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a2f2335-70fb-4df9-824c-f338bf158462")
 	)
 	(wire
 		(pts
@@ -7175,13 +7505,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 162.56) (xy 66.04 166.37)
+			(xy 237.49 212.09) (xy 237.49 215.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e5354c9-a316-4b88-a79e-30b343503202")
+		(uuid "2f2a0fbb-4218-4e26-a504-331b74949ad3")
 	)
 	(wire
 		(pts
@@ -7215,26 +7545,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 255.27) (xy 57.15 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30bf888e-0618-4be7-947d-9ab0ab004799")
-	)
-	(wire
-		(pts
-			(xy 66.04 195.58) (xy 57.15 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31508b37-ff84-408f-8a2e-37149f932add")
-	)
-	(wire
-		(pts
 			(xy 255.27 143.51) (xy 255.27 140.97)
 		)
 		(stroke
@@ -7252,6 +7562,16 @@
 			(type default)
 		)
 		(uuid "31f6a12a-7cd6-4b7b-bfca-a83eb759803f")
+	)
+	(wire
+		(pts
+			(xy 52.07 256.54) (xy 52.07 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3500893a-4358-4f50-b183-67fac6d41d75")
 	)
 	(wire
 		(pts
@@ -7302,16 +7622,6 @@
 			(type default)
 		)
 		(uuid "37527120-f20c-4d8a-b828-42d2782e05a1")
-	)
-	(wire
-		(pts
-			(xy 66.04 226.06) (xy 57.15 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37bd3144-e716-452c-8d40-3446d331661f")
 	)
 	(wire
 		(pts
@@ -7455,13 +7765,13 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 176.53) (xy 309.88 176.53)
+			(xy 52.07 191.77) (xy 66.04 191.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "476b9973-c46c-4077-bbb7-ed8279515b65")
+		(uuid "4510a3c7-0ce4-4f74-a925-e903715a948d")
 	)
 	(wire
 		(pts
@@ -7485,13 +7795,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 228.6) (xy 57.15 228.6)
+			(xy 52.07 162.56) (xy 66.04 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "499316e0-a32c-4a58-b448-6b6b5789d6ec")
+		(uuid "49a3d897-576a-4634-ab17-f45dc13b270d")
 	)
 	(wire
 		(pts
@@ -7502,6 +7812,16 @@
 			(type default)
 		)
 		(uuid "4be7890d-0d88-4088-bfbc-f0778673ecea")
+	)
+	(wire
+		(pts
+			(xy 298.45 176.53) (xy 309.88 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c7b4037-b3af-4996-abc5-8372d9eba846")
 	)
 	(wire
 		(pts
@@ -7655,6 +7975,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 226.06) (xy 273.05 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "588e93f3-9179-4c66-acbc-61f1d18ca820")
+	)
+	(wire
+		(pts
 			(xy 115.57 220.98) (xy 115.57 232.41)
 		)
 		(stroke
@@ -7695,13 +8025,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 198.12) (xy 57.15 198.12)
+			(xy 49.53 195.58) (xy 66.04 195.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e788bed-d5d8-4f2f-86f7-cfecccb14705")
+		(uuid "5e21b9d4-19f8-4973-bbf0-3fdcf25ca52e")
 	)
 	(wire
 		(pts
@@ -7752,16 +8082,6 @@
 			(type default)
 		)
 		(uuid "64064e57-b525-416f-8532-96602a216512")
-	)
-	(wire
-		(pts
-			(xy 66.04 172.72) (xy 66.04 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "645ae51b-8807-40c2-ba06-e42d4d74b06c")
 	)
 	(wire
 		(pts
@@ -7865,16 +8185,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 179.07) (xy 298.45 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b0a3d4c-3fd6-4168-8b4d-1d4838ebf857")
-	)
-	(wire
-		(pts
 			(xy 105.41 232.41) (xy 115.57 232.41)
 		)
 		(stroke
@@ -7962,6 +8272,16 @@
 			(type default)
 		)
 		(uuid "714ae046-6503-4972-8c77-4a1b2989ce00")
+	)
+	(wire
+		(pts
+			(xy 66.04 254) (xy 66.04 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750a011e-9188-4f79-a65e-395673b619e0")
 	)
 	(wire
 		(pts
@@ -8065,6 +8385,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 215.9) (xy 275.59 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3254ec-317d-4c45-8aa8-7785a31c0e92")
+	)
+	(wire
+		(pts
 			(xy 57.15 115.57) (xy 58.42 115.57)
 		)
 		(stroke
@@ -8145,6 +8475,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 198.12) (xy 52.07 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825ff805-d7ca-402a-a0a1-bcb239040ebb")
+	)
+	(wire
+		(pts
 			(xy 320.04 129.54) (xy 320.04 128.27)
 		)
 		(stroke
@@ -8172,16 +8512,6 @@
 			(type default)
 		)
 		(uuid "851a648c-ef17-4ad9-8148-40e2a3b0d934")
-	)
-	(wire
-		(pts
-			(xy 66.04 257.81) (xy 57.15 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "852b6a23-cc68-43dd-a0ff-ad98b99a8f29")
 	)
 	(wire
 		(pts
@@ -8305,16 +8635,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 166.37) (xy 57.15 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "902ddba5-22b9-4a9f-885b-3c13bec916b4")
-	)
-	(wire
-		(pts
 			(xy 176.53 95.25) (xy 186.69 95.25)
 		)
 		(stroke
@@ -8385,16 +8705,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 213.36) (xy 271.78 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97b12f39-8d30-44b0-9e16-b1ad850f7eee")
-	)
-	(wire
-		(pts
 			(xy 107.95 189.23) (xy 113.03 189.23)
 		)
 		(stroke
@@ -8455,16 +8765,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 261.62) (xy 66.04 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e17547-76cd-48e6-b29b-e4bb8d4a5fb2")
-	)
-	(wire
-		(pts
 			(xy 234.95 176.53) (xy 245.11 176.53)
 		)
 		(stroke
@@ -8505,6 +8805,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 173.99) (xy 309.88 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a60b3ceb-6b80-4562-a5fb-5268adeb5aa6")
+	)
+	(wire
+		(pts
 			(xy 93.98 213.36) (xy 93.98 215.9)
 		)
 		(stroke
@@ -8532,16 +8842,6 @@
 			(type default)
 		)
 		(uuid "a969586d-0d60-4322-bfff-b0ea1f1ab1d2")
-	)
-	(wire
-		(pts
-			(xy 66.04 222.25) (xy 66.04 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa5ea9ac-f1dd-4f84-95a5-c4e60ee0f379")
 	)
 	(wire
 		(pts
@@ -8615,16 +8915,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 168.91) (xy 57.15 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b189fb6d-e296-4f79-98da-50f20a81c892")
-	)
-	(wire
-		(pts
 			(xy 93.98 213.36) (xy 92.71 213.36)
 		)
 		(stroke
@@ -8632,6 +8922,16 @@
 			(type default)
 		)
 		(uuid "b18b67d8-b244-47a3-a364-ad940f39912c")
+	)
+	(wire
+		(pts
+			(xy 49.53 256.54) (xy 52.07 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38fe614-0226-4a1a-bc89-41d691ebc61e")
 	)
 	(wire
 		(pts
@@ -8665,13 +8965,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 191.77) (xy 66.04 195.58)
+			(xy 66.04 226.06) (xy 66.04 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bad7c258-ef48-4ee8-843b-ac61bd645407")
+		(uuid "b8f184b2-e9b1-4c44-9dc8-38c8036f31c4")
 	)
 	(wire
 		(pts
@@ -8692,6 +8992,16 @@
 			(type default)
 		)
 		(uuid "bc2660bd-ecb9-4ea9-9543-5a0c9cc94a1c")
+	)
+	(wire
+		(pts
+			(xy 298.45 179.07) (xy 304.8 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd36e50f-f4dc-427c-b630-72d7dd5a8048")
 	)
 	(wire
 		(pts
@@ -8825,6 +9135,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 228.6) (xy 52.07 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c70ca787-911f-438b-a050-671e97561fa6")
+	)
+	(wire
+		(pts
 			(xy 255.27 133.35) (xy 255.27 135.89)
 		)
 		(stroke
@@ -8925,6 +9245,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 166.37) (xy 66.04 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54b5378-58e5-488c-866a-cec7479828b6")
+	)
+	(wire
+		(pts
 			(xy 71.12 251.46) (xy 66.04 251.46)
 		)
 		(stroke
@@ -8972,6 +9302,16 @@
 			(type default)
 		)
 		(uuid "d8ca844c-c349-4a42-b420-81741cdc6b34")
+	)
+	(wire
+		(pts
+			(xy 52.07 168.91) (xy 52.07 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90b9575-8b25-400f-bc2d-d5f832673c58")
 	)
 	(wire
 		(pts
@@ -9082,16 +9422,6 @@
 			(type default)
 		)
 		(uuid "e3054625-9ca6-4e95-8288-87a990f9dde9")
-	)
-	(wire
-		(pts
-			(xy 66.04 232.41) (xy 66.04 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3e43093-800d-40e8-9a7c-82d36236975f")
 	)
 	(wire
 		(pts
@@ -9245,6 +9575,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 254) (xy 66.04 254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7a53af-a2e4-4ffd-8c9d-2e208deb41e7")
+	)
+	(wire
+		(pts
 			(xy 125.73 153.67) (xy 125.73 160.02)
 		)
 		(stroke
@@ -9335,13 +9675,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 201.93) (xy 66.04 198.12)
+			(xy 49.53 168.91) (xy 52.07 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f6fe0c2d-aa70-4e93-a4a6-5d23eb13f469")
+		(uuid "f843d5ad-7e2f-472b-a5b7-08683cbce623")
+	)
+	(wire
+		(pts
+			(xy 52.07 222.25) (xy 66.04 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f872914d-aff4-427d-92f2-43635a5e2df7")
 	)
 	(wire
 		(pts
@@ -9412,6 +9762,16 @@
 			(type default)
 		)
 		(uuid "fc6fb3b7-71ff-4ea1-a919-500120ae135e")
+	)
+	(wire
+		(pts
+			(xy 49.53 226.06) (xy 66.04 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddae4aa-fb51-42fd-8ce2-0e17342352ba")
 	)
 	(wire
 		(pts
@@ -10384,6 +10744,164 @@
 		)
 	)
 	(symbol
+		(lib_id "TLV75533PDBVR:TLV75533PDBVR")
+		(at 255.27 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11b6ef67-f23c-4963-acc0-630822685bf0")
+		(property "Reference" "U5"
+			(at 255.27 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV75533PDBVR"
+			(at 255.27 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TLV75533PDBVR:SOT95P280X145-5N"
+			(at 255.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 255.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "500-mA high-PSRR low-IQ low-dropout voltage regulator with enable"
+			(at 255.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-5 Texas Instruments"
+			(at 255.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 255.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TLV75533PDBVR/Texas+Instruments/view-part/?ref=snap"
+			(at 255.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "TLV75533PDBVR"
+			(at 255.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 255.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TLV75533PDBVR/Texas+Instruments/view-part/?ref=eda"
+			(at 255.27 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b52b254c-cb5b-4da2-ba7d-07bd2f28bb88")
+		)
+		(pin "3"
+			(uuid "b1717e24-4efd-4006-b79b-441d0065a7d4")
+		)
+		(pin "1"
+			(uuid "d01f4fe4-d1c6-4169-b257-ea0da8144db9")
+		)
+		(pin "5"
+			(uuid "f7d8d33a-3823-4d5a-b1ea-2ed6e188bb3a")
+		)
+		(pin "4"
+			(uuid "49f0562a-41d3-4161-8bea-1ffad0838fd5")
+		)
+		(instances
+			(project ""
+				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 226.06 45.72 270)
 		(unit 1)
@@ -10448,6 +10966,195 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "XT90PW-M:XT90PW-M")
+		(at 44.45 228.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "165d60f3-cd5d-456e-8bde-d65fb5a0adb9")
+		(property "Reference" "J9"
+			(at 40.64 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT90PW-M"
+			(at 40.64 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "external_symbols:AMASS_XT90PW-M"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" "10.3mm"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V00"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT90PW-M"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 44.45 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "648c7bf6-43ed-4e09-b67c-0ca1c94a1a23")
+		)
+		(pin "P"
+			(uuid "826c6624-72e1-44a3-983c-ccba6e03cf2e")
+		)
+		(instances
+			(project "pdb"
+				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -10799,132 +11506,6 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT90:XT90PW-F")
-		(at 34.29 168.91 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22233d06-8ef5-47af-b58c-71a2de4cbc16")
-		(property "Reference" "J1"
-			(at 45.72 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT90PW-F"
-			(at 45.72 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "All:XT90PWF"
-			(at 53.34 73.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf"
-			(at 53.34 -26.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; female; XT90; 40A; 500V; PIN: 2; THT"
-			(at 34.29 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.3"
-			(at 53.34 -226.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 53.34 -326.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 53.34 -426.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 53.34 -526.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT90PW-F"
-			(at 53.34 -626.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e9a35bea-ff19-4783-8cdb-a149f3e711eb")
-		)
-		(pin "1"
-			(uuid "b6aa7a03-7543-4296-b6fa-65212608b805")
-		)
-		(pin "2"
-			(uuid "94017406-2f9f-4994-b699-4ce8d17be9f3")
-		)
-		(pin "4"
-			(uuid "415b8ae5-c047-4208-8a34-6b3b19e8f1da")
-		)
-		(instances
-			(project "pdb"
-				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -12695,7 +13276,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 226.06 215.9 90)
+		(at 231.14 218.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12703,7 +13284,7 @@
 		(dnp no)
 		(uuid "54f53a56-6f20-4a1f-ac96-29864b0e4753")
 		(property "Reference" "#PWR048"
-			(at 229.87 215.9 0)
+			(at 234.95 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12712,7 +13293,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.314 213.868 90)
+			(at 231.394 216.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12721,7 +13302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 215.9 0)
+			(at 231.14 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12730,7 +13311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 215.9 0)
+			(at 231.14 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12739,7 +13320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 215.9 0)
+			(at 231.14 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12754,132 +13335,6 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT90:XT90PW-F")
-		(at 34.29 198.12 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "553821bb-3eee-4a0a-8c5a-9dfac76a1f66")
-		(property "Reference" "J9"
-			(at 45.72 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT90PW-F"
-			(at 45.72 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "All:XT90PWF"
-			(at 53.34 103.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf"
-			(at 53.34 3.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; female; XT90; 40A; 500V; PIN: 2; THT"
-			(at 34.29 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.3"
-			(at 53.34 -196.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 53.34 -296.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 53.34 -396.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 53.34 -496.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT90PW-F"
-			(at 53.34 -596.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3a3ca08b-d0aa-4246-92c1-5cd6b3bfa649")
-		)
-		(pin "1"
-			(uuid "a6bc44ac-6425-4364-ae10-7ea6462a6326")
-		)
-		(pin "2"
-			(uuid "2af0ee81-30b1-4730-8f87-f54c2dac78ba")
-		)
-		(pin "4"
-			(uuid "2acb2703-48ea-48d1-9367-89502d14204d")
-		)
-		(instances
-			(project "pdb"
-				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -13754,7 +14209,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 298.45 176.53 180)
+		(at 293.37 176.53 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13762,7 +14218,7 @@
 		(dnp no)
 		(uuid "6b7d0725-ce0e-4520-a677-50c1b7ffd4d4")
 		(property "Reference" "J15"
-			(at 297.815 184.15 0)
+			(at 294.005 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,7 +14226,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 297.815 181.61 0)
+			(at 294.005 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13778,7 +14234,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical_SMD_Pin1Right"
-			(at 298.45 176.53 0)
+			(at 293.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13787,7 +14243,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 298.45 176.53 0)
+			(at 293.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13796,7 +14252,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 298.45 176.53 0)
+			(at 293.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14025,53 +14481,43 @@
 		)
 	)
 	(symbol
-		(lib_id "XT90:XT90PW-F")
-		(at 34.29 228.6 0)
-		(mirror x)
+		(lib_id "XT90PW-M:XT90PW-M")
+		(at 44.45 198.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "71f44eea-fbf6-4b9f-a079-df9ca48e0e4d")
-		(property "Reference" "J10"
-			(at 45.72 236.22 0)
+		(fields_autoplaced yes)
+		(uuid "74e4a122-c206-41ae-9821-e2d395c6b01a")
+		(property "Reference" "J7"
+			(at 40.64 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "XT90PW-F"
-			(at 45.72 233.68 0)
+		(property "Value" "XT90PW-M"
+			(at 40.64 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "All:XT90PWF"
-			(at 53.34 133.68 0)
+		(property "Footprint" "external_symbols:AMASS_XT90PW-M"
+			(at 44.45 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf"
-			(at 53.34 33.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; female; XT90; 40A; 500V; PIN: 2; THT"
-			(at 34.29 228.6 0)
+		(property "Datasheet" ""
+			(at 44.45 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14079,72 +14525,145 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "10.3"
-			(at 53.34 -166.32 0)
+		(property "Description" ""
+			(at 44.45 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "TME Electronic Components Part Number" ""
-			(at 53.34 -266.32 0)
+		(property "MF" "AMASS"
+			(at 44.45 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 53.34 -366.32 0)
+		(property "Description_1" "Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 44.45 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Amass"
-			(at 53.34 -466.32 0)
+		(property "Package" "Package"
+			(at 44.45 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "XT90PW-F"
-			(at 53.34 -566.32 0)
+		(property "Price" "None"
+			(at 44.45 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "b55994c7-c986-4a4d-8393-ecda4bb92b77")
+		(property "Check_prices" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "e44fd37f-d016-4662-818d-c72e0a79249c")
+		(property "MAXIMUM_PACKAGE_HIEGHT" "10.3mm"
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "2"
-			(uuid "ff82a6ba-1686-49d3-b585-edaa01939ebe")
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "c8966ff0-106f-48cd-99d4-4324c2f198b0")
+		(property "PARTREV" "V00"
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT90PW-M"
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 44.45 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "fdde966f-1ef1-40ae-ac4f-968438ab1a6f")
+		)
+		(pin "P"
+			(uuid "8f8ed622-51d8-4a7d-bd96-8c9e1053f06a")
 		)
 		(instances
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "J10")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -14231,7 +14750,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 271.78 213.36 270)
+		(at 275.59 215.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14240,7 +14759,7 @@
 		(fields_autoplaced yes)
 		(uuid "76dd43b6-eb59-452e-9cf2-adab4159b35f")
 		(property "Reference" "#PWR049"
-			(at 267.97 213.36 0)
+			(at 271.78 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14249,7 +14768,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 275.59 213.3599 90)
+			(at 279.4 215.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14258,7 +14777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 213.36 0)
+			(at 275.59 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14267,7 +14786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 213.36 0)
+			(at 275.59 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14276,7 +14795,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 271.78 213.36 0)
+			(at 275.59 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14766,6 +15285,195 @@
 		)
 	)
 	(symbol
+		(lib_id "XT90PW-M:XT90PW-M")
+		(at 44.45 256.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "874a815f-ba1d-4384-bb8f-30ed5e92ecdd")
+		(property "Reference" "J10"
+			(at 40.64 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT90PW-M"
+			(at 40.64 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "external_symbols:AMASS_XT90PW-M"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" "10.3mm"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V00"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT90PW-M"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 44.45 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "56993147-88de-4e69-9b44-ac9512e84ad3")
+		)
+		(pin "P"
+			(uuid "1c0d89a9-de24-4b20-82a2-c51330e83618")
+		)
+		(instances
+			(project "pdb"
+				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 153.67 222.25 0)
 		(unit 1)
@@ -14829,132 +15537,6 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT90:XT90PW-F")
-		(at 34.29 257.81 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88f3e4d4-6b78-412a-965b-21e93311504a")
-		(property "Reference" "J11"
-			(at 45.72 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT90PW-F"
-			(at 45.72 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "All:XT90PWF"
-			(at 53.34 162.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf"
-			(at 53.34 62.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; female; XT90; 40A; 500V; PIN: 2; THT"
-			(at 34.29 257.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.3"
-			(at 53.34 -137.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 53.34 -237.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 53.34 -337.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 53.34 -437.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT90PW-F"
-			(at 53.34 -537.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "02054803-bf4e-4ea0-9864-bb5a47b248a0")
-		)
-		(pin "1"
-			(uuid "1bdb5dcc-69b2-4f7f-8347-24044fed06f5")
-		)
-		(pin "2"
-			(uuid "ee3b4c65-2a8d-41d3-abd5-b30115db1bf8")
-		)
-		(pin "4"
-			(uuid "0cdf0687-ce31-4a5e-b1ba-a8bbf644134a")
-		)
-		(instances
-			(project "pdb"
-				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -15823,6 +16405,195 @@
 		)
 	)
 	(symbol
+		(lib_id "XT90PW-M:XT90PW-M")
+		(at 44.45 168.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ff22379-eaaa-460c-84bc-efe4ea7b752a")
+		(property "Reference" "J1"
+			(at 40.64 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT90PW-M"
+			(at 40.64 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "external_symbols:AMASS_XT90PW-M"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AMASS"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "Package"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=eda"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HIEGHT" "10.3mm"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V00"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/XT90PW-M/AMASS/view-part/?ref=snap"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "XT90PW-M"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "AMASS"
+			(at 44.45 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "N"
+			(uuid "cfe9135f-6609-476c-9372-8560b2c96eeb")
+		)
+		(pin "P"
+			(uuid "8eb33230-3040-4671-a942-f6183d20bf68")
+		)
+		(instances
+			(project ""
+				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 33.02 38.1 0)
 		(unit 1)
@@ -16057,6 +16828,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -16704,7 +17476,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 223.52 0)
+		(at 233.68 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16712,7 +17484,7 @@
 		(dnp no)
 		(uuid "ab2940dd-b8e4-488a-b9c0-54c165a65fee")
 		(property "Reference" "#PWR0102"
-			(at 228.6 229.87 0)
+			(at 233.68 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16721,7 +17493,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 226.822 0)
+			(at 231.14 229.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16729,7 +17501,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 223.52 0)
+			(at 233.68 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16738,7 +17510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 223.52 0)
+			(at 233.68 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16747,7 +17519,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 223.52 0)
+			(at 233.68 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17103,7 +17875,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 228.6 219.71 0)
+		(at 233.68 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17111,7 +17883,7 @@
 		(dnp no)
 		(uuid "adc1cb82-f04e-45d5-b236-c93d1bc923d0")
 		(property "Reference" "C10"
-			(at 231.902 217.932 0)
+			(at 236.982 220.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17120,7 +17892,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 231.902 220.472 0)
+			(at 236.982 223.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17129,7 +17901,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 229.5652 223.52 0)
+			(at 234.6452 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17138,7 +17910,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 219.71 0)
+			(at 233.68 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17147,7 +17919,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 228.6 219.71 0)
+			(at 233.68 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17260,6 +18032,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -17303,7 +18076,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 231.14 270)
+		(at 273.05 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17311,7 +18084,7 @@
 		(dnp no)
 		(uuid "b2ac7ba0-7767-41e1-b083-c21337f1c7ad")
 		(property "Reference" "#PWR0101"
-			(at 226.06 231.14 0)
+			(at 273.05 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17320,7 +18093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.918 234.188 90)
+			(at 276.098 229.362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17329,7 +18102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 231.14 0)
+			(at 273.05 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17338,7 +18111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 231.14 0)
+			(at 273.05 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17347,7 +18120,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 231.14 0)
+			(at 273.05 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17783,7 +18556,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 232.41 205.74 0)
+		(at 237.49 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17792,7 +18565,7 @@
 		(fields_autoplaced yes)
 		(uuid "bef180b8-91a4-46e6-a24d-eeb7f24499f1")
 		(property "Reference" "#PWR050"
-			(at 232.41 209.55 0)
+			(at 237.49 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17801,7 +18574,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 232.41 200.66 0)
+			(at 237.49 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17809,7 +18582,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 205.74 0)
+			(at 237.49 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17818,7 +18591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 205.74 0)
+			(at 237.49 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17827,7 +18600,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 232.41 205.74 0)
+			(at 237.49 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18046,85 +18819,6 @@
 			(project ""
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2025-11-12_23-40-51:TLV77518PDBVR")
-		(at 232.41 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca938cb2-4fec-49cc-99e6-a65985b48631")
-		(property "Reference" "U5"
-			(at 252.73 203.2 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TLV77533PDBVR"
-			(at 252.73 205.74 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:VSON-8-1EP_3x3mm_P0.65mm_EP1.65x2.4mm"
-			(at 232.41 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv775"
-			(at 232.41 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 232.41 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "bacba601-e2e9-41ab-8e77-8a633bbf6600")
-		)
-		(pin "3"
-			(uuid "43d09685-4937-4ac8-b4c6-31bd61e00f87")
-		)
-		(pin "2"
-			(uuid "6ffca330-bc93-453f-bba9-5d091eb9ecb3")
-		)
-		(pin "5"
-			(uuid "41e47e9e-a929-4540-b71b-619b6e3cf915")
-		)
-		(pin "1"
-			(uuid "c14c369d-e625-4c5f-83af-e96dd54ec614")
-		)
-		(instances
-			(project "pdb"
-				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -19688,7 +20382,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 232.41 209.55 0)
+		(at 237.49 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19696,7 +20390,7 @@
 		(dnp no)
 		(uuid "ec8fc02d-bddd-43df-aa5f-9f0e83a1dc92")
 		(property "Reference" "R3"
-			(at 234.95 208.2799 0)
+			(at 240.03 207.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19705,7 +20399,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 234.696 210.058 0)
+			(at 239.776 208.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19714,7 +20408,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 233.426 209.804 90)
+			(at 238.506 208.534 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19723,7 +20417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 209.55 0)
+			(at 237.49 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19732,7 +20426,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 232.41 209.55 0)
+			(at 237.49 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20054,6 +20748,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
