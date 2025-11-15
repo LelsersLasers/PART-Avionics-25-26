@@ -1852,6 +1852,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RMCF0603FT100K"
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b0202fc-2ac9-42f6-81e2-1b1f3113aab8")
 		)
@@ -1914,6 +1923,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 43.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RMCF0603FT100K"
 			(at 43.18 80.01 0)
 			(effects
 				(font
@@ -2092,7 +2110,7 @@
 				)
 			)
 		)
-		(property "Value" "NFM18PC104R1C3D"
+		(property "Value" "0.1u"
 			(at 87.63 154.94 0)
 			(effects
 				(font
@@ -2119,6 +2137,15 @@
 			)
 		)
 		(property "Description" "Feedthrough capacitor"
+			(at 87.63 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "NFM18PC104R1C3D"
 			(at 87.63 161.29 0)
 			(effects
 				(font
@@ -2192,6 +2219,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RMCF0603FT100K"
 			(at 85.09 72.39 0)
 			(effects
 				(font

@@ -8817,6 +8817,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RT0603BRD0750KL"
+			(at 68.58 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a9614e3-63ba-44fd-86e0-0fcbc846faed")
 		)
@@ -9015,6 +9024,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 57.15 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CL10A106KP8NNNC"
 			(at 57.15 167.64 0)
 			(effects
 				(font
@@ -9335,7 +9353,7 @@
 				)
 			)
 		)
-		(property "Value" "NFM18PC104R1C3D"
+		(property "Value" "0.1u"
 			(at 80.01 115.57 0)
 			(effects
 				(font
@@ -9362,6 +9380,15 @@
 			)
 		)
 		(property "Description" "Feedthrough capacitor"
+			(at 80.01 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "NFM18PC104R1C3D"
 			(at 80.01 121.92 0)
 			(effects
 				(font
@@ -9652,6 +9679,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 86.36 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "GCM1885C1H302JA16D"
+			(at 86.36 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,6 +10260,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "  25ZLH470MEFC10X12.5"
+			(at 57.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ba0e24b-d60f-46c2-ae3e-14ce085abede")
 		)
@@ -10426,6 +10471,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 163.83 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-0752K3L"
 			(at 163.83 170.18 0)
 			(effects
 				(font
@@ -11370,6 +11424,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RT0603BRD0750KL"
+			(at 68.58 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "221af6bb-39de-4f79-b482-6d1a54398368")
 		)
@@ -11393,7 +11456,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7484d618-a444-4f71-bffc-793c2c0487d9")
 		(property "Reference" "R1"
 			(at 72.39 72.3899 0)
@@ -11432,6 +11494,24 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 69.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "Normal Ass resisitor"
+			(at 73.914 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.1588)
+				)
+			)
+		)
+		(property "MP" "RC0603FR-0747KL"
 			(at 69.85 73.66 0)
 			(effects
 				(font
@@ -11611,7 +11691,7 @@
 				)
 			)
 		)
-		(property "Value" "NFM18PC104R1C3D"
+		(property "Value" "0.1u"
 			(at 406.4 185.42 0)
 			(effects
 				(font
@@ -11638,6 +11718,15 @@
 			)
 		)
 		(property "Description" "Feedthrough capacitor"
+			(at 406.4 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "NFM18PC104R1C3D"
 			(at 406.4 191.77 0)
 			(effects
 				(font
@@ -11830,7 +11919,7 @@
 				)
 			)
 		)
-		(property "Value" "NFM18PC104R1C3D"
+		(property "Value" "0.1u"
 			(at 406.4 137.16 0)
 			(effects
 				(font
@@ -11857,6 +11946,15 @@
 			)
 		)
 		(property "Description" "Feedthrough capacitor"
+			(at 406.4 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "NFM18PC104R1C3D"
 			(at 406.4 143.51 0)
 			(effects
 				(font
@@ -12165,7 +12263,7 @@
 				)
 			)
 		)
-		(property "Value" "NFM18PC104R1C3D"
+		(property "Value" "0.1u"
 			(at 406.4 227.33 0)
 			(effects
 				(font
@@ -12192,6 +12290,15 @@
 			)
 		)
 		(property "Description" "Feedthrough capacitor"
+			(at 406.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "NFM18PC104R1C3D"
 			(at 406.4 233.68 0)
 			(effects
 				(font
@@ -12409,6 +12516,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RC0603JR-0782KL"
+			(at 69.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c8bad3c-3a00-45f3-bf04-672fc0c9b178")
 		)
@@ -12615,6 +12731,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RC0603FR-0710KL"
+			(at 163.83 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "44834d70-8cd7-4d13-b664-c29fc6fd914f")
 		)
@@ -12808,6 +12933,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 142.24 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CC0603KRX7R7BB104"
+			(at 142.24 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13611,7 +13745,7 @@
 				)
 			)
 		)
-		(property "Value" "NFM18PC104R1C3D"
+		(property "Value" "0.1u"
 			(at 406.4 271.78 0)
 			(effects
 				(font
@@ -13638,6 +13772,15 @@
 			)
 		)
 		(property "Description" "Feedthrough capacitor"
+			(at 406.4 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "NFM18PC104R1C3D"
 			(at 406.4 278.13 0)
 			(effects
 				(font
@@ -13933,6 +14076,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "CL10A106KP8NNNC"
+			(at 176.53 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7c13289-f21f-4958-8892-de8bf0acb9a7")
 		)
@@ -14040,7 +14192,7 @@
 				)
 			)
 		)
-		(property "Value" "NFM18PC104R1C3D"
+		(property "Value" "0.1u"
 			(at 325.12 138.43 0)
 			(effects
 				(font
@@ -14067,6 +14219,15 @@
 			)
 		)
 		(property "Description" "Feedthrough capacitor"
+			(at 325.12 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "NFM18PC104R1C3D"
 			(at 325.12 144.78 0)
 			(effects
 				(font
@@ -14225,6 +14386,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 135.89 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "AC0603FR-0775KL"
 			(at 135.89 80.01 0)
 			(effects
 				(font
