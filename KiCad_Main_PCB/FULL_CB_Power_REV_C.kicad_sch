@@ -2183,7 +2183,7 @@
 			)
 		)
 		(pin ""
-			(uuid "26b3188c-959d-4f98-8f6d-b34778d927f0")
+			(uuid "da7b9312-e848-4b16-81b5-d121720e8071")
 		)
 		(instances
 			(project "CB_REV_C"
@@ -2246,7 +2246,7 @@
 			)
 		)
 		(pin ""
-			(uuid "2364b4b6-7e4a-4bba-931e-2e5700c33af6")
+			(uuid "34f22ae1-183d-4c18-91e6-4b7b790fcc88")
 		)
 		(instances
 			(project "CB_REV_C"
@@ -2331,25 +2331,25 @@
 			)
 		)
 		(pin "3"
-			(uuid "9bb4fb51-f551-413c-adca-07ba3c0ccd53")
+			(uuid "c50a8dd4-4062-4f08-8938-3d8653710230")
 		)
 		(pin "4"
-			(uuid "7c5509ed-6755-4d41-b6f2-b561094b8de2")
+			(uuid "7718b2bc-c585-48ef-9229-cf959d4a0874")
 		)
 		(pin "GND"
-			(uuid "762c2927-3343-486d-998a-d56eb25d8a7c")
+			(uuid "e702c5b5-71e0-4cfe-a9e5-241469c1b567")
 		)
 		(pin "1"
-			(uuid "e6c3e930-3bd7-43b9-843b-bb0f2b7eabb1")
+			(uuid "61fd496a-d4d1-4cb7-b0f9-8e189ffc8136")
 		)
 		(pin "5"
-			(uuid "5dc1d484-dd6e-4d45-acb2-9ee450b40c59")
+			(uuid "04459a3a-b3ed-463f-bd2d-4e1216d24850")
 		)
 		(pin "6"
-			(uuid "462aef26-0e4e-4145-9a87-a1d4ceb520d9")
+			(uuid "eaf16ab8-f817-4eca-8118-6c57b15e1205")
 		)
 		(pin "2"
-			(uuid "39f8f644-233e-4c20-b0ce-d0265c07420c")
+			(uuid "ad4223f5-9461-4c66-8c86-d16f2e1d3ec7")
 		)
 		(instances
 			(project "CB_REV_C"
@@ -2411,7 +2411,7 @@
 			)
 		)
 		(pin ""
-			(uuid "4ce533f8-8fa1-4855-800f-87bb26f6456c")
+			(uuid "dd921fba-a7f9-4fe0-ac0c-60311e46dc1f")
 		)
 		(instances
 			(project "CB_REV_C"
@@ -2496,25 +2496,25 @@
 			)
 		)
 		(pin "5"
-			(uuid "c021a7d8-40b3-4b05-950f-196dbf083917")
+			(uuid "8a9f06f9-73d5-4b71-b718-cdf90faaded8")
 		)
 		(pin "1"
-			(uuid "c23e1b5b-5a58-46d7-b4d6-4d7ed1271241")
+			(uuid "a5be4575-83a3-4871-a221-2cbb36dcbc22")
 		)
 		(pin "2"
-			(uuid "ae4983d6-0804-4f58-a2d8-758743b93c28")
+			(uuid "d62dc6e8-4a26-4581-ab40-14cbbd023dac")
 		)
 		(pin "3"
-			(uuid "ff1aea90-cab3-4146-aa3b-02d5b1e84237")
+			(uuid "9b900669-40b5-4b68-90f4-98e40c127991")
 		)
 		(pin "4"
-			(uuid "55d33d0b-d4bb-4b66-810e-a84d2fe8af56")
+			(uuid "ac99df68-201f-4b71-b670-83d3ad6ef126")
 		)
 		(pin "6"
-			(uuid "2e666ec8-cf2e-4853-9581-87c1c287bbcf")
+			(uuid "24aa449c-f075-4377-8f72-b947a411a55d")
 		)
 		(pin "GND"
-			(uuid "7f6b4b6f-6f1e-48d7-9ab1-50a784318fbe")
+			(uuid "2b5c26dc-3664-4d26-a09b-117e3561f304")
 		)
 		(instances
 			(project "CB_REV_C"
@@ -2577,7 +2577,7 @@
 			)
 		)
 		(pin ""
-			(uuid "a05d275c-0fa1-4e84-a307-a74b9203f563")
+			(uuid "f7e85683-9a12-443a-a954-8ab54193dc77")
 		)
 		(instances
 			(project "CB_REV_C"
@@ -2662,25 +2662,25 @@
 			)
 		)
 		(pin "5"
-			(uuid "6d0af2e7-654b-41bc-ad85-f144c44a65c8")
+			(uuid "e47a9af4-54ea-4361-9732-c799a60fc154")
 		)
 		(pin "4"
-			(uuid "5a8ece20-91a6-45ef-a982-0e16bb0c4dfd")
+			(uuid "58284313-19e7-4e17-8f1b-80d87701c8c6")
 		)
 		(pin "6"
-			(uuid "d740bb5b-14f6-4c9d-8390-d6ff3c444b2f")
+			(uuid "a7f35ffd-650e-4c06-a0e0-6dc604a11ac1")
 		)
 		(pin "GND"
-			(uuid "1a3350d0-7f15-4690-a891-a97065905ff0")
+			(uuid "ff617701-3a22-460c-ba27-3de9c1f08436")
 		)
 		(pin "3"
-			(uuid "377ce453-f70b-460c-8463-766927510f19")
+			(uuid "a41578c0-1a98-4ac0-90db-7570f26ebf5b")
 		)
 		(pin "1"
-			(uuid "181fbf00-e4bc-45ad-ba82-725fdd80654e")
+			(uuid "a8e6042c-4629-4ea9-87a3-7bbe117c4a31")
 		)
 		(pin "2"
-			(uuid "2fe3a6d4-aad3-43ef-a3df-f4a51d659d17")
+			(uuid "262356cb-01a2-4aa1-81f7-220e878eddb2")
 		)
 		(instances
 			(project "CB_REV_C"
@@ -2743,7 +2743,7 @@
 			)
 		)
 		(pin ""
-			(uuid "fac4db8d-c87e-489c-9b5a-993a529eb8f7")
+			(uuid "c1e68727-52af-4fe0-aa3f-47f5c7363321")
 		)
 		(instances
 			(project "CB_REV_C"
@@ -2809,67 +2809,67 @@
 			)
 		)
 		(pin "RX"
-			(uuid "a4225773-1d9b-4e95-a3f9-ccb0b8822246")
+			(uuid "1a22351e-fbca-420c-a5d5-be5f12ae5933")
 		)
 		(pin "VDD_5V_BACKUP"
-			(uuid "383d4bcf-60a3-4397-95c9-125310abb63c")
+			(uuid "66517dec-224a-426d-b833-ab42f89b7332")
 		)
 		(pin "SERVO_IN"
-			(uuid "9227f856-b946-4d40-a78f-cfe7c734ae93")
+			(uuid "39b336eb-bbfa-4253-8fe6-9256b3863ce9")
 		)
 		(pin "SPEK"
-			(uuid "b7018508-3b7c-49c5-b635-948b17072e82")
+			(uuid "d6d342e0-6a6f-4601-8dc1-459108c13106")
 		)
 		(pin "NC"
-			(uuid "5e91bf16-1d93-4467-9833-22c139f6d9e3")
+			(uuid "b16172cc-8e26-42d7-be19-d29593c69373")
 		)
 		(pin "5V_PERIPH"
-			(uuid "9cf2e5e8-c31b-45ed-8885-9a96d01a6fd2")
+			(uuid "e9bd065a-b4a3-41ba-b5b1-c3b0c6a9b1a3")
 		)
 		(pin "5V_HIPOWER"
-			(uuid "4deb8a44-f6d6-4c3c-abf3-521e155b33e6")
+			(uuid "6e91aee9-70aa-4e12-ba0c-4453eddbd033")
 		)
 		(pin "VDD_BRICK_IN"
-			(uuid "f96d45c3-edfe-4c45-b381-f550bde12c2c")
+			(uuid "7a983499-ff31-4655-9164-5b416e37500d")
 		)
 		(pin "VDD_VBUS"
-			(uuid "90a18521-efa7-4192-8845-68abfbf684f6")
+			(uuid "ed717259-4d2b-47e6-bd7e-10777194e5a7")
 		)
 		(pin "!VBUS_VALID"
-			(uuid "0cd00c99-4cff-4571-a57b-dbb2a3267f61")
+			(uuid "0af8cdd6-47fb-45c9-923d-ecce15b20957")
 		)
 		(pin "ALARM"
-			(uuid "32ab6398-8333-4061-baab-23e05743527f")
+			(uuid "09887327-a24b-4873-a7bc-d651b6228d72")
 		)
 		(pin "!VDD_5V_PERIPH_EN"
-			(uuid "23a2dee4-c1c8-4c91-ae40-cb978f319035")
+			(uuid "a6ecdfcc-d6a3-40f1-9ee2-e71e9935a8b6")
 		)
 		(pin "!VDD_5V_HIPOWER_OC"
-			(uuid "ce36f0e1-9023-46cc-af29-b1044e7efa21")
+			(uuid "0a66d67d-19ef-410f-afb5-027ae1bf5054")
 		)
 		(pin "BUZZER_OUT"
-			(uuid "1c19c468-70a3-4e75-9ecf-77f949792de7")
+			(uuid "dcec7a76-0998-4cf2-a5d2-efca308f793b")
 		)
 		(pin "VDD_5V_IN_PROT"
-			(uuid "99fad5f3-3251-46cb-b38e-a75a35125367")
+			(uuid "24941307-5b9c-4a58-b001-64705e4a6135")
 		)
 		(pin "!VDD_BRICK_VALID"
-			(uuid "ebd3681f-3b5c-4b19-865d-dc1fc14317e2")
+			(uuid "3c566bbf-905d-45b7-ab25-e8e0f4ee6c11")
 		)
 		(pin "VBUS"
-			(uuid "c518c4f0-4654-4cbd-9f4d-39b0e7e9390e")
+			(uuid "7d8d53a2-7264-42c4-82e3-37696ef65c37")
 		)
 		(pin "VDD_3V3_SPEKTRUM_EN"
-			(uuid "46e4aec7-dce3-4af1-9220-ae559d670035")
+			(uuid "0efc6cfe-fa7e-4cd3-94e9-d3c66a332ba4")
 		)
 		(pin "!VDD_5V_PERIPH_OC"
-			(uuid "cfaedd86-c28a-45da-b394-21f493d4d770")
+			(uuid "a48127a5-1f76-4e34-90d6-4168d4db5ad4")
 		)
 		(pin "GND"
-			(uuid "39481c5b-3b46-465a-b84b-50731e1f1892")
+			(uuid "bcc03fe7-7d4a-46f1-9a5b-cb33588dd8b6")
 		)
 		(pin "!VDD_BACKUP_VALID"
-			(uuid "7d1d5ea5-4208-43ca-bcfd-9f9b3ad25d1c")
+			(uuid "766bb242-6e3c-4149-b1c4-4f3608e21cf5")
 		)
 		(instances
 			(project "CB_REV_C"

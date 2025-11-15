@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -451,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CB_REV_C.kicad_pro",
+    "filename": "PDU.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -597,7 +610,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -609,61 +622,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "4a973649-3bfb-4d54-ba66-b6518ecd628a",
-      "Root"
-    ],
-    [
-      "1768d2a2-974a-4a00-8b70-f6d15c61410a",
-      "80_Pin"
-    ],
-    [
-      "2d6d1fbc-6681-4ef4-be52-bb9f91c510a5",
-      "FULL_CB_INTEL_REV_C"
-    ],
-    [
-      "d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6",
-      "FULL_CB_Plugs_REV_C"
-    ],
-    [
-      "b5b654eb-5e23-4153-9d88-a827404c4965",
-      "FULL_CB_Power_REV_C"
-    ],
-    [
-      "0431ebff-5d09-4e57-a3b3-27be7e68dced",
-      "FULL_CB_Servo_REV_C"
-    ],
-    [
-      "267eff4f-e83a-47cb-8169-0135f3b2941c",
-      "FULL_CB_tp_REV_C"
-    ],
-    [
-      "60f32567-c1f8-4632-a984-13ef417e88de",
-      "FULL_CB_Plugs_Kieran_REV_C1"
-    ],
-    [
-      "63d72f28-2373-40dc-b965-649bbe0a5b68",
-      "Small_Battery_Mapping"
-    ],
-    [
-      "45602e60-d5b8-4593-b04d-89e88c0b4eef",
-      "Buzzer"
-    ],
-    [
-      "4915d280-c505-4bdb-b805-4ac23da58dd8",
-      "ROOT_2"
-    ],
-    [
-      "023be718-223f-46dc-bd29-f2760c617001",
-      "80_Pin"
-    ],
-    [
-      "5c83a2f5-acf6-47a8-8d5a-db3f1c8ba595",
-      "Buzzer"
-    ]
-  ],
-  "text_variables": {
-    "DRAWNBY": "Philip Rowse"
-  }
+  "sheets": [],
+  "text_variables": {}
 }

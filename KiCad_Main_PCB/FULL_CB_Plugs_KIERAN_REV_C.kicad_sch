@@ -1869,18 +1869,16 @@
 		)
 		(uuid "0816577e-0bcf-4de3-a48c-4caa35d2e1a3")
 	)
-	(text "CAN_2"
+	(text "Possible new low pass filter linked here"
 		(exclude_from_sim no)
-		(at 127 133.35 0)
+		(at 125.73 62.992 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
-			(justify left bottom)
+			(href "https://www.digikey.com/en/products/detail/knowles-syfer/SBSPP0250104MXT/7316099")
 		)
-		(uuid "109903fa-8c89-479a-bf45-b26b7c8a6edf")
+		(uuid "09a10a7e-0e97-406e-82e3-09b0bba2e179")
 	)
 	(text "ADC connector"
 		(exclude_from_sim no)
@@ -1894,17 +1892,6 @@
 			(justify left bottom)
 		)
 		(uuid "1255c416-0d93-41f8-bd97-9a2f6ef09011")
-	)
-	(text "Possible new low pass filter linked here"
-		(exclude_from_sim no)
-		(at 125.73 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(href "https://www.digikey.com/en/products/detail/knowles-syfer/SBSPP0250104MXT/7316099")
-		)
-		(uuid "1c58e510-a74e-49b9-a67e-ac0ef85aeb4c")
 	)
 	(text "Default \nGPS port"
 		(exclude_from_sim no)
@@ -1932,19 +1919,6 @@
 		)
 		(uuid "3ceb74a9-8d1b-46ce-a383-66062dddf82b")
 	)
-	(text "CAN_1"
-		(exclude_from_sim no)
-		(at 127 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d1f0b1f-39b3-4f2b-b21f-1b87bec9661d")
-	)
 	(text "Spektrum/DSM"
 		(exclude_from_sim no)
 		(at 33.02 21.59 0)
@@ -1957,16 +1931,6 @@
 			(justify left bottom)
 		)
 		(uuid "5d66fa1a-6f5b-483f-8b87-4a166e4b7468")
-	)
-	(text "ESD / Surge Protection\n"
-		(exclude_from_sim no)
-		(at 144.272 151.384 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "681add56-3389-46db-929e-f3ee1632d3db")
 	)
 	(text "GPS 2"
 		(exclude_from_sim no)
@@ -2098,46 +2062,16 @@
 		(uuid "10540fd6-0a12-4429-80eb-f7ea3382629e")
 	)
 	(junction
-		(at 172.72 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1712f348-fb8a-4eb3-983a-340c6988167b")
-	)
-	(junction
 		(at 132.08 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "312d993e-9b20-4ce0-9297-28be9e051325")
 	)
 	(junction
-		(at 172.72 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3528890a-5c53-4d94-a200-0cc34102f3f5")
-	)
-	(junction
-		(at 162.56 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "36b98d08-5664-4ec5-b27f-08cd1e3d550c")
-	)
-	(junction
 		(at 215.9 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d56a3c2-b7a7-4628-b72a-5e28f1daaac1")
-	)
-	(junction
-		(at 132.08 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e180418-dcb8-4048-bfe6-6cec879c1bd6")
-	)
-	(junction
-		(at 162.56 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45829bc8-21c3-40b3-b7dc-baa6b6ca5512")
 	)
 	(junction
 		(at 170.18 90.17)
@@ -2170,12 +2104,6 @@
 		(uuid "6bef5dae-b78e-474b-9735-6ffd9f0df327")
 	)
 	(junction
-		(at 132.08 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e5d2562-7201-4f75-b83b-f9f8c114e7fc")
-	)
-	(junction
 		(at 129.54 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2188,22 +2116,10 @@
 		(uuid "848f35c5-f947-4058-84d3-8bfbce8fd39f")
 	)
 	(junction
-		(at 132.08 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85fb1a8e-d5e9-4500-bc2b-22545dc5d700")
-	)
-	(junction
 		(at 215.9 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c572ee0-8c71-4712-8ccf-beca4db54b07")
-	)
-	(junction
-		(at 132.08 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af2edbf9-933d-44bc-a294-5147b9a953f1")
 	)
 	(junction
 		(at 129.54 54.61)
@@ -2289,16 +2205,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 143.51) (xy 113.03 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0678abbb-779b-49b9-b73e-743e10e53da4")
-	)
-	(wire
-		(pts
 			(xy 241.3 166.37) (xy 261.62 166.37)
 		)
 		(stroke
@@ -2306,16 +2212,6 @@
 			(type default)
 		)
 		(uuid "06dee8df-ac3f-448e-8e2b-9df96c646d99")
-	)
-	(wire
-		(pts
-			(xy 132.08 156.21) (xy 162.56 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07086b13-8bda-4430-8b07-a80f92a1271a")
 	)
 	(wire
 		(pts
@@ -2396,36 +2292,6 @@
 			(type default)
 		)
 		(uuid "1546f8ee-cdee-4381-8ff6-c50ba6490747")
-	)
-	(wire
-		(pts
-			(xy 129.54 107.95) (xy 132.08 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "173ade22-c1ba-4085-811d-6be286cb2763")
-	)
-	(wire
-		(pts
-			(xy 162.56 156.21) (xy 162.56 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "178731cc-a112-4995-b6b4-3dbd200acef9")
-	)
-	(wire
-		(pts
-			(xy 124.46 156.21) (xy 132.08 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18953d09-1016-4c8b-8ba1-541e08cea3a7")
 	)
 	(wire
 		(pts
@@ -2519,16 +2385,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 146.05) (xy 165.1 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26e89778-6759-43f6-b8c7-6940f0b92862")
-	)
-	(wire
-		(pts
 			(xy 157.48 41.91) (xy 157.48 29.21)
 		)
 		(stroke
@@ -2536,16 +2392,6 @@
 			(type default)
 		)
 		(uuid "26f86bab-797f-41ad-9a4e-76472bbeb903")
-	)
-	(wire
-		(pts
-			(xy 172.72 161.29) (xy 172.72 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa767cb-901a-462b-a2bb-17cdd63b50aa")
 	)
 	(wire
 		(pts
@@ -2566,16 +2412,6 @@
 			(type default)
 		)
 		(uuid "2eccb4ee-5275-42c9-8c34-1863a0ab8ce8")
-	)
-	(wire
-		(pts
-			(xy 97.79 143.51) (xy 113.03 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f4ee845-f4f7-4051-9b27-17c40b3865b0")
 	)
 	(wire
 		(pts
@@ -2609,16 +2445,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 123.19) (xy 162.56 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33204429-58b9-4a48-ad36-41c24b466ca4")
-	)
-	(wire
-		(pts
 			(xy 248.92 74.93) (xy 251.46 74.93)
 		)
 		(stroke
@@ -2639,16 +2465,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 143.51) (xy 165.1 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c20a174-f234-49da-967c-8ff68ad439a2")
-	)
-	(wire
-		(pts
 			(xy 215.9 128.27) (xy 241.3 128.27)
 		)
 		(stroke
@@ -2656,16 +2472,6 @@
 			(type default)
 		)
 		(uuid "414b7d81-7598-40a7-b1e9-5e9e722778e5")
-	)
-	(wire
-		(pts
-			(xy 116.84 107.95) (xy 119.38 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418b1234-f634-4ff7-9637-b5a7b77d539b")
 	)
 	(wire
 		(pts
@@ -2779,16 +2585,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 110.49) (xy 132.08 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d0d1693-0c54-45c0-ae0f-c31ffae62ba8")
-	)
-	(wire
-		(pts
 			(xy 43.18 36.83) (xy 43.18 29.21)
 		)
 		(stroke
@@ -2806,26 +2602,6 @@
 			(type default)
 		)
 		(uuid "5ebcc5b1-d781-48e4-8e05-3f066ce6941f")
-	)
-	(wire
-		(pts
-			(xy 162.56 123.19) (xy 162.56 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "625a04d1-c294-4935-a3b6-8c890773f8a8")
-	)
-	(wire
-		(pts
-			(xy 162.56 156.21) (xy 172.72 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65c011df-4fb4-4444-8a7a-b35090265101")
 	)
 	(wire
 		(pts
@@ -2859,16 +2635,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 156.21) (xy 132.08 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cca07bf-42ba-45e8-8464-9a742ab7b0a6")
-	)
-	(wire
-		(pts
 			(xy 129.54 31.75) (xy 129.54 29.21)
 		)
 		(stroke
@@ -2886,16 +2652,6 @@
 			(type default)
 		)
 		(uuid "74834057-9ab4-4ebe-bc66-9c6eabaeed26")
-	)
-	(wire
-		(pts
-			(xy 162.56 115.57) (xy 165.1 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74c151af-9e24-4647-bd22-9df8325a24b6")
 	)
 	(wire
 		(pts
@@ -2946,16 +2702,6 @@
 			(type default)
 		)
 		(uuid "7c96da66-cd5e-4497-adb8-949cab2d1fda")
-	)
-	(wire
-		(pts
-			(xy 124.46 113.03) (xy 124.46 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d80ae48-03c8-4aa4-bc91-db15cb1f106a")
 	)
 	(wire
 		(pts
@@ -3019,46 +2765,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 140.97) (xy 119.38 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89f07e83-d3b6-49e9-b6b7-af9f954c37bf")
-	)
-	(wire
-		(pts
-			(xy 172.72 128.27) (xy 172.72 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a01d653-1406-48df-93bd-2f21a80c4dcb")
-	)
-	(wire
-		(pts
-			(xy 152.4 110.49) (xy 165.1 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c270c73-598f-464e-8b87-b41d6f1fd608")
-	)
-	(wire
-		(pts
-			(xy 152.4 113.03) (xy 165.1 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c642220-4ec8-44e7-b44d-ca83d63e7f8e")
-	)
-	(wire
-		(pts
 			(xy 241.3 49.53) (xy 241.3 36.83)
 		)
 		(stroke
@@ -3119,16 +2825,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 123.19) (xy 172.72 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e1aaa91-78d6-4140-8a15-044e2faffc38")
-	)
-	(wire
-		(pts
 			(xy 241.3 95.25) (xy 259.08 95.25)
 		)
 		(stroke
@@ -3149,16 +2845,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 140.97) (xy 165.1 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f0264fb-af16-4b1e-8df0-049712d4b159")
-	)
-	(wire
-		(pts
 			(xy 215.9 90.17) (xy 215.9 87.63)
 		)
 		(stroke
@@ -3166,16 +2852,6 @@
 			(type default)
 		)
 		(uuid "a016ad26-b878-4551-93f4-a4927eaf7378")
-	)
-	(wire
-		(pts
-			(xy 129.54 140.97) (xy 132.08 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0d9fb57-8942-42dd-b536-be2631468e57")
 	)
 	(wire
 		(pts
@@ -3216,16 +2892,6 @@
 			(type default)
 		)
 		(uuid "ac08ba4e-5204-4ba7-96ee-e005b27de876")
-	)
-	(wire
-		(pts
-			(xy 132.08 123.19) (xy 132.08 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae32e71c-d1db-42ff-9329-a67964a2cfed")
 	)
 	(wire
 		(pts
@@ -3419,16 +3085,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 146.05) (xy 124.46 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a587e1-26a5-4601-887f-8972babaf576")
-	)
-	(wire
-		(pts
 			(xy 220.98 67.31) (xy 241.3 67.31)
 		)
 		(stroke
@@ -3499,16 +3155,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 143.51) (xy 132.08 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0ead72f-cbef-4561-a306-d71770f49346")
-	)
-	(wire
-		(pts
 			(xy 241.3 135.89) (xy 241.3 128.27)
 		)
 		(stroke
@@ -3569,26 +3215,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 107.95) (xy 165.1 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec517962-71c7-47de-be01-66023318d177")
-	)
-	(wire
-		(pts
-			(xy 124.46 123.19) (xy 132.08 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed8ce239-e089-4be2-805f-9be0ad855dbb")
-	)
-	(wire
-		(pts
 			(xy 208.28 39.37) (xy 251.46 39.37)
 		)
 		(stroke
@@ -3616,16 +3242,6 @@
 			(type default)
 		)
 		(uuid "fabeb6a3-1b1c-434a-b5fd-c3445d566176")
-	)
-	(wire
-		(pts
-			(xy 162.56 148.59) (xy 165.1 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae55c38-bad3-4b78-ab35-b98e82a8640d")
 	)
 	(wire
 		(pts
@@ -3657,26 +3273,6 @@
 		)
 		(uuid "ffe091fc-6b76-4af2-96b1-41893937984e")
 	)
-	(label "SERIAL1_RX"
-		(at 25.4 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01cf31d4-eb74-4811-9528-a383ec49430e")
-	)
-	(label "SERIAL3_RX"
-		(at 208.28 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0362d530-9c7e-43fb-b11e-989e217efe55")
-	)
 	(label "VDD_5V_PERIPH"
 		(at 114.3 29.21 0)
 		(effects
@@ -3685,277 +3281,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "04e2d501-477e-43fd-a666-ae0524941307")
-	)
-	(label "I2C_2_SDA"
-		(at 208.28 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10a61a74-b897-4636-ab9d-6d9ae78f004d")
-	)
-	(label "VDD_5V_PERIPH"
-		(at 116.84 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17b86caf-3c16-4d84-9155-a523084b5961")
-	)
-	(label "VDD_5V_PERIPH"
-		(at 116.84 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1dab61da-39ec-447d-a9c4-b1e42d81f784")
-	)
-	(label "CAN_H_2"
-		(at 152.4 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22183bbd-1cb0-4c85-b67b-83c1bc7bf95c")
-	)
-	(label "IO-USART1_RX_SPECTRUM_DSM"
-		(at 35.56 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23c1d7ed-6b54-4dc2-ae71-2f6c68e3048a")
-	)
-	(label "VDD_5V_PERIPH"
-		(at 208.28 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2566e20f-d1b4-46f7-a2f2-e385937f4c9a")
-	)
-	(label "SERIAL2_TX"
-		(at 208.28 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26f1f273-a386-481c-81d1-1d586f796779")
-	)
-	(label "CAN_H_1"
-		(at 157.48 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27ed1922-9072-45d9-8ed4-c3dae9bfef2e")
-	)
-	(label "CAN_L_2"
-		(at 152.4 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29b5f69d-7271-4e03-b771-631dd8774f03")
-	)
-	(label "SERIAL1_TX"
-		(at 208.28 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d05a50f-09bb-4256-8afd-db731bcc4bd7")
-	)
-	(label "SAFETY"
-		(at 208.28 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2ec277a2-93ea-44ff-b8bd-dc1a54a6a563")
-	)
-	(label "VDD_5V_PERIPH"
-		(at 97.79 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "44b985e7-7bbf-4f2f-a7e3-ce7c124741fa")
-	)
-	(label "SERIAL2_CTS"
-		(at 208.28 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "491b207d-98b4-44ce-b069-b6db7ea14ccc")
-	)
-	(label "VDD_5V_HIPOWER"
-		(at 208.28 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "57a82bbb-ada8-4ef5-95e7-22dd9937c0d5")
-	)
-	(label "PRESSURE_SENS_IN"
-		(at 162.56 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5eccb960-0d45-4e0d-92aa-3f70b2534876")
-	)
-	(label "~{IO-LED_SAFET_PROT}"
-		(at 208.28 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68e3eaf8-876d-4553-8706-2624ed803f79")
-	)
-	(label "SERIAL3_TX"
-		(at 208.28 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "706dbcf7-2e90-441e-ad0a-83b77f6b3246")
-	)
-	(label "SERIAL2_RTS"
-		(at 208.28 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7dfead0d-a70d-4048-bf4e-b28f5faeb30a")
-	)
-	(label "I2C_2_SCL"
-		(at 208.28 153.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ea50b63-4040-4f1f-9990-ad7f468f0813")
-	)
-	(label "I2C_1_SDA"
-		(at 208.28 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f76b25e-5d74-46fa-9db0-e96cd7b4a29f")
-	)
-	(label "I2C_2_SDA"
-		(at 154.94 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8036c942-a491-422b-8b62-b001c05ab659")
-	)
-	(label "SERIAL2_RX"
-		(at 208.28 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81a54077-f265-404f-816d-fe1a7cd33442")
-	)
-	(label "VDD_5V_PERIPH"
-		(at 208.28 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8986672c-a584-48e0-8b83-7e23cbd6de37")
-	)
-	(label "I2C_1_SCL"
-		(at 208.28 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f45827f-42b1-4ef8-a9b4-7dc20a7905e8")
-	)
-	(label "SERIAL4_TX"
-		(at 208.28 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90c7a48f-0fcd-4e4d-b8dc-b42acda31b32")
-	)
-	(label "I2C_2_SCL"
-		(at 154.94 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d8f2232-fdff-4060-bd6b-b20d25ba556a")
-	)
-	(label "SERIAL1_RTS"
-		(at 208.28 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3e1e97c-fdb1-4115-98e8-27fe0fceb3c5")
+		(uuid "045bcdb1-b907-4f9b-a4f2-8755e38324ba")
 	)
 	(label "PERIPH_5V"
 		(at 248.92 67.31 0)
@@ -3965,57 +3291,17 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ae8bd671-458e-42ce-b35a-7f4910b0f66e")
+		(uuid "0f092624-b7cf-4d3f-b552-671d6f377ba9")
 	)
-	(label "VDD_3V3_SPEKTRUM"
-		(at 35.56 29.21 0)
+	(label "I2C_2_SCL"
+		(at 208.28 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c27a9912-bf50-4d42-81f0-5bff718c1a37")
-	)
-	(label "CAN_L_1"
-		(at 157.48 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2b9e36c-158d-4dda-bc16-bfcd18267169")
-	)
-	(label "VDD_5V_PERIPH"
-		(at 208.28 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3404aab-90ed-4b7e-bd25-095d59ecdf31")
-	)
-	(label "SERIAL4_RX"
-		(at 208.28 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4a18470-3197-4095-8fd5-9efd724f931a")
-	)
-	(label "IO-USART1_RX_SPECTRUM_DSM"
-		(at 25.4 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf292847-48fa-432a-aa3e-84e26dc6b0ef")
+		(uuid "1208c0a3-87eb-4bed-b6e4-0043b6b11363")
 	)
 	(label "SERIAL1_CTS"
 		(at 208.28 44.45 0)
@@ -4025,17 +3311,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d30309a4-3768-48ea-81e2-ad540b9b1a6d")
-	)
-	(label "SERIAL1_RX"
-		(at 208.28 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da9c38e7-0735-4c2e-8bfb-5ff50ab9f502")
+		(uuid "16049ab0-eaef-4fc9-8c27-a1cc7507b533")
 	)
 	(label "5V_PRES"
 		(at 157.48 29.21 0)
@@ -4045,581 +3321,299 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "db8b2356-0595-48fc-b5e0-b437eac5f086")
+		(uuid "1969d7bc-6576-4bda-84b8-593fd15d84ce")
 	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_JST_GH_V4_CB_REV_C.SCHLIB")
-		(at 172.72 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "01764e62-4f11-49c0-821f-6ad2b9bbc08a")
-		(property "Reference" "P104"
-			(at 167.894 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+	(label "SERIAL2_RTS"
+		(at 208.28 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "JST_GH_V4"
-			(at 171.704 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "JST_GH_V4"
-			(at 172.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BM04B-GHS-TBT"
-			(at 172.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 164.592 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "455-1580-2-ND"
-			(at 169.926 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "3"
-			(uuid "b73e0729-ab69-49bc-817f-370f645ce89e")
-		)
-		(pin "4"
-			(uuid "627e145d-6459-428c-b9b1-99775fb46c29")
-		)
-		(pin "GND"
-			(uuid "905a5fb7-c121-4748-8ac4-a32099f9e109")
-		)
-		(pin "1"
-			(uuid "cfd923ca-d9ed-44ac-8376-08471dd07f39")
-		)
-		(pin "2"
-			(uuid "db4437a6-1303-4299-96cd-faac95df7fbf")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "P104")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "1e8dc468-1ee4-4d11-8436-0587edad93be")
 	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_JST_GH_V6_CB_REV_C.SCHLIB")
-		(at 261.62 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02cf21d1-21a0-4c02-8b33-bc299173f736")
-		(property "Reference" "P109"
-			(at 256.794 150.876 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+	(label "SERIAL3_RX"
+		(at 208.28 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "JST_GH_V6"
-			(at 260.604 164.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "JST_GH_V6"
-			(at 261.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 261.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BM06B-GHS-TBT"
-			(at 261.62 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 253.492 143.256 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "455-1582-2-ND"
-			(at 258.826 169.418 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "GND"
-			(uuid "c4e83c4c-b4f9-434b-8508-4b0b07c0542d")
-		)
-		(pin "3"
-			(uuid "ce64350c-a5d3-4dab-a874-49e88db048df")
-		)
-		(pin "2"
-			(uuid "1b7b6de2-aad2-46c2-acce-3dff9604960a")
-		)
-		(pin "1"
-			(uuid "f11439b3-e63c-412b-a6bf-1df70acfbc80")
-		)
-		(pin "5"
-			(uuid "085e1d41-0543-4f26-b87c-ec010055ae6d")
-		)
-		(pin "4"
-			(uuid "39171d3f-ffb2-4ae0-b4fc-609f79ee9951")
-		)
-		(pin "6"
-			(uuid "d5389de7-bbe0-419f-927d-559515c04f6a")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "P109")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "22c28b60-b5a8-458e-96b1-20b133b54b7e")
 	)
-	(symbol
-		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
-		(at 132.08 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e585a57-953a-45df-aad7-1ecc25ea85ee")
-		(property "Reference" "D108"
-			(at 134.112 147.701 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
+	(label "I2C_1_SCL"
+		(at 208.28 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "DIODE-TVS"
-			(at 143.764 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "0402-TVS"
-			(at 132.08 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
-			(at 132.08 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 129.032 144.018 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
-			(at 135.128 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "A"
-			(uuid "358cd30d-8dde-49ba-9fff-2080599cebf9")
-		)
-		(pin "C"
-			(uuid "ca6583d1-48e5-45bb-bcca-210f5e7a4974")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "D108")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "2a97d8a4-f1ab-47f8-96f0-2aef7dec88f2")
 	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_JST_GH_V6_CB_REV_C.SCHLIB")
-		(at 259.08 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f4da185-d405-48ee-8b7a-a805d78b31f1")
-		(property "Reference" "P100"
-			(at 254.254 41.656 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+	(label "VDD_5V_PERIPH"
+		(at 208.28 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "JST_GH_V6"
-			(at 258.064 54.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "JST_GH_V6"
-			(at 259.08 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BM06B-GHS-TBT"
-			(at 259.08 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 250.952 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "455-1582-2-ND"
-			(at 256.286 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "3"
-			(uuid "a0701ed7-ff2a-48b3-8203-991810e338d9")
-		)
-		(pin "GND"
-			(uuid "55dc9764-93ed-46f6-96e6-623313ead995")
-		)
-		(pin "4"
-			(uuid "36a7fc6f-6468-42c6-bbd9-220685282951")
-		)
-		(pin "1"
-			(uuid "652fcb9f-bcd9-48c2-b0c2-a7e3bf4fc06b")
-		)
-		(pin "6"
-			(uuid "6a988c0f-f08b-457b-af25-32381085f197")
-		)
-		(pin "2"
-			(uuid "2bd5879b-ee86-4d08-9662-8247ac8ea427")
-		)
-		(pin "5"
-			(uuid "9e273243-3ad8-4a01-9e23-a6ced746e941")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "P100")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "407f9671-f76c-48df-8109-7a015481c621")
 	)
-	(symbol
-		(lib_id "TransferProject-altium-import:GND_BAR")
-		(at 215.9 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1205da06-588d-449b-9549-dab5cd308281")
-		(property "Reference" "#PWR011"
-			(at 215.9 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+	(label "VDD_5V_PERIPH"
+		(at 208.28 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "GND"
-			(at 215.9 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "e78206bc-ba03-47ec-9e36-0460de7dcdc7")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "4a020e6c-41ed-4faf-a20a-30f58583d292")
 	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_JST_GH_V8_CB_REV_C.SCHLIB")
-		(at 261.62 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "190f8da3-22ea-4f3f-bd55-569903fefd5c")
-		(property "Reference" "P107"
-			(at 256.794 120.396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+	(label "SAFETY"
+		(at 208.28 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "JST_GH_V8"
-			(at 260.604 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+		(uuid "4c9fca4b-cb62-4184-ac39-d30b260e0ca1")
+	)
+	(label "VDD_5V_PERIPH"
+		(at 116.84 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Footprint" "JST_GH_V8"
-			(at 261.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "51a182d3-13b7-48fb-adda-cd40d231aa7a")
+	)
+	(label "VDD_5V_HIPOWER"
+		(at 208.28 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Datasheet" ""
-			(at 261.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "573efc5d-4462-49e5-a273-e6dccb2d3eda")
+	)
+	(label "~{IO-LED_SAFET_PROT}"
+		(at 208.28 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Description" "BM08B-GHS-TBT"
-			(at 261.62 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
+		(uuid "59ed924d-a2eb-4eaa-9e69-938df2385b91")
+	)
+	(label "PRESSURE_SENS_IN"
+		(at 162.56 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 253.492 107.696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
+		(uuid "6220a636-fec6-4fa7-bcad-8bf2d0baf52f")
+	)
+	(label "SERIAL1_RX"
+		(at 25.4 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "SUPPLIER PART NUMBER 1" "455-1584-2-ND"
-			(at 258.826 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+		(uuid "72471928-c211-4529-9d62-d1644b5b28bb")
+	)
+	(label "IO-USART1_RX_SPECTRUM_DSM"
+		(at 25.4 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(pin "6"
-			(uuid "29cd3ce5-1e23-4a48-8c3c-a9f8fef35dd3")
-		)
-		(pin "3"
-			(uuid "d13754c4-f117-4750-a24e-60f7ad710aac")
-		)
-		(pin "5"
-			(uuid "138c4447-083e-425c-b826-a50834297e2d")
-		)
-		(pin "2"
-			(uuid "56b49611-a650-49fc-81c0-c05c9669ee3a")
-		)
-		(pin "4"
-			(uuid "23633d49-e840-47ef-b486-0c7e3403740f")
-		)
-		(pin "1"
-			(uuid "35c5d44d-33a7-4da9-8fae-66186ce17d57")
-		)
-		(pin "8"
-			(uuid "bb7f3954-9167-46e7-9076-d0d0d21af297")
-		)
-		(pin "7"
-			(uuid "75e8d988-50d0-4678-b429-ca1d86dbcd5c")
-		)
-		(pin "GND"
-			(uuid "cc478da7-74ea-469d-ade8-5c98122d7e94")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "P107")
-					(unit 1)
-				)
+		(uuid "72b72739-305d-4747-ae0f-81c71138f3e3")
+	)
+	(label "VDD_3V3_SPEKTRUM"
+		(at 35.56 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
+		(uuid "79513da1-2b17-447f-8e80-9c9b08c825a5")
+	)
+	(label "SERIAL2_CTS"
+		(at 208.28 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7db292b3-af6d-4d2d-957d-904376fe4c71")
+	)
+	(label "SERIAL2_RX"
+		(at 208.28 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84d8b51f-3d1f-4813-a0bd-f1ccb9fae8a0")
+	)
+	(label "I2C_2_SCL"
+		(at 154.94 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ca1424c-3035-42bc-87c6-69ac62f46489")
+	)
+	(label "SERIAL2_TX"
+		(at 208.28 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96ee24e0-d9b9-41e4-97b7-63b6eb6bb83e")
+	)
+	(label "SERIAL1_RX"
+		(at 208.28 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a552be29-f9ef-4f99-95ae-ac2b8f6ce6b1")
+	)
+	(label "VDD_5V_PERIPH"
+		(at 208.28 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "addbf121-0624-4fa5-9b28-2f9b5d840079")
+	)
+	(label "IO-USART1_RX_SPECTRUM_DSM"
+		(at 35.56 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b687b767-4867-44f5-b5bc-5376ad1396d8")
+	)
+	(label "SERIAL4_RX"
+		(at 208.28 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8e5112c-f07f-4eda-b7d2-b537f20e58f3")
+	)
+	(label "I2C_1_SDA"
+		(at 208.28 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b90e3151-a3ad-4a19-a357-e20be503286c")
+	)
+	(label "SERIAL3_TX"
+		(at 208.28 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1a1a836-a5ae-4df9-b88a-44ef93b01104")
+	)
+	(label "I2C_2_SDA"
+		(at 208.28 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc445133-bdf1-4013-a090-ba33d41c6907")
+	)
+	(label "SERIAL1_RTS"
+		(at 208.28 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddf68822-2b2b-4d73-87c0-64e74faef657")
+	)
+	(label "SERIAL4_TX"
+		(at 208.28 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e037db84-1507-4ca6-b68c-d3ac1eb893d2")
+	)
+	(label "I2C_2_SDA"
+		(at 154.94 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2b11e5d-5636-4468-85de-f669fc42861a")
+	)
+	(label "SERIAL1_TX"
+		(at 208.28 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "edcd6bcc-4cbb-4994-adb3-660d7a78254a")
 	)
 	(symbol
 		(lib_id "CB_REV_C:root_0_KNH16C104DA5TS_CB_REV_C.SCHLIB")
-		(at 215.9 140.97 0)
+		(at 121.92 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1e357beb-631c-4765-8474-2874464ce0f4")
-		(property "Reference" "L107"
-			(at 211.074 136.144 0)
+		(uuid "15f7909e-ce97-4df4-80f0-dd7322e9ff3d")
+		(property "Reference" "L1"
+			(at 117.094 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +3622,7 @@
 			)
 		)
 		(property "Value" "Kyocera KNH16C104DA5TS EMI filter"
-			(at 211.074 138.684 0)
+			(at 117.094 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +3631,7 @@
 			)
 		)
 		(property "Footprint" "KYOCERA-KNH16-DA"
-			(at 215.9 140.97 0)
+			(at 121.92 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +3640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 140.97 0)
+			(at 121.92 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +3649,7 @@
 			)
 		)
 		(property "Description" "Capacitor, Filter, 0.1uF, 25V, 2A, 0603, SMD"
-			(at 215.9 140.97 0)
+			(at 121.92 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +3658,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 210.312 133.604 0)
+			(at 116.332 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,98 +3668,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "478-6878-1-ND"
-			(at 213.106 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "P$2"
-			(uuid "24edb7f6-e70b-418d-ab7e-8c82faf4a038")
-		)
-		(pin "P$1"
-			(uuid "d9a5a238-9a1a-4eea-8d81-1143fcd7a8a1")
-		)
-		(pin "GND"
-			(uuid "3410d794-ce19-407b-8752-5d4158e141ea")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "L107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_KNH16C104DA5TS_CB_REV_C.SCHLIB")
-		(at 215.9 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2bed7cc8-7e3f-4cbc-bb79-39b9d1aaac8c")
-		(property "Reference" "L101"
-			(at 211.074 24.384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Kyocera KNH16C104DA5TS EMI filter"
-			(at 211.074 26.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "KYOCERA-KNH16-DA"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, Filter, 0.1uF, 25V, 2A, 0603, SMD"
-			(at 215.9 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 210.312 21.844 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "478-6878-1-ND"
-			(at 213.106 37.338 0)
+			(at 119.126 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,293 +3677,18 @@
 			)
 		)
 		(pin "P$1"
-			(uuid "9f58cb5f-08fd-4777-aa3c-57bdcfcf0be3")
+			(uuid "f6cca8b9-c824-4b4f-967d-1498a965e071")
 		)
 		(pin "P$2"
-			(uuid "8d1c7f6f-51f1-49a3-985d-f11250743494")
+			(uuid "a799cce4-5166-4f1c-8783-32016984b31f")
 		)
 		(pin "GND"
-			(uuid "8ad4cdc8-4461-44e3-aaeb-f31e72210373")
+			(uuid "4da0d928-3703-4b91-98ba-7f7190417adc")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "L101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_KNH16C104DA5TS_CB_REV_C.SCHLIB")
-		(at 124.46 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ee37bac-665b-42d0-bc2f-23b9222f8ff7")
-		(property "Reference" "L103"
-			(at 119.634 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Kyocera KNH16C104DA5TS EMI filter"
-			(at 119.634 72.644 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "KYOCERA-KNH16-DA"
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, Filter, 0.1uF, 25V, 2A, 0603, SMD"
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 118.872 67.564 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "478-6878-1-ND"
-			(at 121.666 83.058 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "P$2"
-			(uuid "826e71d3-7ecf-40be-8d94-2d36631b9286")
-		)
-		(pin "GND"
-			(uuid "8abdbd69-b978-4131-bb31-e22c42a2cc3c")
-		)
-		(pin "P$1"
-			(uuid "e55caa06-3753-4ff4-9c66-c14a4f21cda0")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "L103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_CONN_SPEKTRUM_RX-TH_CB_REV_C.SCHLIB")
-		(at 55.88 34.29 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40337628-e3d1-48b8-acfd-d83545aefdba")
-		(property "Reference" "SPKT100"
-			(at 58.674 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "CONN_SPEKTRUM_RX-TH"
-			(at 52.832 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "B3B-ZR"
-			(at 55.88 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Spektrum RX connector; JST ZH series S3B-ZR-SM4A-TF"
-			(at 55.88 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "B3B-ZR(LF)(SN)"
-			(at 52.832 33.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 52.832 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c4dda4dd-069c-4356-b699-615fe973475e")
-		)
-		(pin "1"
-			(uuid "cf668f26-1d99-472a-8e89-c624e74baf80")
-		)
-		(pin "3"
-			(uuid "fcda49ae-44b0-4d59-8910-bad6abd0b519")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "SPKT100")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_KNH16C104DA5TS_CB_REV_C.SCHLIB")
-		(at 124.46 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40d0c408-0bad-4b01-b630-480e16b30f15")
-		(property "Reference" "L106"
-			(at 119.634 136.144 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Kyocera KNH16C104DA5TS EMI filter"
-			(at 118.872 138.684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "KYOCERA-KNH16-DA"
-			(at 124.46 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, Filter, 0.1uF, 25V, 2A, 0603, SMD"
-			(at 124.46 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 118.872 133.604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "478-6878-1-ND"
-			(at 105.156 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "P$2"
-			(uuid "6378cbe0-1ac7-4781-87a4-00ce322b73f3")
-		)
-		(pin "P$1"
-			(uuid "4e43ca3d-dca9-4ad5-8e21-6cca977c22cf")
-		)
-		(pin "GND"
-			(uuid "86d3b2e1-6349-44ea-808b-c93e67e7aefa")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "L106")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -5068,15 +3696,15 @@
 	)
 	(symbol
 		(lib_id "TransferProject-altium-import:GND_BAR")
-		(at 215.9 90.17 0)
+		(at 215.9 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4234bb27-b7ee-4480-9ed0-c975031436c9")
-		(property "Reference" "#PWR012"
-			(at 215.9 90.17 0)
+		(uuid "16975493-a41d-464f-98c3-1b6cff5f3ed7")
+		(property "Reference" "#PWR039"
+			(at 215.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +3713,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 93.98 0)
+			(at 215.9 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5093,7 +3721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 90.17 0)
+			(at 215.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5101,7 +3729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 90.17 0)
+			(at 215.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +3737,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 90.17 0)
+			(at 215.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,467 +3745,12 @@
 			)
 		)
 		(pin ""
-			(uuid "0fa476fe-95ba-4b46-8108-f6df6d7b38d2")
+			(uuid "4b73305f-1c99-4909-ba27-ed34774ec42f")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
-		(at 129.54 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e593ba5-b3ee-4445-97f1-973d1fe47754")
-		(property "Reference" "D100"
-			(at 131.572 35.941 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "DIODE-TVS"
-			(at 131.572 30.607 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "0402-TVS"
-			(at 129.54 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
-			(at 129.54 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 126.492 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
-			(at 131.564 37.363 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "C"
-			(uuid "98c20990-456d-4dae-aab3-75ce9c88a8b3")
-		)
-		(pin "A"
-			(uuid "99a22cb5-ee38-4825-99e4-cd861fc83572")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "D100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TransferProject-altium-import:GND_BAR")
-		(at 172.72 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d0bf02b-35a8-41fe-86ed-ce9235b2a4da")
-		(property "Reference" "#PWR09"
-			(at 172.72 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "38bf6ebf-30a8-455c-9091-eeeb46e86b0b")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TransferProject-altium-import:GND_BAR")
-		(at 172.72 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "663182f9-0fa0-4f19-8487-298414f96d3b")
-		(property "Reference" "#PWR010"
-			(at 172.72 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 172.72 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "3a76026d-7111-4a72-ba7d-bebceced4ecc")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TransferProject-altium-import:GND_BAR")
-		(at 170.18 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e95f532-8158-4aae-91f5-e4347c939d95")
-		(property "Reference" "#PWR08"
-			(at 170.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 170.18 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "29545051-7eee-4394-94c0-fcb250048587")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_CONN_SPEKTRUM_RX-TH_CB_REV_C.SCHLIB")
-		(at 55.88 31.75 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75579529-efe9-4066-ad8a-37ca3d8c7c0c")
-		(property "Reference" "SPKT100"
-			(at 58.674 32.766 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "CONN_SPEKTRUM_RX-TH"
-			(at 52.832 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "B3B-ZR"
-			(at 55.88 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Spektrum RX connector; JST ZH series S3B-ZR-SM4A-TF"
-			(at 55.88 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTNO" "B3B-ZR(LF)(SN)"
-			(at 52.832 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ALTIUM_VALUE" ""
-			(at 52.832 35.306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f47d5bdd-56a4-4089-af56-cc1e80665cc9")
-		)
-		(pin "1"
-			(uuid "f39532e9-6763-4573-adba-464911f9b3c4")
-		)
-		(pin "3"
-			(uuid "330ce178-4603-47ad-9d60-14f8a52873db")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "SPKT100")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
-		(at 241.3 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7ff09f97-8a97-4c3d-89cd-eb6ad5ffb589")
-		(property "Reference" "D103"
-			(at 243.332 74.041 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "DIODE-TVS"
-			(at 243.332 68.707 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "0402-TVS"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
-			(at 241.3 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 238.252 70.358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
-			(at 243.324 75.463 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "A"
-			(uuid "f0cb5a54-df36-418e-a9c1-37efc2d00a02")
-		)
-		(pin "C"
-			(uuid "d7af8be7-c3d0-4741-8493-5fec017a3fa5")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "D103")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -5591,8 +3764,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "89b96973-d5b0-43f0-b24f-9ebe14fb4c9a")
-		(property "Reference" "P102"
+		(uuid "288dd059-0166-4779-8776-f9731dacd2bf")
+		(property "Reference" "P4"
 			(at 167.894 74.676 0)
 			(effects
 				(font
@@ -5657,615 +3830,24 @@
 			)
 		)
 		(pin "3"
-			(uuid "4845da43-9ea0-4ea7-82f1-e4f76d5c5bf8")
+			(uuid "c3a25287-4a38-4ad0-a939-6786e56bb1d7")
 		)
 		(pin "GND"
-			(uuid "b7cd1a49-cb21-4041-85fb-b2c6a51cdc26")
+			(uuid "a1b131f8-22f5-42b1-a45d-6cbe7d024ec4")
 		)
 		(pin "1"
-			(uuid "767843a0-38d8-4795-bd75-2047b3a2a944")
+			(uuid "0fc95950-afb2-4935-a50e-7fbef5fc8d09")
 		)
 		(pin "4"
-			(uuid "f39eab28-7673-4c01-bb83-f63fa62a4503")
+			(uuid "8080a19c-9bc4-4195-98fd-18112eaf4da4")
 		)
 		(pin "2"
-			(uuid "7414780f-3b42-47eb-b9bd-8934a1039a87")
+			(uuid "7ce0290b-9a26-45a5-89d6-05e99411e453")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "P102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TransferProject-altium-import:GND_BAR")
-		(at 215.9 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94b16e24-1976-431d-8ae2-bc4481191be1")
-		(property "Reference" "#PWR013"
-			(at 215.9 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "9768978b-c648-4fb3-a571-f707fc796cb0")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_JST_GH_V4_CB_REV_C.SCHLIB")
-		(at 172.72 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "96518ee0-8e02-4316-aabd-8272fe1d42e4")
-		(property "Reference" "P108"
-			(at 167.894 140.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JST_GH_V4"
-			(at 171.704 153.924 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "JST_GH_V4"
-			(at 172.72 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BM04B-GHS-TBT"
-			(at 172.72 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 164.592 138.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "455-1580-2-ND"
-			(at 169.926 159.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "803cb742-dec3-4c64-b94b-2fdc6b53c03c")
-		)
-		(pin "GND"
-			(uuid "9f5d40eb-df40-4fa8-b441-5f12944d8b59")
-		)
-		(pin "4"
-			(uuid "5d508dda-d5d9-4736-bd9f-bb98c629ead0")
-		)
-		(pin "3"
-			(uuid "7ea917e4-4cd0-42ad-bca5-4fdfa126b60e")
-		)
-		(pin "2"
-			(uuid "f55fca73-1fed-40fd-94b3-cd4f488422d0")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "P108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_KNH16C104DA5TS_CB_REV_C.SCHLIB")
-		(at 124.46 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9898d933-8c7d-456a-800b-fa25d7a88219")
-		(property "Reference" "L105"
-			(at 119.634 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Kyocera KNH16C104DA5TS EMI filter"
-			(at 119.634 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "KYOCERA-KNH16-DA"
-			(at 124.46 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor, Filter, 0.1uF, 25V, 2A, 0603, SMD"
-			(at 124.46 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 118.872 100.584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "478-6878-1-ND"
-			(at 121.666 116.078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "P$2"
-			(uuid "13517ea8-6381-40a9-a60a-a3ecbfd8272c")
-		)
-		(pin "GND"
-			(uuid "24f80d57-104d-4273-a1a1-8ab6c69e2080")
-		)
-		(pin "P$1"
-			(uuid "bfcb7c94-df9e-43bf-ae05-13cedb6fde46")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "L105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_0_JST_GH_V6_CB_REV_C.SCHLIB")
-		(at 259.08 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "98ab03ac-bc24-4824-80f4-748abe7906b0")
-		(property "Reference" "P103"
-			(at 254.254 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JST_GH_V6"
-			(at 258.064 92.964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "JST_GH_V6"
-			(at 259.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "BM06B-GHS-TBT"
-			(at 259.08 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 250.952 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "455-1582-2-ND"
-			(at 256.286 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "GND"
-			(uuid "fa123b1b-3caf-4e4b-ab43-a51b4d830c44")
-		)
-		(pin "1"
-			(uuid "9d8a6e91-0ccd-417d-8f93-8c8ed9df9e8b")
-		)
-		(pin "3"
-			(uuid "8fdc3a3d-972d-48c9-b2db-6b8a3da838b6")
-		)
-		(pin "6"
-			(uuid "435c1469-f551-4357-a498-57d24c247745")
-		)
-		(pin "4"
-			(uuid "fcb89da3-fd44-407b-8578-d20f488fb41f")
-		)
-		(pin "5"
-			(uuid "1363e317-7bb5-461d-9e65-2142ef5fba0c")
-		)
-		(pin "2"
-			(uuid "22a120b9-b63d-4228-9847-b8985bbb2eec")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "P103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
-		(at 241.3 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0b569a1-1049-4ec7-80d7-9baa7d64cc5e")
-		(property "Reference" "D105"
-			(at 243.332 109.601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "DIODE-TVS"
-			(at 243.332 104.267 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "0402-TVS"
-			(at 241.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
-			(at 241.3 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 238.252 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
-			(at 243.324 111.023 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "A"
-			(uuid "c4e2bfd3-d3ec-45f8-bbc9-5283e2660a62")
-		)
-		(pin "C"
-			(uuid "a0cd347e-e153-4412-b647-e749c87cbe64")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "D105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TransferProject-altium-import:GND_BAR")
-		(at 43.18 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a1d71357-ad7e-4d25-84fd-8760310f3611")
-		(property "Reference" "#PWR03"
-			(at 43.18 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "281a21cb-1004-4101-824c-bbd6fafebe70")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
-		(at 43.18 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "aac88ebd-283f-49ae-a40d-837efdcaddab")
-		(property "Reference" "D102"
-			(at 45.212 41.021 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "DIODE-TVS"
-			(at 45.212 35.687 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "0402-TVS"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
-			(at 43.18 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 40.132 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
-			(at 45.204 42.443 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "A"
-			(uuid "fb574e06-40f3-4cd4-8996-6d383c286112")
-		)
-		(pin "C"
-			(uuid "afca0e4b-8a63-4ef8-950c-f274bff915c6")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "D102")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "P4")
 					(unit 1)
 				)
 			)
@@ -6279,8 +3861,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b8348eb8-9a87-441a-ae05-8e8f2a34012e")
-		(property "Reference" "L102"
+		(uuid "2a513555-4ddb-41e8-82c0-42d7225aefd3")
+		(property "Reference" "L6"
 			(at 211.074 62.484 0)
 			(effects
 				(font
@@ -6345,52 +3927,52 @@
 			)
 		)
 		(pin "P$1"
-			(uuid "69f745d0-41d1-453a-afaf-994093a52058")
+			(uuid "63d7d95b-447e-4add-ae09-a0b1117f7a49")
 		)
 		(pin "P$2"
-			(uuid "d989c775-e941-4f50-a280-3cd1b0abb07e")
+			(uuid "61a57ac4-52fd-4f97-8236-74d3016d710b")
 		)
 		(pin "GND"
-			(uuid "062071e9-e4d6-4bef-ae33-a4314c2b0297")
+			(uuid "d94d2c55-2e2e-46dd-82df-7ca8f86b0396")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "L102")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "L6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
-		(at 132.08 80.01 0)
+		(lib_id "CB_REV_C:root_0_JST_GH_V6_CB_REV_C.SCHLIB")
+		(at 259.08 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "be103f15-3c75-4780-86c3-7368780ca500")
-		(property "Reference" "D104"
-			(at 134.112 81.661 0)
+		(uuid "2cc736be-04b6-42bb-8e9e-9c6c5d8f74a2")
+		(property "Reference" "P7"
+			(at 254.254 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "DIODE-TVS"
-			(at 134.112 76.327 0)
+		(property "Value" "JST_GH_V6"
+			(at 258.064 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "0402-TVS"
-			(at 132.08 80.01 0)
+		(property "Footprint" "JST_GH_V6"
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +3981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 80.01 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6407,184 +3989,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
-			(at 132.08 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 129.032 77.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
-			(at 134.104 83.083 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "C"
-			(uuid "dfdbe7d4-bdd6-48d2-9613-12430dd895fc")
-		)
-		(pin "A"
-			(uuid "9ef9ba25-f03b-4e1d-913c-f4f3ab9a6d23")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "D104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
-		(at 132.08 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c14b795c-b32d-4281-8707-5f0264cc9097")
-		(property "Reference" "D106"
-			(at 134.112 114.681 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "DIODE-TVS"
-			(at 134.112 109.347 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "0402-TVS"
-			(at 132.08 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
-			(at 132.08 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 129.032 110.998 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
-			(at 134.104 116.103 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "A"
-			(uuid "3f0cb81e-62be-4cbc-8d71-a0957d5bf312")
-		)
-		(pin "C"
-			(uuid "189a5ecf-1707-47aa-a403-df3678acf382")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "D106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CB_REV_C:root_3_HEADER_2MM_RA_SMD_CB_REV_C.SCHLIB")
-		(at 30.48 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c53eb748-4929-4865-ac8e-2cc71200393b")
-		(property "Reference" "JP100"
-			(at 30.734 88.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "HEADER_2MM_RA_SMD"
-			(at 30.734 81.661 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "HEADER_2MM_RA_2"
-			(at 30.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 30.48 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector, PCB, 2MM, 2Pos, R/A, SMD, Au"
-			(at 30.48 87.63 0)
+		(property "Description" "BM06B-GHS-TBT"
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +3999,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 29.083 84.328 0)
+			(at 250.952 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,8 +4008,111 @@
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER PART NUMBER 1" "830-10-002-40-001101-ND"
-			(at 29.718 94.107 0)
+		(property "SUPPLIER PART NUMBER 1" "455-1582-2-ND"
+			(at 256.286 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "3"
+			(uuid "d01d91fb-1e0e-4fd3-987e-60b1dd55c914")
+		)
+		(pin "GND"
+			(uuid "599ec9ba-7a24-4e04-8652-1601045ad53e")
+		)
+		(pin "4"
+			(uuid "a6f4de9a-5591-477d-b9aa-9647e22c05ed")
+		)
+		(pin "1"
+			(uuid "df415223-4df3-441f-b42b-a7f00f64575a")
+		)
+		(pin "6"
+			(uuid "d87a7d83-48b3-4d57-8a31-f9c7ae36a741")
+		)
+		(pin "2"
+			(uuid "1e7d8287-cd6b-4496-bf42-6f7312d89b63")
+		)
+		(pin "5"
+			(uuid "47aaaa74-4737-4962-88c4-ca435d478195")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "P7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_0_JST_GH_V3_CB_REV_C.SCHLIB")
+		(at 172.72 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32f8a3a2-774e-408e-9cfc-6a5f6398c297")
+		(property "Reference" "P3"
+			(at 167.894 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "JST_GH_V3"
+			(at 171.704 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "JST_GH_V3"
+			(at 172.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BM03B-GHS-TBT"
+			(at 172.72 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 164.592 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "455-1579-2-ND"
+			(at 169.926 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6612,15 +4121,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "9f34cefc-1c47-4b15-b681-0e9b6563397b")
+			(uuid "5fb2d52c-045d-4910-9de3-ad45c4571adb")
 		)
 		(pin "1"
-			(uuid "6057d41a-027b-49d8-acc7-6da643ae4835")
+			(uuid "c17255c2-9bb2-4319-9fe8-b8849507a864")
+		)
+		(pin "3"
+			(uuid "5c9a8ef2-f4f6-428f-aadf-ba5948d56ac7")
+		)
+		(pin "GND"
+			(uuid "b9d670c1-e6b5-4981-ba71-7d34e977cd93")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "JP100")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "P3")
 					(unit 1)
 				)
 			)
@@ -6634,8 +4149,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cfd12fe2-0a2f-49d3-8f0f-0da4dddc7fd6")
-		(property "Reference" "#PWR04"
+		(uuid "375cc3d8-7728-4568-b84f-ccf060e98be6")
+		(property "Reference" "#PWR030"
 			(at 50.8 44.45 0)
 			(effects
 				(font
@@ -6677,12 +4192,12 @@
 			)
 		)
 		(pin ""
-			(uuid "1e6d8379-bc64-486e-a53f-930411b28125")
+			(uuid "2fadfcc4-83d3-4ca2-8919-31e62011db40")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "#PWR04")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6690,15 +4205,15 @@
 	)
 	(symbol
 		(lib_id "CB_REV_C:root_0_KNH16C104DA5TS_CB_REV_C.SCHLIB")
-		(at 121.92 29.21 0)
+		(at 215.9 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d2fd4881-310c-4129-975b-18f0811f9abb")
-		(property "Reference" "L100"
-			(at 117.094 24.384 0)
+		(uuid "3e32bdc8-d986-43be-ab5a-e863f305f6ea")
+		(property "Reference" "L8"
+			(at 211.074 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,8 +4221,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "EMI Filter"
-			(at 117.094 26.924 0)
+		(property "Value" "Kyocera KNH16C104DA5TS EMI filter"
+			(at 211.074 138.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +4231,7 @@
 			)
 		)
 		(property "Footprint" "KYOCERA-KNH16-DA"
-			(at 121.92 29.21 0)
+			(at 215.9 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +4240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 29.21 0)
+			(at 215.9 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,7 +4249,7 @@
 			)
 		)
 		(property "Description" "Capacitor, Filter, 0.1uF, 25V, 2A, 0603, SMD"
-			(at 121.92 29.21 0)
+			(at 215.9 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6743,7 +4258,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 116.332 21.844 0)
+			(at 210.312 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +4268,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "478-6878-1-ND"
-			(at 119.126 37.338 0)
+			(at 213.106 149.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,19 +4276,19 @@
 				(justify left bottom)
 			)
 		)
-		(pin "P$1"
-			(uuid "32bd1cae-7e27-44b6-a784-7d554cfbe3c3")
-		)
 		(pin "P$2"
-			(uuid "050d4151-c272-4c94-875b-16c8b16296f0")
+			(uuid "375aecb2-377b-41f2-9ba6-adabc2731329")
+		)
+		(pin "P$1"
+			(uuid "77ea3d3e-f5a9-45c0-a29d-3ddc0a45b02e")
 		)
 		(pin "GND"
-			(uuid "1ff15c0a-9415-4247-a417-37f409d1274b")
+			(uuid "a97a0936-8364-453a-9771-0337b573b938")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "L100")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -6787,8 +4302,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de3b960c-db1d-4e16-bfc7-84243196d095")
-		(property "Reference" "#PWR07"
+		(uuid "500b1f35-a10d-467d-831e-36d91664eb9d")
+		(property "Reference" "#PWR033"
 			(at 170.18 62.23 0)
 			(effects
 				(font
@@ -6830,12 +4345,12 @@
 			)
 		)
 		(pin ""
-			(uuid "3943c6a8-0f94-4e8e-8e26-6cf05ba7ae6b")
+			(uuid "54c28bcb-c920-45d1-9ddb-4a5a251da3f3")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "#PWR07")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6843,15 +4358,15 @@
 	)
 	(symbol
 		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
-		(at 241.3 34.29 0)
+		(at 241.3 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de955473-8e5b-4a92-a69b-d0aa5ff78184")
-		(property "Reference" "D101"
-			(at 243.332 35.941 0)
+		(uuid "5f160bb5-f058-49fa-9940-8d93c4ebbdcd")
+		(property "Reference" "D8"
+			(at 243.332 109.601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +4375,7 @@
 			)
 		)
 		(property "Value" "DIODE-TVS"
-			(at 243.332 30.607 0)
+			(at 243.332 104.267 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,7 +4384,7 @@
 			)
 		)
 		(property "Footprint" "0402-TVS"
-			(at 241.3 34.29 0)
+			(at 241.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,7 +4393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 34.29 0)
+			(at 241.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +4402,7 @@
 			)
 		)
 		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
-			(at 241.3 34.29 0)
+			(at 241.3 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6896,7 +4411,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 238.252 32.258 0)
+			(at 238.252 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +4421,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
-			(at 243.324 37.363 0)
+			(at 243.324 111.023 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,16 +4429,454 @@
 				(justify left bottom)
 			)
 		)
-		(pin "C"
-			(uuid "fc184541-691c-4ac2-8e4e-ac27c2f6cc8a")
-		)
 		(pin "A"
-			(uuid "d4e451b9-2403-4cd9-b47a-a3fca156ad93")
+			(uuid "64634602-bde7-4982-a0ce-890772f9df6e")
+		)
+		(pin "C"
+			(uuid "5051f022-c4a9-4c52-b01e-516373286fc6")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "D101")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
+		(at 241.3 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68e6ff19-97ed-4dbd-86b2-ca9bf68063b1")
+		(property "Reference" "D9"
+			(at 243.332 145.161 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "DIODE-TVS"
+			(at 243.332 139.827 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "0402-TVS"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 238.252 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
+			(at 243.324 146.583 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "A"
+			(uuid "6722ca00-5906-4187-bf81-2368391f84d3")
+		)
+		(pin "C"
+			(uuid "854c2c58-5e81-419a-a313-1d0f900ff5db")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_0_JST_GH_V8_CB_REV_C.SCHLIB")
+		(at 261.62 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "786e11f9-60d0-4300-9ea2-cfc9b7d48a67")
+		(property "Reference" "P9"
+			(at 256.794 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "JST_GH_V8"
+			(at 260.604 133.604 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "JST_GH_V8"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BM08B-GHS-TBT"
+			(at 261.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 253.492 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "455-1584-2-ND"
+			(at 258.826 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "6"
+			(uuid "06276a54-5bf4-4c71-b266-2a3e7cfda881")
+		)
+		(pin "3"
+			(uuid "2a3e984f-fdfc-4e0e-bb8d-3e35430aa541")
+		)
+		(pin "5"
+			(uuid "8e3066e9-1db0-4264-8f0b-a430d1a75932")
+		)
+		(pin "2"
+			(uuid "f918fcd7-67f6-40fe-8b5c-ba8c958b11b3")
+		)
+		(pin "4"
+			(uuid "d3749a76-d013-47a7-8d2c-3caa7e4cd67e")
+		)
+		(pin "1"
+			(uuid "8570c0e1-3f2c-4afd-a561-ca93c383de76")
+		)
+		(pin "8"
+			(uuid "920f4c0e-f7a8-4f4f-bf60-48a10807a9f3")
+		)
+		(pin "7"
+			(uuid "d9444cd3-6ab4-4abd-b620-927b4ab143cb")
+		)
+		(pin "GND"
+			(uuid "bed8dd85-dd94-4441-bcc3-c922191f150b")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "P9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
+		(at 43.18 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bc14c24-bb89-4253-861c-26c920244978")
+		(property "Reference" "D1"
+			(at 45.212 41.021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "DIODE-TVS"
+			(at 45.212 35.687 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "0402-TVS"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
+			(at 43.18 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 40.132 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
+			(at 45.204 42.443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "A"
+			(uuid "bca97caf-ce36-4b05-bad4-4549b509a1ae")
+		)
+		(pin "C"
+			(uuid "dac754a5-f926-4ab4-b0f1-23c7b0a0f085")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TransferProject-altium-import:GND_BAR")
+		(at 215.9 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94f39cbc-b7db-4763-ae69-80b0d4f589b9")
+		(property "Reference" "#PWR038"
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "6f42f99d-5ded-42fb-a203-79c453c7260c")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_0_KNH16C104DA5TS_CB_REV_C.SCHLIB")
+		(at 124.46 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fe56df3-9b52-4f84-8fdb-a2ad8be884da")
+		(property "Reference" "L2"
+			(at 119.634 70.104 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Kyocera KNH16C104DA5TS EMI filter"
+			(at 119.634 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "KYOCERA-KNH16-DA"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Filter, 0.1uF, 25V, 2A, 0603, SMD"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 118.872 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "478-6878-1-ND"
+			(at 121.666 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "P$2"
+			(uuid "ffcac824-f4eb-44fd-b8f8-71113e757fd4")
+		)
+		(pin "GND"
+			(uuid "04bdd19f-b40c-4763-888c-bfd485d2069e")
+		)
+		(pin "P$1"
+			(uuid "df84d086-ab11-477e-8b63-fa01c6739f3c")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -6937,8 +4890,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f15e870e-34cc-4b6f-aea2-69e7b8b5451a")
-		(property "Reference" "SPKT100"
+		(uuid "a5eef05f-1aba-47d3-8d69-34ab1fb7d22d")
+		(property "Reference" "SPKT1"
 			(at 58.674 30.226 0)
 			(effects
 				(font
@@ -7011,12 +4964,379 @@
 			(uuid "da4181c8-3c08-4416-80aa-9858e9c96a66")
 		)
 		(pin "3"
-			(uuid "2b854b1a-cc5f-4062-b23e-ae30f34cb837")
+			(uuid "c27d3c9d-25ab-489e-8c1e-21629a38938d")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "SPKT100")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "SPKT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_3_HEADER_2MM_RA_SMD_CB_REV_C.SCHLIB")
+		(at 30.48 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a87e3dcb-a379-4319-892b-5800d208fee0")
+		(property "Reference" "JP1"
+			(at 30.734 88.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "HEADER_2MM_RA_SMD"
+			(at 30.734 81.661 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "HEADER_2MM_RA_2"
+			(at 30.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector, PCB, 2MM, 2Pos, R/A, SMD, Au"
+			(at 30.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 29.083 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "830-10-002-40-001101-ND"
+			(at 29.718 94.107 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "2"
+			(uuid "1bc1fec5-dd4e-4c1b-98e9-287a66fbfd39")
+		)
+		(pin "1"
+			(uuid "be5584f0-eb36-4156-9aab-91b0db9a06a7")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_0_JST_GH_V6_CB_REV_C.SCHLIB")
+		(at 261.62 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae1988bf-0e05-4d5d-9e7e-cc232ad56bf4")
+		(property "Reference" "P10"
+			(at 256.794 150.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "JST_GH_V6"
+			(at 260.604 164.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "JST_GH_V6"
+			(at 261.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BM06B-GHS-TBT"
+			(at 261.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 253.492 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "455-1582-2-ND"
+			(at 258.826 169.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "GND"
+			(uuid "d0c719bd-c595-4278-9410-e1836347a3c8")
+		)
+		(pin "3"
+			(uuid "5dca244d-a5b4-4cea-9baa-d04e119e43dc")
+		)
+		(pin "2"
+			(uuid "3aa2a654-6d75-4432-9a2c-94da88525334")
+		)
+		(pin "1"
+			(uuid "155f3bcf-da36-41d8-91e6-05a837c83c25")
+		)
+		(pin "5"
+			(uuid "19157dd4-4e8a-4a6c-9981-e0dcab889e7e")
+		)
+		(pin "4"
+			(uuid "28036507-5328-4365-a8d7-945894684030")
+		)
+		(pin "6"
+			(uuid "058d15ec-dc9b-4502-81f8-60a552f26713")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "P10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
+		(at 241.3 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4db8736-8c28-4f1f-bb07-80ed590cc0e8")
+		(property "Reference" "D7"
+			(at 243.332 74.041 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "DIODE-TVS"
+			(at 243.332 68.707 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "0402-TVS"
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
+			(at 241.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 238.252 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
+			(at 243.324 75.463 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "A"
+			(uuid "c0a1ba6c-4547-4615-a958-28eba1b78d12")
+		)
+		(pin "C"
+			(uuid "c0869f2e-b5e4-4869-b27f-7c6b15aed832")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
+		(at 241.3 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b624f598-11cc-4951-ae69-89c1894c1a5f")
+		(property "Reference" "D6"
+			(at 243.332 35.941 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "DIODE-TVS"
+			(at 243.332 30.607 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "0402-TVS"
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 238.252 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
+			(at 243.324 37.363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "C"
+			(uuid "30079260-b6bd-4fe2-8467-779bd0ddbffa")
+		)
+		(pin "A"
+			(uuid "4476b448-0b20-4f92-b36f-fb14b42783ec")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7030,8 +5350,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f23310b8-c32a-4aca-b8b6-bb3558ae28a1")
-		(property "Reference" "L104"
+		(uuid "bc518669-73d5-4d2f-8294-c1c0bb2f17d7")
+		(property "Reference" "L7"
 			(at 211.074 100.584 0)
 			(effects
 				(font
@@ -7096,52 +5416,114 @@
 			)
 		)
 		(pin "P$2"
-			(uuid "82b7d6fa-b68a-4436-99c1-97fee0f8ab99")
+			(uuid "a35250ec-8a18-4e17-ae23-498f63846bd1")
 		)
 		(pin "GND"
-			(uuid "30d74e06-b057-4c01-8c75-ccc125a3ec38")
+			(uuid "3e0765de-43d5-4307-832b-d432600a8c74")
 		)
 		(pin "P$1"
-			(uuid "0e3a78d4-6e48-4ed5-b0cb-8afd1c3b10da")
+			(uuid "d9944271-9ea7-4e48-8113-976a7468d191")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "L104")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "L7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
-		(at 241.3 143.51 0)
+		(lib_id "TransferProject-altium-import:GND_BAR")
+		(at 215.9 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f61e1531-32a5-4054-9059-3c39d7a4fb05")
-		(property "Reference" "D107"
-			(at 243.332 145.161 0)
+		(uuid "c7220980-ad9c-4638-8f3c-cb2a6f1cd9d4")
+		(property "Reference" "#PWR037"
+			(at 215.9 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(hide yes)
 			)
 		)
-		(property "Value" "DIODE-TVS"
-			(at 243.332 139.827 0)
+		(property "Value" "GND"
+			(at 215.9 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Footprint" "0402-TVS"
-			(at 241.3 143.51 0)
+		(property "Footprint" ""
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5accc380-73d1-40de-9a5d-76e2cd34b9e3")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_0_KNH16C104DA5TS_CB_REV_C.SCHLIB")
+		(at 215.9 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2f9377a-bbaa-49f4-aad7-f08248d6552e")
+		(property "Reference" "L5"
+			(at 211.074 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "Kyocera KNH16C104DA5TS EMI filter"
+			(at 211.074 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "KYOCERA-KNH16-DA"
+			(at 215.9 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +5532,201 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 143.51 0)
+			(at 215.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor, Filter, 0.1uF, 25V, 2A, 0603, SMD"
+			(at 215.9 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 210.312 21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "478-6878-1-ND"
+			(at 213.106 37.338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "P$1"
+			(uuid "40279f4d-6825-4704-83a7-cda201cc29f9")
+		)
+		(pin "P$2"
+			(uuid "b3703303-6c7b-4272-8c4a-cdfd62b7115d")
+		)
+		(pin "GND"
+			(uuid "7d44b4b5-7f61-44c6-b052-c456f80f8964")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_0_JST_GH_V6_CB_REV_C.SCHLIB")
+		(at 259.08 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e216dc74-4641-40a3-bca6-402f8fbe5524")
+		(property "Reference" "P8"
+			(at 254.254 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "JST_GH_V6"
+			(at 258.064 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "JST_GH_V6"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BM06B-GHS-TBT"
+			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Digi-Key"
+			(at 250.952 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "455-1582-2-ND"
+			(at 256.286 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "GND"
+			(uuid "e3a9acd6-26ef-4874-b7a1-580ba5c5348f")
+		)
+		(pin "1"
+			(uuid "1327c78a-c628-448b-9c82-de7aa0f382d7")
+		)
+		(pin "3"
+			(uuid "22cf22c2-155a-43d3-aa1b-5bbd218a3b28")
+		)
+		(pin "6"
+			(uuid "40140295-a8e1-4bff-b205-cf6097773714")
+		)
+		(pin "4"
+			(uuid "4ebee8f9-f7ec-4e23-a40c-e5bae6c70dcd")
+		)
+		(pin "5"
+			(uuid "ce645c6c-f62d-4ba3-a96b-d55e77f660e8")
+		)
+		(pin "2"
+			(uuid "ea9c29f0-1d1d-4123-8b22-d2cdf8ac2e6f")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "P8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
+		(at 129.54 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eccc537b-83d2-4235-94d4-103e7a5bca4e")
+		(property "Reference" "D2"
+			(at 131.572 35.941 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "DIODE-TVS"
+			(at 131.572 30.607 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "0402-TVS"
+			(at 129.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7159,7 +5735,7 @@
 			)
 		)
 		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
-			(at 241.3 143.51 0)
+			(at 129.54 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7168,7 +5744,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Mouser"
-			(at 238.252 141.478 0)
+			(at 126.492 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +5754,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
-			(at 243.324 146.583 0)
+			(at 131.564 37.363 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,32 +5762,32 @@
 				(justify left bottom)
 			)
 		)
-		(pin "A"
-			(uuid "fafcea5f-edbf-4e1a-9d7c-6b055654abd8")
-		)
 		(pin "C"
-			(uuid "c30d9f89-012d-4332-93ea-327d792e8f03")
+			(uuid "20596729-c64d-4fac-93e2-cb7ddaecd888")
+		)
+		(pin "A"
+			(uuid "4478b808-c6de-4d05-8583-fc856ed71e86")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "D107")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "D2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "CB_REV_C:root_0_JST_GH_V3_CB_REV_C.SCHLIB")
-		(at 172.72 46.99 0)
-		(unit 1)
+		(lib_id "CB_REV_C:root_0_CONN_SPEKTRUM_RX-TH_CB_REV_C.SCHLIB")
+		(at 55.88 34.29 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fcb32b42-65fb-4534-8506-692296b6c843")
-		(property "Reference" "P101"
-			(at 167.894 39.116 0)
+		(uuid "f143b6a4-5139-4f69-bf02-7a5374606f62")
+		(property "Reference" "SPKT1"
+			(at 58.674 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7219,17 +5795,18 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "JST_GH_V3"
-			(at 171.704 52.324 0)
+		(property "Value" "CONN_SPEKTRUM_RX-TH"
+			(at 52.832 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "JST_GH_V3"
-			(at 172.72 46.99 0)
+		(property "Footprint" "B3B-ZR"
+			(at 55.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7238,7 +5815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 46.99 0)
+			(at 55.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,8 +5823,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BM03B-GHS-TBT"
-			(at 172.72 46.99 0)
+		(property "Description" "Spektrum RX connector; JST ZH series S3B-ZR-SM4A-TF"
+			(at 55.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,8 +5832,8 @@
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER 1" "Digi-Key"
-			(at 164.592 36.576 0)
+		(property "PARTNO" "B3B-ZR(LF)(SN)"
+			(at 52.832 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7265,32 +5842,335 @@
 				(hide yes)
 			)
 		)
-		(property "SUPPLIER PART NUMBER 1" "455-1579-2-ND"
-			(at 169.926 57.658 0)
+		(property "ALTIUM_VALUE" ""
+			(at 52.832 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "304c5eed-6cf3-44f9-a929-15b7c5f06834")
+			(uuid "c4dda4dd-069c-4356-b699-615fe973475e")
 		)
 		(pin "1"
-			(uuid "e3254df6-c0e2-4d08-89c6-2d94a5283428")
+			(uuid "44cdbfc9-0000-4293-9151-beeab2f55089")
 		)
 		(pin "3"
-			(uuid "f3e2a16a-58d9-4e32-a170-0e1badb85053")
-		)
-		(pin "GND"
-			(uuid "b11b569a-1862-4db0-816d-defe1ff63177")
+			(uuid "fcda49ae-44b0-4d59-8910-bad6abd0b519")
 		)
 		(instances
 			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/d6f30012-0f5c-4c84-b1c0-1ad7d5c973e6"
-					(reference "P101")
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "SPKT1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TransferProject-altium-import:GND_BAR")
+		(at 170.18 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f203debd-109b-4a2c-8084-b0217e5feba4")
+		(property "Reference" "#PWR034"
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b9702edf-26bf-472f-a2d4-aa197b6660be")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "#PWR034")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TransferProject-altium-import:GND_BAR")
+		(at 43.18 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f85fb0d4-6e68-4d20-847d-0036c2feb0a5")
+		(property "Reference" "#PWR029"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "f44530ce-557d-46d9-b99e-8a36484b07e5")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_1_DIODE-TVS_CB_REV_C.SCHLIB")
+		(at 132.08 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa5e4941-5b72-4f20-87a6-4cd28c7ed9cd")
+		(property "Reference" "D3"
+			(at 134.112 81.661 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "DIODE-TVS"
+			(at 134.112 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "0402-TVS"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, TVS, 14VWM, 40VC, 0402, SMD"
+			(at 132.08 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER 1" "Mouser"
+			(at 129.032 77.978 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER PART NUMBER 1" "650-PESD0402-140"
+			(at 134.104 83.083 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "C"
+			(uuid "1c7031bd-10f0-441e-ba82-f0ea629e1e8f")
+		)
+		(pin "A"
+			(uuid "dcc1c44b-5c51-4d2d-bd24-c44f9fa90cb5")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB_REV_C:root_0_CONN_SPEKTRUM_RX-TH_CB_REV_C.SCHLIB")
+		(at 55.88 31.75 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdec5c7b-78af-4c76-82da-3440f6bca2c7")
+		(property "Reference" "SPKT1"
+			(at 58.674 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "CONN_SPEKTRUM_RX-TH"
+			(at 52.832 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "B3B-ZR"
+			(at 55.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Spektrum RX connector; JST ZH series S3B-ZR-SM4A-TF"
+			(at 55.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTNO" "B3B-ZR(LF)(SN)"
+			(at 52.832 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" ""
+			(at 52.832 35.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "875143e6-9c22-43e0-bbe8-05722fc99d55")
+		)
+		(pin "1"
+			(uuid "f39532e9-6763-4573-adba-464911f9b3c4")
+		)
+		(pin "3"
+			(uuid "330ce178-4603-47ad-9d60-14f8a52873db")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/60f32567-c1f8-4632-a984-13ef417e88de"
+					(reference "SPKT1")
+					(unit 2)
 				)
 			)
 		)
