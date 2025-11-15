@@ -3966,6 +3966,16 @@
 		)
 		(uuid "0a7a5bce-d06a-4912-938a-f1c6cc95a932")
 	)
+	(text "where does this go?\n"
+		(exclude_from_sim no)
+		(at 120.396 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1375993b-5f27-4f9e-8a04-680fc53811ee")
+	)
 	(text "Cannot directly drive a \nbuzzer, but controls it."
 		(exclude_from_sim no)
 		(at 634.746 198.628 0)
@@ -5605,6 +5615,16 @@
 	)
 	(wire
 		(pts
+			(xy 438.15 199.39) (xy 441.96 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc15e56-c26d-4b24-9e1d-f5cc0edf3225")
+	)
+	(wire
+		(pts
 			(xy 144.78 163.83) (xy 146.05 163.83)
 		)
 		(stroke
@@ -6432,16 +6452,6 @@
 			(type default)
 		)
 		(uuid "79f8cf88-ace4-4ce4-a2ff-90d5616acb25")
-	)
-	(wire
-		(pts
-			(xy 438.15 199.39) (xy 441.96 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2aa80a-fc62-487d-a02f-9871a5f5ea2e")
 	)
 	(wire
 		(pts
@@ -7922,16 +7932,6 @@
 			(type default)
 		)
 		(uuid "ffaa0d8f-65db-49be-8b73-109e60de560f")
-	)
-	(label "I2C_2_SCL"
-		(at 438.15 199.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0419ae5b-b5cf-4409-8f3a-becc1675f926")
 	)
 	(label "SERIAL3_TX"
 		(at 438.15 143.51 180)
@@ -10314,72 +10314,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 391.16 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60cb1494-5e48-4b84-a9ab-95c529197250")
-		(property "Reference" "#PWR02"
-			(at 391.16 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 391.16 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 391.16 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "815f2f77-1bc6-4e3a-83f7-a0dca51c86b7")
-		)
-		(instances
-			(project ""
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 163.83 170.18 0)
 		(unit 1)
@@ -12016,17 +11950,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 309.88 140.97 0)
+		(lib_id "power:+5V")
+		(at 391.16 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "98ab40d3-2bbf-4e4b-b526-fd7d053732d9")
-		(property "Reference" "#PWR010"
-			(at 309.88 144.78 0)
+		(uuid "9733ee74-fe57-40a7-bf9e-178e57500876")
+		(property "Reference" "#PWR07"
+			(at 391.16 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,8 +11968,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 309.88 135.89 0)
+		(property "Value" "+5V_HIPOWER"
+			(at 391.16 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12043,7 +11977,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 140.97 0)
+			(at 391.16 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12052,7 +11986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 140.97 0)
+			(at 391.16 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12060,8 +11994,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 309.88 140.97 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 391.16 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12070,12 +12004,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f14a6539-4d45-4ce2-8db1-7b00de43faf2")
+			(uuid "f752880b-1b35-440f-bddb-4610770ab17f")
 		)
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12495,72 +12429,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 391.16 274.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a47226f4-9b4f-4868-9702-b36dad3992dd")
-		(property "Reference" "#PWR05"
-			(at 391.16 278.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 391.16 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 391.16 274.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83b1b539-24b9-46a3-805d-322e854cfba8")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 163.83 177.8 0)
 		(unit 1)
@@ -12625,72 +12493,6 @@
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 391.16 229.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a731991e-807b-4f72-90db-c6732022f16d")
-		(property "Reference" "#PWR07"
-			(at 391.16 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 391.16 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 391.16 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e7948c5-1fcb-402a-8779-86847e4ec801")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12908,6 +12710,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 309.88 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b20d5a73-f85c-45a1-bf19-a28c7354a01e")
+		(property "Reference" "#PWR02"
+			(at 309.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_PERIPH"
+			(at 309.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 309.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f91b4e2-0767-4cda-8325-46c40de0602d")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 406.4 162.56 0)
 		(unit 1)
@@ -12968,6 +12836,72 @@
 			(project ""
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 391.16 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb191b0b-9c32-4b5e-9887-59eb372c9f27")
+		(property "Reference" "#PWR05"
+			(at 391.16 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_PERIPH"
+			(at 391.16 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 391.16 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9eec564-901c-4b39-943b-d53b30129e08")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13108,72 +13042,6 @@
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 391.16 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c56157ea-a884-464c-a5c8-552cd048eb3e")
-		(property "Reference" "#PWR03"
-			(at 391.16 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 391.16 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 391.16 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 391.16 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 391.16 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17b7f75c-d6ea-4908-8f84-89071bf1c5eb")
-		)
-		(instances
-			(project "CB_REV_C"
-				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13879,6 +13747,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 391.16 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e56696bc-9d3b-4963-ae5f-bd591fd33b26")
+		(property "Reference" "#PWR03"
+			(at 391.16 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_PERIPH"
+			(at 391.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 391.16 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ca78f65-e400-48d6-9c7f-cc4bd48012cc")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 176.53 170.18 0)
 		(unit 1)
@@ -14017,6 +13951,72 @@
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 391.16 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f17faaa2-fbdb-468e-b05c-5a30b50854f4")
+		(property "Reference" "#PWR08"
+			(at 391.16 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_PERIPH"
+			(at 391.16 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 391.16 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.16 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 391.16 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93e1e98b-54d7-4b7e-8940-52e59f19692a")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
