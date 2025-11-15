@@ -9253,7 +9253,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "46.6k"
+		(property "Value" "46.4k"
 			(at 91.44 185.4199 0)
 			(effects
 				(font
@@ -9281,6 +9281,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-0746R4L"
 			(at 88.9 184.15 0)
 			(effects
 				(font
@@ -9618,7 +9627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "850p"
+		(property "Value" "0.1u"
 			(at 101.6 185.4262 0)
 			(effects
 				(font
@@ -9646,6 +9655,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 99.06 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "C0603C102K5RACTU"
 			(at 99.06 184.15 0)
 			(effects
 				(font
@@ -9908,7 +9926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "43.6k"
+		(property "Value" "43.7k"
 			(at 81.28 185.4199 0)
 			(effects
 				(font
@@ -9936,6 +9954,15 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 78.74 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RN73R1JTTD4372B25"
 			(at 78.74 184.15 0)
 			(effects
 				(font
