@@ -3877,6 +3877,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "DF17(4.0)-80DP-0.5V(57)"
+			(at 43.18 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "39"
 			(uuid "b8d34a36-ecad-4dfc-912a-86b847b96d53")
 		)

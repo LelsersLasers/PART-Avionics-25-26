@@ -1716,6 +1716,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "MSS1P4-M3/89A"
+			(at 59.69 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6505999-5817-446d-9753-7c429ea1a50d")
 		)
@@ -2010,6 +2019,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "PESD0402-140"
+			(at 66.04 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2fadf1f2-c558-401c-b3bb-930f37839e2c")
 		)
@@ -2110,7 +2128,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "NFM18PC104R1C3D"
 			(at 87.63 154.94 0)
 			(effects
 				(font

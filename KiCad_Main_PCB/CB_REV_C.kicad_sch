@@ -8465,7 +8465,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8539,7 +8539,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8662,6 +8662,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "PESD0402-140"
+			(at 414.02 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "879f8c05-290a-4271-8fba-5b4359ba04c9")
 		)
@@ -8724,6 +8733,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 447.04 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SM06B-GHS-TB"
 			(at 447.04 199.39 0)
 			(effects
 				(font
@@ -8889,6 +8907,15 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 414.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD0402-140"
+			(at 414.02 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,6 +9204,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "SM03B-GHS-TB"
+			(at 181.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1acebaa6-54dd-4205-a92d-3f8b50084e90")
 		)
@@ -9353,7 +9389,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "NFM18PC104R1C3D"
 			(at 80.01 115.57 0)
 			(effects
 				(font
@@ -9421,7 +9457,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9495,7 +9531,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9829,6 +9865,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "MSS1P4-M3/89A"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "222ad462-be02-4946-b235-9f1a1c34111f")
 		)
@@ -9961,6 +10006,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 447.04 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SM06B-GHS-TB"
 			(at 447.04 285.75 0)
 			(effects
 				(font
@@ -10137,7 +10191,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10290,7 +10344,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11280,6 +11334,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "PESD0402-140"
+			(at 414.02 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ccdf4594-6f93-402d-88be-d8f5b8e30bd6")
 		)
@@ -11301,7 +11364,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11456,6 +11519,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7484d618-a444-4f71-bffc-793c2c0487d9")
 		(property "Reference" "R1"
 			(at 72.39 72.3899 0)
@@ -11590,6 +11654,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "PESD0402-140"
+			(at 414.02 284.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3dc41803-5bd8-437f-ae0b-791bfdd7b042")
 		)
@@ -11691,7 +11764,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "NFM18PC104R1C3D"
 			(at 406.4 185.42 0)
 			(effects
 				(font
@@ -11759,7 +11832,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11833,7 +11906,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11919,7 +11992,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "NFM18PC104R1C3D"
 			(at 406.4 137.16 0)
 			(effects
 				(font
@@ -12263,7 +12336,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "NFM18PC104R1C3D"
 			(at 406.4 227.33 0)
 			(effects
 				(font
@@ -12446,6 +12519,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "PESD0402-140"
+			(at 332.74 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9f86d684-dde6-4e24-ba0f-590a089d7f63")
 		)
@@ -12588,6 +12670,15 @@
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode"
 			(at 58.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "PESD0402-140"
+			(at 58.42 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13017,6 +13108,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "INA138NA/3K"
+			(at 124.46 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "094cb6a2-1c5d-4b74-a5d7-8f98ff7d2346")
 		)
@@ -13113,7 +13213,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13453,7 +13553,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13593,7 +13693,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13745,7 +13845,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "NFM18PC104R1C3D"
 			(at 406.4 271.78 0)
 			(effects
 				(font
@@ -13931,6 +14031,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "SM04B-GHS-TB"
+			(at 365.76 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0539d9c8-df9c-47d6-aff0-baa062237a39")
 		)
@@ -14106,7 +14215,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14192,7 +14301,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "NFM18PC104R1C3D"
 			(at 325.12 138.43 0)
 			(effects
 				(font
@@ -14301,6 +14410,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 447.04 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SM06B-GHS-TB"
 			(at 447.04 241.3 0)
 			(effects
 				(font
@@ -14473,6 +14591,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "CSSU2512FT10L0"
+			(at 107.95 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab3ad9c6-b6cb-4388-bb0b-00296f567a17")
 		)
@@ -14494,7 +14621,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14606,6 +14733,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 447.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SM08B-GHS-TB"
 			(at 447.04 148.59 0)
 			(effects
 				(font
