@@ -500,7 +500,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PCB_Parts}.csv",
+    "bom_export_filename": "BOM_CarrierBoard.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -799,12 +799,6 @@
         },
         {
           "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "PACKAGE_TYPE",
           "name": "PACKAGE_TYPE",
           "show": false
@@ -880,6 +874,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PurchaseLink",
+          "name": "PurchaseLink",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -887,7 +893,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "MP"
     },
     "connection_grid_size": 50.0,
     "drawing": {

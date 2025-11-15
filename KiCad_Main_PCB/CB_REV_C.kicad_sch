@@ -10341,7 +10341,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "  25ZLH470MEFC10X12.5"
+		(property "MP" "25ZLH470MEFC10X12.5"
 			(at 57.15 78.74 0)
 			(effects
 				(font
@@ -13420,6 +13420,15 @@
 		)
 		(property "Description" ""
 			(at 38.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PurchaseLink" "https://www.tme.com/us/en-us/details/xt60pt-m/dc-power-connectors/amass/"
+			(at 40.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
