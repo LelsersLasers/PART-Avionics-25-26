@@ -3832,7 +3832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "115fa976-0a31-43b0-9562-c0591d156d80")
-		(property "Reference" "U1"
+		(property "Reference" "J1"
 			(at 122.174 32.766 0)
 			(effects
 				(font
@@ -3841,7 +3841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Cube80Pin"
 			(at 122.174 35.306 0)
 			(effects
 				(font
@@ -3850,7 +3850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "PART_Footprints:HRS_DF17_40_80DP_05V_57"
+		(property "Footprint" "AltiumImportLib:CON-DF17-80M"
 			(at 83.566 32.512 0)
 			(effects
 				(font
@@ -4123,7 +4123,7 @@
 		(instances
 			(project ""
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/1768d2a2-974a-4a00-8b70-f6d15c61410a"
-					(reference "U1")
+					(reference "J1")
 					(unit 1)
 				)
 			)
