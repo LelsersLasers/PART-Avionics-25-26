@@ -799,6 +799,12 @@
         },
         {
           "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
           "label": "PACKAGE_TYPE",
           "name": "PACKAGE_TYPE",
           "show": false
@@ -873,12 +879,6 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part Number",
-          "name": "Part Number",
           "show": false
         }
       ],
