@@ -6186,7 +6186,7 @@
 	)
 	(text "NOTE: This uses RL=1.25, computed using\nR = V / I = 5V / 4A for the Jetson"
 		(exclude_from_sim no)
-		(at 242.316 209.55 0)
+		(at 241.3 216.408 0)
 		(effects
 			(font
 				(size 0.635 0.635)
@@ -8133,7 +8133,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 127) (xy 332.74 128.27)
+			(xy 332.74 133.35) (xy 332.74 143.51)
 		)
 		(stroke
 			(width 0)
@@ -9953,7 +9953,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 120.65) (xy 332.74 121.92)
+			(xy 332.74 120.65) (xy 332.74 128.27)
 		)
 		(stroke
 			(width 0)
@@ -11891,7 +11891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "46.6k"
+		(property "Value" "47k"
 			(at 247.65 139.6999 0)
 			(effects
 				(font
@@ -12511,7 +12511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "850p"
+		(property "Value" "1n"
 			(at 257.81 139.7062 0)
 			(effects
 				(font
@@ -12644,7 +12644,7 @@
 				)
 			)
 		)
-		(property "Value" "3n"
+		(property "Value" "0.3n"
 			(at 242.5763 127 90)
 			(effects
 				(font
@@ -13314,7 +13314,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "43.6k"
+		(property "Value" "43.2k"
 			(at 237.49 139.6999 0)
 			(effects
 				(font
@@ -13360,6 +13360,84 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 304.8 222.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c736dc4-2f1c-43ac-8cec-e3660a1727f3")
+		(property "Reference" "D1"
+			(at 307.34 220.6624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS54"
+			(at 307.34 223.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 304.8 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 304.8 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 304.8 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SS54"
+			(at 304.8 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2c8d7b7-802c-4aab-b6df-42f3b99fd026")
+		)
+		(pin "1"
+			(uuid "23dcc5b5-fb12-4b53-b5ae-17e0ba828e1d")
+		)
+		(instances
+			(project "pdb"
+				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -15267,7 +15345,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
 			(at 308.61 120.65 0)
 			(effects
 				(font
@@ -15287,6 +15365,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 308.61 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CDRH127/LDNP-220MC"
+			(at 308.61 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15798,7 +15885,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "46.6k"
+		(property "Value" "47k"
 			(at 247.65 227.3299 0)
 			(effects
 				(font
@@ -17333,7 +17420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "43.6k"
+		(property "Value" "105k"
 			(at 237.49 227.3299 0)
 			(effects
 				(font
@@ -17511,75 +17598,6 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 304.8 222.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f4aa362-a001-480a-ba84-61e0c0f51774")
-		(property "Reference" "D1"
-			(at 307.34 220.6624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V7N3103"
-			(at 307.34 223.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 304.8 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 304.8 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 304.8 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "762b8e7c-9c94-41da-b500-3125f61cbb12")
-		)
-		(pin "1"
-			(uuid "2892ffc8-5c0d-414c-89a7-92886eaa7feb")
-		)
-		(instances
-			(project "pdb"
-				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -19065,7 +19083,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "7.5k"
 			(at 322.58 220.9799 0)
 			(effects
 				(font
@@ -19211,7 +19229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
 			(at 308.61 208.28 0)
 			(effects
 				(font
@@ -19231,6 +19249,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 308.61 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CDRH127/LDNP-220MC"
+			(at 308.61 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19681,7 +19708,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140k"
+		(property "Value" "105k"
 			(at 322.58 213.3599 0)
 			(effects
 				(font
@@ -19821,7 +19848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "850p"
+		(property "Value" "1n"
 			(at 257.81 227.3362 0)
 			(effects
 				(font
@@ -21238,7 +21265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V7N3103"
+		(property "Value" "SS54"
 			(at 307.34 135.636 90)
 			(effects
 				(font
@@ -21247,7 +21274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 304.8 134.62 0)
 			(effects
 				(font
@@ -21267,6 +21294,15 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 304.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SS54"
+			(at 304.8 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21899,7 +21935,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 332.74 124.46 0)
+		(at 332.74 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21908,7 +21944,7 @@
 		(fields_autoplaced yes)
 		(uuid "e773cbf1-ab8f-4f8a-99e4-5427c08f9493")
 		(property "Reference" "C8"
-			(at 335.28 123.1962 0)
+			(at 335.28 129.5462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21917,7 +21953,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 335.28 125.7362 0)
+			(at 335.28 132.0862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21926,7 +21962,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 332.74 124.46 0)
+			(at 332.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21935,7 +21971,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 332.74 124.46 0)
+			(at 332.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21944,7 +21980,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 332.74 124.46 0)
+			(at 332.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22601,7 +22637,7 @@
 				)
 			)
 		)
-		(property "Value" "3n"
+		(property "Value" "0.3n"
 			(at 242.5763 214.63 90)
 			(effects
 				(font
@@ -22653,7 +22689,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 332.74 128.27 0)
+		(at 332.74 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22662,7 +22698,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe69ca7c-f7ad-4d9d-afb2-a8843bb85c58")
 		(property "Reference" "#PWR018"
-			(at 332.74 134.62 0)
+			(at 332.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22671,7 +22707,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 332.74 133.35 0)
+			(at 332.74 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22679,7 +22715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 332.74 128.27 0)
+			(at 332.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22688,7 +22724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 332.74 128.27 0)
+			(at 332.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22697,7 +22733,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 332.74 128.27 0)
+			(at 332.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
