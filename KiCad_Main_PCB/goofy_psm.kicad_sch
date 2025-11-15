@@ -949,7 +949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9587ae87-8a58-4077-a570-98a83bd0ff5c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR0101"
 			(at 49.53 78.74 0)
 			(effects
 				(font
@@ -996,6 +996,14 @@
 		)
 		(pin "1"
 			(uuid "89dc515c-c76e-44f6-a3eb-5a8afe50b262")
+		)
+		(instances
+			(project "CB_REV_C"
+				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/56da03d5-c24d-4da4-a2b1-8c14f225d25b"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

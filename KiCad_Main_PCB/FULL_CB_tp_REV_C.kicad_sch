@@ -537,7 +537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11074f22-e9ae-49f1-8c5d-93556c40164e")
-		(property "Reference" "S2RX"
+		(property "Reference" "S2RX1"
 			(at 119.634 76.2 0)
 			(effects
 				(font
@@ -588,7 +588,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/267eff4f-e83a-47cb-8169-0135f3b2941c"
-					(reference "S2RX")
+					(reference "S2RX1")
 					(unit 1)
 				)
 			)
@@ -603,7 +603,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "123fbec4-7fb7-41f0-806a-72de02f61f04")
-		(property "Reference" "S4RX"
+		(property "Reference" "S4RX1"
 			(at 119.634 111.76 0)
 			(effects
 				(font
@@ -654,7 +654,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/267eff4f-e83a-47cb-8169-0135f3b2941c"
-					(reference "S4RX")
+					(reference "S4RX1")
 					(unit 1)
 				)
 			)
@@ -669,7 +669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "278f76c1-c3a2-40c5-ba50-edc7108889f1")
-		(property "Reference" "S5_RX"
+		(property "Reference" "S5_RX1"
 			(at 119.634 129.54 0)
 			(effects
 				(font
@@ -720,7 +720,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/267eff4f-e83a-47cb-8169-0135f3b2941c"
-					(reference "S5_RX")
+					(reference "S5_RX1")
 					(unit 1)
 				)
 			)
@@ -735,7 +735,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "508b4b8f-539b-4746-a544-7507f4d8e347")
-		(property "Reference" "S4TX"
+		(property "Reference" "S4TX1"
 			(at 119.634 104.14 0)
 			(effects
 				(font
@@ -786,7 +786,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/267eff4f-e83a-47cb-8169-0135f3b2941c"
-					(reference "S4TX")
+					(reference "S4TX1")
 					(unit 1)
 				)
 			)
@@ -867,7 +867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6220edd6-14c8-4785-bb19-d7011cfd8684")
-		(property "Reference" "S1RX"
+		(property "Reference" "S1RX1"
 			(at 119.634 58.42 0)
 			(effects
 				(font
@@ -918,7 +918,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/267eff4f-e83a-47cb-8169-0135f3b2941c"
-					(reference "S1RX")
+					(reference "S1RX1")
 					(unit 1)
 				)
 			)
@@ -933,7 +933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7792d7e6-7b74-4d83-992a-1f8af3a0d8e7")
-		(property "Reference" "ADC_PR"
+		(property "Reference" "ADC_PR1"
 			(at 165.354 91.44 0)
 			(effects
 				(font
@@ -984,7 +984,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/267eff4f-e83a-47cb-8169-0135f3b2941c"
-					(reference "ADC_PR")
+					(reference "ADC_PR1")
 					(unit 1)
 				)
 			)
@@ -999,7 +999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95b5b287-773f-4efc-af72-7d0cc9a08839")
-		(property "Reference" "S2TX"
+		(property "Reference" "S2TX1"
 			(at 119.634 68.58 0)
 			(effects
 				(font
@@ -1050,7 +1050,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/267eff4f-e83a-47cb-8169-0135f3b2941c"
-					(reference "S2TX")
+					(reference "S2TX1")
 					(unit 1)
 				)
 			)
@@ -1065,7 +1065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98f79b4c-de75-46f8-a7d8-55df7e2f8c9a")
-		(property "Reference" "S1TX"
+		(property "Reference" "S1TX1"
 			(at 119.634 50.8 0)
 			(effects
 				(font
@@ -1116,7 +1116,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/267eff4f-e83a-47cb-8169-0135f3b2941c"
-					(reference "S1TX")
+					(reference "S1TX1")
 					(unit 1)
 				)
 			)
@@ -1131,7 +1131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9f7b752-acc2-4118-bad9-24c466cefee6")
-		(property "Reference" "S3RX"
+		(property "Reference" "S3RX1"
 			(at 119.634 93.98 0)
 			(effects
 				(font
@@ -1182,7 +1182,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/267eff4f-e83a-47cb-8169-0135f3b2941c"
-					(reference "S3RX")
+					(reference "S3RX1")
 					(unit 1)
 				)
 			)
@@ -1263,7 +1263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d716c6ac-32e5-4e60-91e6-8e47a4e64556")
-		(property "Reference" "S3TX"
+		(property "Reference" "S3TX1"
 			(at 119.634 86.36 0)
 			(effects
 				(font
@@ -1314,7 +1314,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/267eff4f-e83a-47cb-8169-0135f3b2941c"
-					(reference "S3TX")
+					(reference "S3TX1")
 					(unit 1)
 				)
 			)
@@ -1461,7 +1461,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb7f4912-6f81-4cda-85ce-e714fddc221d")
-		(property "Reference" "S5_TX"
+		(property "Reference" "S5_TX1"
 			(at 119.634 121.92 0)
 			(effects
 				(font
@@ -1512,7 +1512,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/267eff4f-e83a-47cb-8169-0135f3b2941c"
-					(reference "S5_TX")
+					(reference "S5_TX1")
 					(unit 1)
 				)
 			)

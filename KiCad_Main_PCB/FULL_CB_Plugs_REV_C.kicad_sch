@@ -2511,6 +2511,12 @@
 		(uuid "e3b38edc-0274-4735-8f8b-31f6989bcfb5")
 	)
 	(junction
+		(at 113.03 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1cf2216-4325-4a94-8186-2efbd55b449e")
+	)
+	(junction
 		(at 129.54 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2898,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 80.01) (xy 124.46 90.17)
+			(xy 107.95 80.01) (xy 107.95 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3048,16 +3054,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 74.93) (xy 119.38 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5859f772-7037-46ac-b8c8-abcfdffd726a")
-	)
-	(wire
-		(pts
 			(xy 208.28 29.21) (xy 210.82 29.21)
 		)
 		(stroke
@@ -3105,6 +3101,16 @@
 			(type default)
 		)
 		(uuid "5ebcc5b1-d781-48e4-8e05-3f066ce6941f")
+	)
+	(wire
+		(pts
+			(xy 113.03 74.93) (xy 102.87 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60605dd0-e4e1-43b2-8280-dd5f7ab849c7")
 	)
 	(wire
 		(pts
@@ -3308,7 +3314,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 74.93) (xy 132.08 74.93)
+			(xy 113.03 74.93) (xy 132.08 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3748,7 +3754,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 90.17) (xy 132.08 90.17)
+			(xy 107.95 90.17) (xy 132.08 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6647,7 +6653,7 @@
 	)
 	(symbol
 		(lib_id "CB_REV_C:root_0_KNH16C104DA5TS_CB_REV_C.SCHLIB")
-		(at 124.46 74.93 0)
+		(at 107.95 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6655,7 +6661,7 @@
 		(dnp no)
 		(uuid "9fe56df3-9b52-4f84-8fdb-a2ad8be884da")
 		(property "Reference" "L103"
-			(at 119.634 70.104 0)
+			(at 103.124 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6664,7 +6670,7 @@
 			)
 		)
 		(property "Value" "Kyocera KNH16C104DA5TS EMI filter"
-			(at 119.634 72.644 0)
+			(at 103.124 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6673,7 +6679,7 @@
 			)
 		)
 		(property "Footprint" "KYOCERA-KNH16-DA"
-			(at 124.46 74.93 0)
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +6688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 74.93 0)
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6691,7 +6697,7 @@
 			)
 		)
 		(property "Description" "Capacitor, Filter, 0.1uF, 25V, 2A, 0603, SMD"
-			(at 124.46 74.93 0)
+			(at 107.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6700,7 +6706,7 @@
 			)
 		)
 		(property "SUPPLIER 1" "Digi-Key"
-			(at 118.872 67.564 0)
+			(at 102.362 67.564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6710,7 +6716,7 @@
 			)
 		)
 		(property "SUPPLIER PART NUMBER 1" "478-6878-1-ND"
-			(at 121.666 83.058 0)
+			(at 105.156 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
