@@ -7572,12 +7572,8 @@
 		(uuid "3a2fccaa-1591-4fe4-8ec4-1373a5f07b57")
 	)
 	(no_connect
-		(at 41.91 154.94)
-		(uuid "66841caf-24d7-43ff-a2cf-ae6cbd6262d4")
-	)
-	(no_connect
-		(at 26.67 87.63)
-		(uuid "f73e55fe-8dda-42da-8a0b-da258ab8948f")
+		(at 57.15 148.59)
+		(uuid "6393559b-5727-4f71-bea5-3815da75c2cc")
 	)
 	(wire
 		(pts
@@ -7709,7 +7705,7 @@
 		)
 		(uuid "27a94346-d952-48e8-80b1-a9f757155a40")
 	)
-	(label "MATRIX_CONTROL_F"
+	(label "MATRIX_CONTROL_G"
 		(at 58.42 62.23 0)
 		(effects
 			(font
@@ -7969,7 +7965,7 @@
 		)
 		(uuid "a3ce14bd-2de1-4602-b0f3-ddda07f07f26")
 	)
-	(label "MATRIX_CONTROL_E"
+	(label "MATRIX_CONTROL_F"
 		(at 58.42 59.69 0)
 		(effects
 			(font
