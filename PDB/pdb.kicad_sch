@@ -6486,12 +6486,6 @@
 		(uuid "1439d04b-932e-4746-9520-81fe59f2f0b3")
 	)
 	(junction
-		(at 58.42 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14b0e83f-9179-4f10-96dc-bab7d88c4ab5")
-	)
-	(junction
 		(at 304.8 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6762,12 +6756,6 @@
 		(uuid "aa42594e-310b-43ca-be9b-45ef2f773bab")
 	)
 	(junction
-		(at 60.96 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa59b4c9-37dd-4b49-9b4b-9ab654b00506")
-	)
-	(junction
 		(at 247.65 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6948,10 +6936,6 @@
 		(uuid "125c56de-79eb-4e7d-8b73-4a87aef5812e")
 	)
 	(no_connect
-		(at 34.29 134.62)
-		(uuid "1585f24a-b801-4bf7-86aa-3dc89e519bc9")
-	)
-	(no_connect
 		(at 246.38 64.77)
 		(uuid "278f9624-4c5b-43d5-b54c-92fa4fa21982")
 	)
@@ -6966,10 +6950,6 @@
 	(no_connect
 		(at 33.274 66.04)
 		(uuid "38a15c13-371b-4ca6-8e23-1571d86fe8ba")
-	)
-	(no_connect
-		(at 34.29 132.08)
-		(uuid "42333607-a2ec-4022-95c4-dee49a91cf40")
 	)
 	(no_connect
 		(at 33.274 68.58)
@@ -6994,16 +6974,6 @@
 	(no_connect
 		(at 34.29 85.09)
 		(uuid "f2d4241e-e90b-433c-b933-52905cfb8ce0")
-	)
-	(wire
-		(pts
-			(xy 60.96 134.62) (xy 60.96 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00be4b31-4fd4-4fce-8e2b-6f97fd34be13")
 	)
 	(wire
 		(pts
@@ -9637,7 +9607,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 134.62) (xy 60.96 138.43)
+			(xy 60.96 118.11) (xy 60.96 138.43)
 		)
 		(stroke
 			(width 0)
@@ -10164,16 +10134,6 @@
 			(type default)
 		)
 		(uuid "f9db035c-5745-4741-9fef-3e72d2aefc06")
-	)
-	(wire
-		(pts
-			(xy 57.15 134.62) (xy 60.96 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9f5106d-5f18-44c0-b1d6-f42006e777aa")
 	)
 	(wire
 		(pts
@@ -20333,159 +20293,6 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "XT90:XT90PW-F")
-		(at 34.29 134.62 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab4e5f59-d9e3-455b-92ba-347e470db809")
-		(property "Reference" "J12"
-			(at 45.72 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XT90PW-F"
-			(at 45.72 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "All:XT90PWF"
-			(at 53.34 39.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf"
-			(at 53.34 -60.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector: DC supply; socket; female; XT90; 40A; 500V; PIN: 2; THT"
-			(at 34.29 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.3"
-			(at 53.34 -260.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 53.34 -360.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 53.34 -460.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amass"
-			(at 53.34 -560.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XT90PW-F"
-			(at 53.34 -660.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 34.29 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" ""
-			(at 34.29 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 34.29 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1f533e93-5cd7-4ede-be42-c071dd23f9ac")
-		)
-		(pin "1"
-			(uuid "091016fc-16b4-4b6e-a8ab-3f46b252c4b6")
-		)
-		(pin "2"
-			(uuid "a201bed5-73fb-4f14-98df-86ec325c9778")
-		)
-		(pin "4"
-			(uuid "e1931430-0d2b-4281-b5fe-d7625cb0e1cd")
-		)
-		(instances
-			(project "pdb"
-				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "J12")
 					(unit 1)
 				)
 			)
