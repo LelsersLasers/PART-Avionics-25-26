@@ -7709,7 +7709,7 @@
 		)
 		(uuid "27a94346-d952-48e8-80b1-a9f757155a40")
 	)
-	(label "MATRIX_CONTROL_F"
+	(label "MATRIX_CONTROL_G"
 		(at 58.42 62.23 0)
 		(effects
 			(font
@@ -7969,7 +7969,7 @@
 		)
 		(uuid "a3ce14bd-2de1-4602-b0f3-ddda07f07f26")
 	)
-	(label "MATRIX_CONTROL_E"
+	(label "MATRIX_CONTROL_F"
 		(at 58.42 59.69 0)
 		(effects
 			(font
