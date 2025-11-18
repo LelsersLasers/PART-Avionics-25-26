@@ -911,10 +911,6 @@
 		(uuid "12ccb278-dd07-49a3-a10f-bae7395d611c")
 	)
 	(no_connect
-		(at 193.04 50.8)
-		(uuid "17badd65-e7f3-4b94-9527-a306b68736c2")
-	)
-	(no_connect
 		(at 212.09 50.8)
 		(uuid "19da2287-f3d8-4dfc-84cf-ee908d212b53")
 	)
@@ -1677,7 +1673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1534347b-bec1-46a0-83ad-9d8e14756a9c")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 60.0075 152.4 0)
 			(effects
 				(font
@@ -1738,7 +1734,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/56da03d5-c24d-4da4-a2b1-8c14f225d25b"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -1754,7 +1750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c7e6c4c-460c-4334-9265-9ed319ac1b82")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR028"
 			(at 87.63 182.88 0)
 			(effects
 				(font
@@ -1804,7 +1800,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/56da03d5-c24d-4da4-a2b1-8c14f225d25b"
-					(reference "#PWR011")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1978,7 +1974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cbf9bbb-db1d-4cf2-b26c-01e34cbf1c49")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 68.58 165.0999 90)
 			(effects
 				(font
@@ -2041,7 +2037,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/56da03d5-c24d-4da4-a2b1-8c14f225d25b"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -2057,7 +2053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9587ae87-8a58-4077-a570-98a83bd0ff5c")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR027"
 			(at 43.18 92.71 0)
 			(effects
 				(font
@@ -2108,7 +2104,7 @@
 		(instances
 			(project "CB_REV_C"
 				(path "/4a973649-3bfb-4d54-ba66-b6518ecd628a/56da03d5-c24d-4da4-a2b1-8c14f225d25b"
-					(reference "#PWR0101")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
