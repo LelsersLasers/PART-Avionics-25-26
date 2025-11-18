@@ -8153,7 +8153,7 @@
 		)
 		(uuid "88d5eeee-ebdf-4f6b-ae78-c0c8f8537b2b")
 	)
-	(label "I2C_2_SDA"
+	(label "I2C_2_SCL"
 		(at 353.06 154.94 180)
 		(effects
 			(font
