@@ -8087,16 +8087,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 132.08) (xy 58.42 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53711473-c73d-4b97-9a5d-989997850331")
-	)
-	(wire
-		(pts
 			(xy 66.04 172.72) (xy 66.04 176.53)
 		)
 		(stroke
@@ -9944,16 +9934,6 @@
 			(type default)
 		)
 		(uuid "e9e9bde3-843d-4ba6-adec-4d3bfa4a9fd9")
-	)
-	(wire
-		(pts
-			(xy 58.42 132.08) (xy 58.42 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead0594c-3cd8-42ad-809d-46ee7f8d161f")
 	)
 	(wire
 		(pts
@@ -14871,7 +14851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56129cff-8f0a-4884-897d-f04b876c5858")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0107"
 			(at 334.01 173.99 0)
 			(effects
 				(font
@@ -14922,7 +14902,7 @@
 		(instances
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "#PWR0104")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -22381,7 +22361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b85eaf2e-0018-4997-859c-f03ec01ff55c")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0106"
 			(at 256.54 118.11 0)
 			(effects
 				(font
@@ -22432,7 +22412,7 @@
 		(instances
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "#PWR0105")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
