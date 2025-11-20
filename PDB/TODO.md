@@ -2,7 +2,7 @@
 
 [ ] Ferritebead is 0201. Fix and update footprint. Current req?
 [x] Big cap footrpints
-[ ] 3 pin Switch footprint
+[x] 3 pin Switch footprint
 [x] Diodes less fat
 [ ] Do caps on output of bucks need to be bigger??
 [ ] Is it chill that we took 6.8uH to 10uH? Also current rating?
