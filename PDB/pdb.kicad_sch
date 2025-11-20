@@ -5821,7 +5821,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -24851,7 +24851,7 @@
 		(pin "1"
 			(uuid "ce8d35da-e39f-4834-aaf7-40419ea7c961")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "377f31c5-a3bf-423b-b55d-a261eee30a40")
 		)
 		(pin "4"
