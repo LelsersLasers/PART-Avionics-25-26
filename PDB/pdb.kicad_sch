@@ -13110,7 +13110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43SMTR"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_SKQG_WithStem"
 			(at 231.14 45.72 0)
 			(effects
 				(font
@@ -13260,9 +13260,9 @@
 		(at 44.45 228.6 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "165d60f3-cd5d-456e-8bde-d65fb5a0adb9")
 		(property "Reference" "J9"
@@ -14113,7 +14113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 71.12 167.64 0)
 			(effects
 				(font
@@ -16054,7 +16054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 307.34 187.96 0)
 			(effects
 				(font
@@ -18469,9 +18469,9 @@
 		(at 44.45 198.12 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "74e4a122-c206-41ae-9821-e2d395c6b01a")
 		(property "Reference" "J7"
@@ -19078,9 +19078,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "80c42d51-fac1-4127-9faf-064f25b3500f")
 		(property "Reference" "J4"
@@ -19443,9 +19443,9 @@
 		(at 44.45 256.54 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "874a815f-ba1d-4384-bb8f-30ed5e92ecdd")
 		(property "Reference" "J10"
@@ -19893,7 +19893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 71.12 256.54 0)
 			(effects
 				(font
@@ -20148,9 +20148,9 @@
 		(at 44.45 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8ff22379-eaaa-460c-84bc-efe4ea7b752a")
 		(property "Reference" "J1"
@@ -21211,7 +21211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 304.8 134.62 0)
 			(effects
 				(font
@@ -21468,9 +21468,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a4e6d875-6a1e-4c39-aa24-89dcadfbf6ad")
 		(property "Reference" "J2"
@@ -21977,7 +21977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 71.12 227.33 0)
 			(effects
 				(font
@@ -22806,7 +22806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10"
 			(at 71.12 196.85 0)
 			(effects
 				(font
@@ -24853,9 +24853,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ccfaaa2b-e2ec-4bf6-a8b6-183ad06b718c")
 		(property "Reference" "J3"
@@ -25809,9 +25809,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "df6ff167-bc49-4029-9b15-57ac6e5ba29c")
 		(property "Reference" "J5"
@@ -27053,7 +27053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "Device:C_Polarized_Small_US")
 		(at 162.56 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27063,7 +27063,7 @@
 		(fields_autoplaced yes)
 		(uuid "f107f371-d57d-43ba-9172-b67876f16622")
 		(property "Reference" "C27"
-			(at 165.1 220.9862 0)
+			(at 165.1 220.5481 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27072,7 +27072,7 @@
 			)
 		)
 		(property "Value" "30u"
-			(at 165.1 223.5262 0)
+			(at 165.1 223.0881 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27098,7 +27098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "Polarized capacitor, small US symbol"
 			(at 162.56 222.25 0)
 			(effects
 				(font
