@@ -8844,6 +8844,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "CRGCQ0603F470R"
+			(at 30.48 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b6b3c8f7-b36a-49cb-bfe7-f2cab8da637a")
 		)

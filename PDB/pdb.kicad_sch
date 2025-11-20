@@ -12864,6 +12864,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "CRGCQ0603F470R"
+			(at 30.48 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ca3c3d4-59fa-4bac-824b-2b8792ac8f17")
 		)
@@ -13701,7 +13710,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "0402B104K160CT"
+		(property "MP" "CC0603KRX7R7BB104"
 			(at 160.02 40.64 0)
 			(effects
 				(font
@@ -13797,6 +13806,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 105.41 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CR0603-FX-1203ELF"
 			(at 105.41 189.23 90)
 			(effects
 				(font
@@ -14389,6 +14407,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RC0603FR-0747KL"
+			(at 245.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68201307-ccca-4e8c-b0ee-bb09e2359eb8")
 		)
@@ -14486,7 +14513,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL03A105KP3NSNC"
+		(property "MP" "UMK107AB7105KA-T"
 			(at 173.99 40.64 0)
 			(effects
 				(font
@@ -15302,7 +15329,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "C2012C0G2A472J125AA"
+		(property "MP" "C0603C472F3GACTU"
 			(at 173.99 219.71 0)
 			(effects
 				(font
@@ -15540,6 +15567,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RG1608P-4322-B-T5"
+			(at 234.95 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1814dd7b-138a-468b-bfba-01eab93ce57f")
 		)
@@ -15768,7 +15804,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL21A106KOQNNNE"
+		(property "MP" "CL10A106KP8NNNC"
 			(at 335.28 177.8 0)
 			(effects
 				(font
@@ -16178,7 +16214,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL03A105KP3NSNC"
+		(property "MP" "UMK107AB7105KA-T"
 			(at 201.93 40.64 0)
 			(effects
 				(font
@@ -16547,6 +16583,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RC0603FR-0710KL"
+			(at 226.06 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cb3562d-5f69-4b60-a047-5d296658d79a")
 		)
@@ -16797,6 +16842,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 167.64 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "AC0603FR-0733KL"
 			(at 167.64 99.06 0)
 			(effects
 				(font
@@ -17165,7 +17219,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL21A106KOQNNNE"
+		(property "MP" "CL10A106KP8NNNC"
 			(at 250.19 175.26 0)
 			(effects
 				(font
@@ -17335,7 +17389,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "0402B104K160CT"
+		(property "MP" "CC0603KRX7R7BB104"
 			(at 250.19 41.91 90)
 			(effects
 				(font
@@ -18050,6 +18104,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 158.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RMCF0603FT270R"
 			(at 158.75 149.86 0)
 			(effects
 				(font
@@ -18812,7 +18875,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "MLZ2012N6R8LT000"
+		(property "MP" "MLZ1608N100LT000"
 			(at 109.22 203.2 90)
 			(effects
 				(font
@@ -18984,7 +19047,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL21A106KOQNNNE"
+		(property "MP" "CL10A106KP8NNNC"
 			(at 170.18 187.96 0)
 			(effects
 				(font
@@ -19245,7 +19308,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL21A106KOQNNNE"
+		(property "MP" "CL10A106KP8NNNC"
 			(at 247.65 121.92 0)
 			(effects
 				(font
@@ -19343,6 +19406,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 96.52 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-0720KL"
 			(at 96.52 227.33 0)
 			(effects
 				(font
@@ -19663,7 +19735,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM035R60J475ME15D"
+		(property "MP" "GRM188R61E475KE11D"
 			(at 153.67 222.25 0)
 			(effects
 				(font
@@ -19761,6 +19833,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 247.65 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-0747KL"
 			(at 247.65 191.77 0)
 			(effects
 				(font
@@ -20358,7 +20439,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "0402B104K160CT"
+		(property "MP" "CC0603KRX7R7BB104"
 			(at 298.45 118.11 90)
 			(effects
 				(font
@@ -20734,7 +20815,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "0402B104K160CT"
+		(property "MP" "CC0603KRX7R7BB104"
 			(at 300.99 171.45 90)
 			(effects
 				(font
@@ -20832,6 +20913,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 320.04 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-0752K3L"
 			(at 320.04 124.46 0)
 			(effects
 				(font
@@ -20996,6 +21086,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 237.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CR0603-FX-1053ELF"
 			(at 237.49 191.77 0)
 			(effects
 				(font
@@ -21339,6 +21438,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RG1608P-472-B-T5"
+			(at 127 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd14888c-4bcd-49de-afa0-11dc106c5cbf")
 		)
@@ -21581,7 +21689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" ""
+		(property "MP" "RK73B1JTTD621J"
 			(at 143.51 149.86 0)
 			(effects
 				(font
@@ -21686,7 +21794,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM155R61A683KA01D"
+		(property "MP" "KGM15AR71C683KT"
 			(at 92.71 210.82 0)
 			(effects
 				(font
@@ -22029,7 +22137,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL21A106KOQNNNE"
+		(property "MP" "CL10A106KP8NNNC"
 			(at 332.74 130.81 0)
 			(effects
 				(font
@@ -22963,7 +23071,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL03A105KP3NSNC"
+		(property "MP" "UMK107AB7105KA-T"
 			(at 317.5 78.74 0)
 			(effects
 				(font
@@ -23040,7 +23148,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CDRH127/LDNP-220MC"
+		(property "MP" "CL10A226MP8NUNE"
 			(at 311.15 173.99 90)
 			(effects
 				(font
@@ -23371,7 +23479,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CC0402KRX7R9BB102"
+		(property "MP" "C0603C102K5RACTU"
 			(at 255.27 138.43 0)
 			(effects
 				(font
@@ -23475,7 +23583,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "0402B104K160CT"
+		(property "MP" "CC0603KRX7R7BB104"
 			(at 148.59 78.74 90)
 			(effects
 				(font
@@ -23696,6 +23804,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "CR0603-FX-1053ELF"
+			(at 322.58 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a43091fd-ec69-4a4d-9e51-15314b39258c")
 		)
@@ -23785,6 +23902,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 173.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRGCQ0603F470R"
 			(at 173.99 149.86 0)
 			(effects
 				(font
@@ -23890,7 +24016,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CC0402KRX7R9BB102"
+		(property "MP" "C0603C102K5RACTU"
 			(at 257.81 191.77 0)
 			(effects
 				(font
@@ -24452,6 +24578,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 157.48 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRCW06032M80FKEA"
 			(at 157.48 203.2 0)
 			(effects
 				(font
@@ -25179,6 +25314,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RK73B1JTTD202J"
+			(at 120.65 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8535055a-ce19-4cb8-ac88-9be3396b818c")
 		)
@@ -25367,7 +25511,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "KGM21NR71H333JT"
+		(property "MP" "CL10B333KB8WPNC"
 			(at 105.41 227.33 0)
 			(effects
 				(font
@@ -25444,7 +25588,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CDRH127/LDNP-220MC"
+		(property "MP" "CL10A226MP8NUNE"
 			(at 308.61 120.65 90)
 			(effects
 				(font
@@ -26065,7 +26209,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM155R61A683KA01D"
+		(property "MP" "KGM15AR71C683KT"
 			(at 105.41 210.82 0)
 			(effects
 				(font
@@ -26163,6 +26307,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 320.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-0710KL"
 			(at 320.04 132.08 0)
 			(effects
 				(font
@@ -26428,7 +26581,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "0402B104K160CT"
+		(property "MP" "CC0603KRX7R7BB104"
 			(at 176.53 99.06 0)
 			(effects
 				(font
@@ -26534,6 +26687,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RC0603FR-0718KL"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5b1d116f-cef4-4c73-a6b6-55ddf930a308")
 		)
@@ -26622,6 +26784,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 321.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "RC0603FR-0710KL"
 			(at 321.31 64.77 0)
 			(effects
 				(font
@@ -26791,6 +26962,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "RG1608P-472-B-T5"
+			(at 110.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5c9599ff-df03-4e89-8851-875e5cc908a8")
 		)
@@ -26900,7 +27080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 162.56 222.25 0)
 			(effects
 				(font
@@ -26954,7 +27134,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "860240372001"
+		(property "MP" "860010572004"
 			(at 162.56 222.25 0)
 			(effects
 				(font
@@ -27052,6 +27232,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRGCQ0603J22K"
 			(at 167.64 91.44 0)
 			(effects
 				(font
@@ -27222,7 +27411,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM1555C1H331JA01D"
+		(property "MP" "C0603C301J8HACTU"
 			(at 242.57 130.81 90)
 			(effects
 				(font
@@ -27325,7 +27514,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "GRM1555C1H331JA01D"
+		(property "MP" "C0603C301J8HACTU"
 			(at 245.11 184.15 90)
 			(effects
 				(font
