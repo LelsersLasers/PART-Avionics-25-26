@@ -1,6 +1,6 @@
 ## TODO list
 
-[ ] Ferritebead is 0201. Fix and update footprint. Current req?
+[x] Ferritebead is 0201. Fix and update footprint. Current req?
 [x] Big cap footrpints
 [x] 3 pin Switch footprint
 [x] Diodes less fat

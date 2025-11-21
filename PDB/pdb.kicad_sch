@@ -2520,142 +2520,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -7978,16 +7842,6 @@
 		)
 		(uuid "dbe5ee67-ca3b-4875-9356-ae90ab4a879b")
 	)
-	(text "Fuse"
-		(exclude_from_sim no)
-		(at 89.408 25.908 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ec483a16-0cb4-4d83-9695-7c223c7f59e4")
-	)
 	(text "Pulling down FSW with a 46.6k resistor\nwill result in a switching frequency of 1 MHz.\nFor stability, the crossover frequency will be\n1/10 of this, so 100 kHz. This is used to\ncompute R14. Refer to page 11 of the datasheet\nfor the formula used.\nNOTE: These values also depend on C15."
 		(exclude_from_sim no)
 		(at 238.76 201.676 0)
@@ -12395,22 +12249,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 87.63 27.94) (xy 87.63 54.61) (xy 110.49 54.61) (xy 110.49 27.94)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-				(color 34 13 255 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 169270d3-3b0e-4cee-8a4c-85c132f458cc)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 87.63 179.07) (xy 213.36 179.07) (xy 213.36 242.57) (xy 87.63 242.57)
 			)
 			(stroke
@@ -14260,72 +14098,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
-		(at 99.06 44.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26ebb597-ede6-4651-9479-506660e4bbb2")
-		(property "Reference" "#PWR038"
-			(at 99.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT_FUSED"
-			(at 99.06 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 99.06 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31812c18-f740-4626-9eff-1b0a5d787ff1")
-		)
-		(instances
-			(project "pdb"
-				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 245.11 138.43 0)
 		(unit 1)
@@ -14837,72 +14609,6 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 99.06 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ce5c4af-74e2-4ec2-a8bf-e074875b07ff")
-		(property "Reference" "#PWR037"
-			(at 99.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 99.06 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 99.06 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "472ffcc2-9259-41c8-9868-4b75a084bcf7")
-		)
-		(instances
-			(project ""
-				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17261,7 +16967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT_FUSED"
+		(property "Value" "+BATT"
 			(at 100.838 79.248 0)
 			(effects
 				(font
@@ -20031,112 +19737,6 @@
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 99.06 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f5f04bb-fc32-42e8-84aa-d748b639782f")
-		(property "Reference" "F1"
-			(at 101.6 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 101.6 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 97.282 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 99.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 99.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" ""
-			(at 99.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 99.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" "ERB-RD0R50X"
-			(at 99.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abe1f9bd-992d-4e4d-8346-dc3b27d2d8f7")
-		)
-		(pin "2"
-			(uuid "b685be9a-7772-4eef-9b5e-413cae6140b8")
-		)
-		(instances
-			(project ""
-				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -24258,7 +23858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT_FUSED"
+		(property "Value" "+BATT"
 			(at 120.396 30.734 0)
 			(effects
 				(font
@@ -24702,7 +24302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Ferrite_THT:LairdTech_28C0236-0JW-10"
+		(property "Footprint" "external_symbols:FB_LI0603G121R-10"
 			(at 185.42 38.608 90)
 			(effects
 				(font
