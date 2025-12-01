@@ -20147,7 +20147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "962c76a5-5d21-4fbf-971f-2e44b5e1628e")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 177.8 162.8774 90)
 			(effects
 				(font
@@ -20246,7 +20246,7 @@
 		(instances
 			(project "pdb"
 				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
