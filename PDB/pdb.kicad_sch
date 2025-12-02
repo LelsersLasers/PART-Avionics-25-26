@@ -18329,7 +18329,7 @@
 		(at 133.35 261.62 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6eb9e9cb-66f2-4575-8567-851c68eefc32")
@@ -18341,7 +18341,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "XT30-F"
 			(at 135.128 267.716 0)
 			(effects
 				(font
@@ -18349,7 +18349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 133.35 261.62 0)
 			(effects
 				(font
@@ -26448,7 +26448,7 @@
 		(at 167.64 261.62 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e9da1960-b15d-4ab6-90c2-42c432a2176b")
@@ -26460,7 +26460,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "XT30-F"
 			(at 170.18 267.462 0)
 			(effects
 				(font
@@ -26468,7 +26468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 			(at 167.64 261.62 0)
 			(effects
 				(font
