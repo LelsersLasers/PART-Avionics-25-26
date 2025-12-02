@@ -5,4 +5,5 @@
   (lib (name "XT90PW-M")(type "KiCad")(uri "${KIPRJMOD}/external_symbols/XT90PW-M.kicad_sym")(options "")(descr ""))
   (lib (name "TA08-81GWA")(type "KiCad")(uri "${KIPRJMOD}/external_symbols/TA08-81GWA.kicad_sym")(options "")(descr ""))
   (lib (name "TLV75533PDBVR")(type "KiCad")(uri "${KIPRJMOD}/TLV75533PDBVR/TLV75533PDBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "XT30PW-F")(type "KiCad")(uri "${KIPRJMOD}/external_symbols/XT30PW-F.kicad_sym")(options "")(descr ""))
 )

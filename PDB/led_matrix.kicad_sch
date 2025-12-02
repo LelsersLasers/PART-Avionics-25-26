@@ -9020,6 +9020,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "MMBT3904-TP"
+			(at 111.76 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "E"
 			(uuid "d823f7ec-a2ae-4fc2-b750-86f6d6cb328e")
 		)
@@ -9397,7 +9406,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ccea37f-2695-4498-880c-a28074d37460")
 		(property "Reference" "U7"
@@ -9620,6 +9629,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "MMBT3904-TP"
+			(at 111.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "E"
 			(uuid "451cc524-d6d9-45f2-8c95-efb0bb3bfae1")
 		)
@@ -9720,6 +9738,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "MMBT3904-TP"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "E"
 			(uuid "331129d8-579a-46be-9fdd-43342559c5b0")
 		)
@@ -9812,6 +9839,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "MMBT3904-TP"
 			(at 111.76 93.98 0)
 			(effects
 				(font
@@ -9986,6 +10022,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "MMBT3904-TP"
+			(at 111.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "E"
 			(uuid "869c9778-1e07-4799-8fd7-1b3fb2163b9a")
 		)
@@ -10078,6 +10123,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 111.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "MMBT3904-TP"
 			(at 111.76 43.18 0)
 			(effects
 				(font
@@ -10562,6 +10616,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "MMBT3904-TP"
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "E"
 			(uuid "cdcc9357-beb3-4a33-868a-847fa64704ef")
 		)
@@ -10662,6 +10725,15 @@
 				(hide yes)
 			)
 		)
+		(property "MP" "MMBT3904-TP"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "E"
 			(uuid "66640d39-8ace-49a4-963b-13346a7af497")
 		)
@@ -10754,7 +10826,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7a2c862-9699-4206-87ae-6cba8a4bad88")
 		(property "Reference" "U8"

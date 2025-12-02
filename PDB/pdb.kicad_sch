@@ -13198,7 +13198,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "165d60f3-cd5d-456e-8bde-d65fb5a0adb9")
 		(property "Reference" "J7"
@@ -18492,7 +18492,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74e4a122-c206-41ae-9821-e2d395c6b01a")
 		(property "Reference" "J6"
@@ -19101,7 +19101,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80c42d51-fac1-4127-9faf-064f25b3500f")
 		(property "Reference" "J2"
@@ -19466,7 +19466,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "874a815f-ba1d-4384-bb8f-30ed5e92ecdd")
 		(property "Reference" "J8"
@@ -20130,7 +20130,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ff22379-eaaa-460c-84bc-efe4ea7b752a")
 		(property "Reference" "J5"
@@ -21556,7 +21556,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4e6d875-6a1e-4c39-aa24-89dcadfbf6ad")
 		(property "Reference" "J4"
@@ -24807,7 +24807,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ccfaaa2b-e2ec-4bf6-a8b6-183ad06b718c")
 		(property "Reference" "J3"
@@ -25849,7 +25849,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df6ff167-bc49-4029-9b15-57ac6e5ba29c")
 		(property "Reference" "J1"
