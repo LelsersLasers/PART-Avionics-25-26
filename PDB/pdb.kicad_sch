@@ -13971,7 +13971,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-0747KL"
+		(property "MP" "RC0603FR-07680KL"
 			(at 252.73 173.99 0)
 			(effects
 				(font
@@ -14383,7 +14383,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-0747KL"
+		(property "MP" "RC0603FR-07680KL"
 			(at 248.92 120.65 0)
 			(effects
 				(font
@@ -16230,7 +16230,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-0747KL"
+		(property "MP" "RC0603FR-07100KL"
 			(at 248.92 125.73 0)
 			(effects
 				(font
@@ -20421,7 +20421,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC0603FR-0747KL"
+		(property "MP" "RC0603FR-07100KL"
 			(at 252.73 179.07 0)
 			(effects
 				(font
