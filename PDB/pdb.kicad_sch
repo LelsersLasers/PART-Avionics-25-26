@@ -7580,16 +7580,15 @@
 		)
 		(uuid "5280380f-949c-4434-8cc5-8d655ee1bc9f")
 	)
-	(text "NOTE: This uses RL=1.25, computed using\nR = V / I = 5V / 4A for the Jetson"
+	(text "12V out"
 		(exclude_from_sim no)
-		(at 239.014 130.048 0)
+		(at 228.092 212.852 0)
 		(effects
 			(font
-				(size 0.635 0.635)
+				(size 1.27 1.27)
 			)
-			(justify right)
 		)
-		(uuid "64ae6f1b-bfe9-40f6-bc90-c38b5f559cd5")
+		(uuid "5afd4454-1749-417e-abb9-476b992b85ca")
 	)
 	(text "Also from carrier board.\n"
 		(exclude_from_sim no)
@@ -7774,17 +7773,6 @@
 			)
 		)
 		(uuid "cc235f89-f2d2-4176-ac28-d9a71462bc4b")
-	)
-	(text "NOTE: This uses RL=1.25, computed using\nR = V / I = 5V / 4A for the Jetson"
-		(exclude_from_sim no)
-		(at 243.84 182.118 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify right)
-		)
-		(uuid "d5044d12-4bf5-4a32-b112-03bf5fec90ae")
 	)
 	(text "Battery input"
 		(exclude_from_sim no)
@@ -9214,6 +9202,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 228.6) (xy 246.38 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "411e617a-c5fd-41db-8473-4cef51bd813f")
+	)
+	(wire
+		(pts
 			(xy 105.41 223.52) (xy 118.11 223.52)
 		)
 		(stroke
@@ -9711,6 +9709,16 @@
 			(type default)
 		)
 		(uuid "64064e57-b525-416f-8532-96602a216512")
+	)
+	(wire
+		(pts
+			(xy 246.38 228.6) (xy 246.38 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "649c749a-6e44-46d9-af1e-603655733e26")
 	)
 	(wire
 		(pts
@@ -11114,6 +11122,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 224.79) (xy 246.38 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99f5c79-5a4a-4bd7-89b7-4df77de29668")
+	)
+	(wire
+		(pts
 			(xy 300.99 118.11) (xy 302.26 118.11)
 		)
 		(stroke
@@ -11151,6 +11169,16 @@
 			(type default)
 		)
 		(uuid "dcf058e8-5c5c-4b65-ac9d-8ef804b0a23b")
+	)
+	(wire
+		(pts
+			(xy 246.38 226.06) (xy 236.22 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6687cb-2fe7-42a9-b4bd-06cc466ab3fc")
 	)
 	(wire
 		(pts
@@ -12312,6 +12340,22 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 219.71 214.63) (xy 219.71 241.3) (xy 252.73 241.3) (xy 252.73 214.63)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+				(color 34 13 255 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 2f99446b-5e75-4f7f-ba83-22483b566524)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 87.63 247.65) (xy 120.65 247.65) (xy 120.65 274.32) (xy 87.63 274.32)
 			)
 			(stroke
@@ -12376,7 +12420,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 219.71 106.426) (xy 369.57 106.68) (xy 369.57 154.94) (xy 219.71 154.686)
+				(xy 219.71 106.426) (xy 349.25 106.68) (xy 349.25 154.94) (xy 219.71 154.686)
 			)
 			(stroke
 				(width 0)
@@ -12440,7 +12484,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 219.71 161.036) (xy 369.57 161.29) (xy 369.57 209.55) (xy 219.71 209.296)
+				(xy 219.71 161.036) (xy 349.25 161.29) (xy 349.25 209.55) (xy 219.71 209.296)
 			)
 			(stroke
 				(width 0)
@@ -16560,6 +16604,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 231.14 228.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "55fe4fc4-0313-49db-a2fd-ec7441438e4d")
+		(property "Reference" "J14"
+			(at 233.68 231.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30-F"
+			(at 233.68 234.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "external_symbols:AMASS_XT30PW-F"
+			(at 231.14 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 231.14 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 231.14 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 231.14 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 231.14 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5d2ed42-adbe-40df-a4f0-d27d2769777a")
+		)
+		(pin "2"
+			(uuid "a352ba52-c2a2-4e31-8c07-d90e8d7fae3d")
+		)
+		(instances
+			(project "pdb"
+				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 265.43 0)
 		(unit 1)
@@ -18349,7 +18487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "external_symbols:AMASS_XT30PW-F"
 			(at 133.35 261.62 0)
 			(effects
 				(font
@@ -21703,6 +21841,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 246.38 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5d5905c-734b-4877-8ffb-fdb0184a497e")
+		(property "Reference" "#PWR056"
+			(at 246.38 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65309331-1ad0-4cdd-b9a9-42b728e1e290")
+		)
+		(instances
+			(project "pdb"
+				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 143.51 149.86 0)
 		(unit 1)
@@ -24629,6 +24833,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+24V")
+		(at 246.38 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5250d5c-8564-405c-be60-3bb47ff0d675")
+		(property "Reference" "#PWR055"
+			(at 246.38 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 244.348 220.472 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 246.38 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bd82ea8-2e8d-453c-afcb-feeba8818347")
+		)
+		(instances
+			(project "pdb"
+				(path "/9cb5cc44-c71c-4de9-9246-d8950f12eb42"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 185.42 36.83 90)
 		(unit 1)
@@ -26468,7 +26738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "external_symbols:AMASS_XT30PW-F"
 			(at 167.64 261.62 0)
 			(effects
 				(font
