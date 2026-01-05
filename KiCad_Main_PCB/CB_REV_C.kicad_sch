@@ -9156,7 +9156,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 71.12 170.1799 0)
 			(effects
 				(font
@@ -9192,7 +9192,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RT0603BRD0750KL"
+		(property "MP" "RC0603FR-0747KL"
 			(at 68.58 168.91 0)
 			(effects
 				(font
@@ -10165,7 +10165,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "C0603C102K5RACTU"
+		(property "MP" "CC0603KRX7R7BB104"
 			(at 99.06 184.15 0)
 			(effects
 				(font
@@ -12058,7 +12058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "47k"
 			(at 71.12 180.3399 0)
 			(effects
 				(font
@@ -12094,7 +12094,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RT0603BRD0750KL"
+		(property "MP" "RC0603FR-0747KL"
 			(at 68.58 179.07 0)
 			(effects
 				(font
@@ -13615,7 +13615,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "0.1u"
 			(at 142.2463 160.02 90)
 			(effects
 				(font
@@ -14777,7 +14777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "V7N3103"
+		(property "Value" "SS54"
 			(at 151.13 181.356 90)
 			(effects
 				(font
@@ -14786,7 +14786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 148.59 180.34 0)
 			(effects
 				(font
@@ -14806,6 +14806,15 @@
 		)
 		(property "Description" "Schottky diode"
 			(at 148.59 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "SS54"
+			(at 148.59 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
