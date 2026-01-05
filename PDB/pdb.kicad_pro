@@ -60,28 +60,12 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|120000000|132200000|73ab0995-2976-4834-928b-8c041651a5ae|52e68220-a7d1-4892-8195-9a8963aed141",
-          "Ignore U1"
-        ],
-        [
-          "copper_edge_clearance|130000000|132200000|2545ab72-d9dc-447f-aa60-7f42c656a298|fdc11148-b0c6-45e1-9c33-cf91ea7ee236",
-          "Ignore U1"
-        ],
-        [
           "courtyards_overlap|124275000|65855000|26a7f1c5-d8e0-4e3b-80f7-fa5966e6ce1b|697e4b45-8b36-4994-935e-106fe27403f4",
           "Ignore Courtyards Overlap"
         ],
         [
           "courtyards_overlap|169488026|140783490|01d23432-c4a0-4b0c-9f24-08e18931d83c|b2dd5a20-2ea7-40e0-8b81-e5d1bdd3d377",
           "Ignore Courtyards Overlap"
-        ],
-        [
-          "invalid_outline|120000000|132200000|73ab0995-2976-4834-928b-8c041651a5ae|00000000-0000-0000-0000-000000000000",
-          "Ignore U1"
-        ],
-        [
-          "invalid_outline|130000000|132200000|2545ab72-d9dc-447f-aa60-7f42c656a298|00000000-0000-0000-0000-000000000000",
-          "Ignore U1"
         ],
         [
           "text_height|111500000|80750000|e089048c-aedb-4f1c-9239-242fa4d43a25|00000000-0000-0000-0000-000000000000",
@@ -1016,7 +1000,7 @@
           "show": false
         }
       ],
-      "filter_string": "R",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
