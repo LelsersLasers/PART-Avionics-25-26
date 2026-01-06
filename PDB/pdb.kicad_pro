@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.41,
-          "width": 1.48
+          "drill": 3.9,
+          "height": 5.85,
+          "width": 5.85
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -51,27 +51,8 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|124275000|65855000|26a7f1c5-d8e0-4e3b-80f7-fa5966e6ce1b|697e4b45-8b36-4994-935e-106fe27403f4",
-          "Ignore Courtyards Overlap"
-        ],
-        [
-          "courtyards_overlap|169488026|140783490|01d23432-c4a0-4b0c-9f24-08e18931d83c|b2dd5a20-2ea7-40e0-8b81-e5d1bdd3d377",
-          "Ignore Courtyards Overlap"
-        ],
-        [
-          "text_height|111500000|80750000|e089048c-aedb-4f1c-9239-242fa4d43a25|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -199,11 +180,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.2,
-        0.5
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,12 +207,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -476,8 +448,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "All",
-      "external_symbols"
+      "All"
     ],
     "pinned_symbol_libs": []
   },
@@ -504,16 +475,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "clearance": 0.2,
-        "name": "Power",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -521,27 +482,14 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "V+_SENSED"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "+BATT"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/Users/phitch/Programming/PART/PART-Avionics-25-26/PDB/out/",
+      "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -1004,8 +952,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": false,
-      "sort_field": "MP"
+      "sort_asc": true,
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

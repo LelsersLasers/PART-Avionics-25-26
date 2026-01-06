@@ -12377,7 +12377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
 			(at 152.4 166.37 0)
 			(effects
 				(font
@@ -12397,6 +12397,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 152.4 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" "CDRH127/LDNP-220MC"
+			(at 152.4 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)

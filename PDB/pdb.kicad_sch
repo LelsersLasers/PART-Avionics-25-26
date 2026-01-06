@@ -23438,7 +23438,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL10A226MP8NUNE"
+		(property "MP" "CDRH127/LDNP-220MC"
 			(at 311.15 173.99 90)
 			(effects
 				(font
@@ -25896,7 +25896,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "CL10A226MP8NUNE"
+		(property "MP" "CDRH127/LDNP-220MC"
 			(at 308.61 120.65 90)
 			(effects
 				(font
