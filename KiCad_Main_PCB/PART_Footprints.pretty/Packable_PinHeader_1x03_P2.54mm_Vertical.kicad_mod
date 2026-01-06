@@ -128,6 +128,10 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 1)
+		(thermal_bridge_width 1)
+		(thermal_bridge_angle 90)
+		(thermal_gap 0.25)
 		(uuid "045a7864-9aa0-445d-8b13-4abc4f16a060")
 	)
 	(pad "3" thru_hole circle
