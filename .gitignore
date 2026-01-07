@@ -25,6 +25,10 @@ fp-info-cache
 ~*.lck
 \#auto_saved_files#
 
+#outputs
+KiCad_Main_PCB/fab
+PDB/out
+
 # Netlist files (exported from Eeschema)
 *.net
 

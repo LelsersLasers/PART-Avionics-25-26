@@ -9098,7 +9098,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SM06B-GHS-TB"
+		(property "MP" "BM06B-GHS-TB"
 			(at 509.27 106.68 0)
 			(effects
 				(font
@@ -9627,7 +9627,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SM03B-GHS-TB"
+		(property "MP" "BM03B-GHS-TB"
 			(at 181.61 62.23 0)
 			(effects
 				(font
@@ -10543,7 +10543,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SM06B-GHS-TB"
+		(property "MP" "BM06B-GHS-TB"
 			(at 495.3 193.04 0)
 			(effects
 				(font
@@ -14901,7 +14901,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SM04B-GHS-TB"
+		(property "MP" "BM04B-GHS-TB"
 			(at 501.65 245.11 0)
 			(effects
 				(font
@@ -15498,7 +15498,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SM06B-GHS-TB"
+		(property "MP" "BM06B-GHS-TB"
 			(at 495.3 148.59 0)
 			(effects
 				(font
@@ -15821,7 +15821,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "SM08B-GHS-TB"
+		(property "MP" "BM08B-GHS-TB"
 			(at 521.97 55.88 0)
 			(effects
 				(font
