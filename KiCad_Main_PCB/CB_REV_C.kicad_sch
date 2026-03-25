@@ -12129,7 +12129,7 @@
 		(fields_autoplaced yes)
 		(uuid "7484d618-a444-4f71-bffc-793c2c0487d9")
 		(property "Reference" "R3"
-			(at 72.39 72.3899 0)
+			(at 72.39 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12137,8 +12137,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
-			(at 72.39 74.9299 0)
+		(property "Value" "82K"
+			(at 72.39 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12174,12 +12174,13 @@
 			)
 		)
 		(property "Part Number" "Normal Ass resisitor"
-			(at 73.914 76.962 0)
+			(at 72.39 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(thickness 0.1588)
 				)
+				(justify left)
 			)
 		)
 		(property "MP" "RC0603FR-0747KL"
@@ -13244,7 +13245,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "82K"
+		(property "Value" "47K"
 			(at 72.39 85.0899 0)
 			(effects
 				(font
